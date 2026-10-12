@@ -1,0 +1,6 @@
+row_key,class,method,number,status,new_outcome,failure_content
+BasicScrollBarUIAutoTest|uninstallui|8885,BasicScrollBarUIAutoTest,uninstallui,8885,still_fails,,"COMPILE_ERR: /tmp/tmpvh7bp3qs/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+ChoiceFormatAutoTest|format|3025,ChoiceFormatAutoTest,format,3025,still_fails,,"COMPILE_ERR: /tmp/tmpla5mgr2e/runner.cs(2,6): error CS1525: Unexpected symbol `public', expecting `identifier' or `static' | /tmp/tmpla5mgr2e/runner.cs(2,12): error CS1525: Unexpected symbol `;', expecting `identifi"
+HashAttributeSetAutoTest|add|6092,HashAttributeSetAutoTest,add,6092,fixed,PASS,
+MultiTreeUIAutoTest|getmaximumsize|9688,MultiTreeUIAutoTest,getmaximumsize,9688,fixed,TEST FAILED: Expected exception of type System.IndexOutOfRangeException; message: 0 >= 0 | ,
+X509CertSelectorAutoTest|getserialnumber|2814,X509CertSelectorAutoTest,getserialnumber,2814,fixed,PASS,

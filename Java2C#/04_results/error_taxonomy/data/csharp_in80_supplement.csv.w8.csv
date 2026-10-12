@@ -1,0 +1,7 @@
+row_key,class,method,number,status,new_outcome,failure_content
+BasicComboBoxUIAutoTest|getaccessiblechild|8681,BasicComboBoxUIAutoTest,getaccessiblechild,8681,still_fails,,"/root/autodl-tmp/Java2C#/CsAPI_benchmark_translated/BasicComboBoxUIAutoTest/getAccessibleChild_test_8681.cs(5,9): error CS0246: The type or namespace name `BasicComboBoxUI' could not be found. Are you missing an assembly reference?
+/root/autodl-tmp/Java2C#/CsAPI_benchmark_translated/BasicComboBoxUIA"
+ChoiceFormatAutoTest|clone|3023,ChoiceFormatAutoTest,clone,3023,still_fails,,"COMPILE_ERR: /tmp/tmp05q8cn8r/runner.cs(2,6): error CS1525: Unexpected symbol `public', expecting `identifier' or `static' | /tmp/tmp05q8cn8r/runner.cs(2,12): error CS1525: Unexpected symbol `;', expecting `identifi"
+FilteredImageSourceAutoTest|startproduction|1266,FilteredImageSourceAutoTest,startproduction,1266,still_fails,,"COMPILE_ERR: /tmp/tmpvyj89_5r/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+MultiSpinnerUIAutoTest|getaccessiblechild|9568,MultiSpinnerUIAutoTest,getaccessiblechild,9568,still_fails,,"COMPILE_ERR: /tmp/tmpmn8s05du/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+TimeAutoTest|getday|2976,TimeAutoTest,getday,2976,fixed,TEST FAILED: Expected exception of type System.ArgumentException; message: null | ,

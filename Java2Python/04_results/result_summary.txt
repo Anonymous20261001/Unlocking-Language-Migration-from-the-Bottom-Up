@@ -1,0 +1,26 @@
+Java→Python 实验结果总览（论文口径：CSR / BSR，8,895 样本）
+
+# 与论文 Table 2 / Table 4 对齐的核心指标
+1. 编译(执行等价)成功率 CSR: 5,591/8,895 = 62.9%（论文 62.9%）
+2. 行为一致数:               3,804（论文 3,804）
+3. 行为成功率 BSR:           3804/5591 = 68.0%（论文 Table 4 记为 68.1%，系四舍五入差异）
+4. 总体可靠率:               3804/8,895 = 42.8%（论文 42.8%）
+
+# 结果分布（与论文 Fig.2 n=3,304 / Fig.3 n=1,787 对齐）
+行为一致 (PASS):             3,804
+行为失败 (FAIL):             1,787   ← 论文 Fig.3 n=1,787（RV 97% / EX 3%）
+执行等价检查失败 (ERROR):    3,304   ← 论文 Fig.2 n=3,304
+
+# error_location 分布
+none:           3,804
+call_error:     2,532
+behavior_diff:  1,787
+import_error:   540
+syntax_error:   232
+
+# 注
+- 4 个 Javadoc_new 样本（LocalDate.ofInstant/ofEpochDay/ofYearDay、ByteBuffer.allocateDirect）
+  Java 测试文件缺失（Randoop 记录损坏），按论文口径归入执行等价检查失败（syntax_error）。
+- 论文 Fig.2/Fig.3 的叶级分布（T4 32.2%、T1 24.9%、R2 16.3%；RV2 55.5%、RV1 35% 等）
+  由论文环境归类；本 CSV 每行保留 error_type 与完整消息，可复核。
+- 论文 Table 4: CSR 62.9% (5,591) / BSR 68.1% (3,804) / Overall 42.8% —— 与本表一致。

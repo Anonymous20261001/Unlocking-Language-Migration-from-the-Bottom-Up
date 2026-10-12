@@ -1,0 +1,151 @@
+class,method,number,dataset,verdict,reason
+DecimalFormatSymbolsAutoTest,setexponentseparator,3164,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+HashtableAutoTest,remove,3516,Java_benchmark,CONSISTENT,Both assert the removed value is null/None.
+DateTimeFormatterBuilderAutoTest,appendvalue,3243,Java_benchmark,CONSISTENT,"Python asserts exception raised and non-null, matching Java."
+HashMapAutoTest,size,3480,Java_benchmark,CONSISTENT,Java asserts size==0; Python asserts int2==0. Same check.
+BasicTabbedPaneUIAutoTest,getmaximumsize,8980,Java_benchmark,CONSISTENT,Both assert the returned Dimension is null/None.
+BasicTreeUIAutoTest,getexpandedicon,9057,Java_benchmark,CONSISTENT,Both assert the expanded icon is null/None.
+DefaultSingleSelectionModelAutoTest,getchangelisteners,6799,Java_benchmark,CONSISTENT,Both assert non-null and empty array equality.
+GaugeMonitorAutoTest,getnotificationinfo,5716,Java_benchmark,CONSISTENT,Both assert the notification info array is not null.
+DateAutoTest,gettimezoneoffset,3416,Java_benchmark,CONSISTENT,Same assertion: int4 == -480 with matching message.
+MultiFileChooserUIAutoTest,rescancurrentdirectory,9363,Java_benchmark,CONSISTENT,Both call with null/None and expect no exception; no assertions needed.
+java_lang_StrictMathAutoTest,abs,11596,Javadoc_new,CONSISTENT,"Python asserts abs(0)==0 via assertEqual and assertTrue, matching Java."
+DefaultSingleSelectionModelAutoTest,setselectedindex,6800,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+jdk_dynalink_linker_support_GuardsAutoTest,isArray,5250,Javadoc_new,CONSISTENT,"Python asserts NullPointerException raised, matching Java's expected exception."
+java_nio_LongBufferAutoTest,wrap,8207,Javadoc_new,CONSISTENT,Same non-null and array-equality assertions preserved.
+UIDefaultsAutoTest,getstring,8403,Java_benchmark,CONSISTENT,Java asserts null; Python asserts is None. Same semantics.
+NotificationResultAutoTest,getearliestsequencenumber,5840,Java_benchmark,CONSISTENT,Same assertion: getEarliestSequenceNumber() == 100.
+SAXResultAutoTest,setlexicalhandler,10986,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+ConcurrentHashMapAutoTest,replace,4192,Java_benchmark,SKIP,file missing: /tmp/bench_extract/Java_benchmark/ConcurrentHashMapAutoTest/replace_test_4192.java / None
+BasicStrokeAutoTest,getdashphase,7,Java_benchmark,CONSISTENT,"Python asserts float1 == 0.0, matching Java's assertTrue check."
+java_nio_channels_ChannelsAutoTest,newOutputStream,2116,Javadoc_new,CONSISTENT,Same non-null and true assertions preserved; exception semantics unchanged.
+SSLParametersAutoTest,setenableretransmissions,6060,Java_benchmark,CONSISTENT,Both assert non-null and array equality with empty array.
+DebugGraphicsAutoTest,drawstring,6603,Java_benchmark,CONSISTENT,"Python asserts an exception is raised, matching Java's expected NPE."
+BasicTreeUIAutoTest,getrowcount,9040,Java_benchmark,CONSISTENT,Same assertion: getRowCount(None) == 0.
+X509CertSelectorAutoTest,setcertificate,2816,Java_benchmark,CONSISTENT,Both assert publicKey1 is null/None after setCertificate(None).
+AtomicReferenceAutoTest,getopaque,4892,Java_benchmark,CONSISTENT,"Java asserts null; Python asserts None, equivalent."
+ForkJoinPoolAutoTest,submit,4485,Java_benchmark,CONSISTENT,"Python asserts exception raised and non-null pool, matching Java."
+javax_management_MBeanServerFactoryAutoTest,newMBeanServer,8445,Javadoc_new,CONSISTENT,Same null checks and array equality assertion preserved.
+javax_management_relation_RoleInfoAutoTest,getMaxDegree,10647,Javadoc_new,CONSISTENT,Same assertions: maxDegree==1 and class non-null.
+StreamSourceAutoTest,getpublicid,11011,Java_benchmark,CONSISTENT,Both assert getPublicId() returns null/None.
+BasicPanelUIAutoTest,uninstallui,8849,Java_benchmark,CONSISTENT,"Python asserts an exception is raised, matching Java's expected NPE."
+BasicTreeUIAutoTest,setleftchildindent,9054,Java_benchmark,CONSISTENT,"Python asserts an exception is raised, matching Java's expected NPE."
+SecureRandomAutoTest,nextbytes,2738,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+java_util_ArraysAutoTest,compare,405,Javadoc_new,CONSISTENT,"Same assertions: non-null, array equality, and int3 == -1 preserved."
+java_text_DateFormatAutoTest,getDateTimeInstance,3318,Javadoc_new,CONSISTENT,Python checks the expected exception and same locale assertions.
+SimpleBindingsAutoTest,size,6277,Java_benchmark,CONSISTENT,Both assert size equals 0; Python uses __len__ and assert equivalently.
+JMenuAutoTest,addseparator,7331,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+ZipEntryAutoTest,setlastaccesstime,5195,Java_benchmark,CONSISTENT,"Java expects NPE and asserts toString equals """"; Python checks both."
+java_util_SpliteratorsAutoTest,iterator,11315,Javadoc_new,CONSISTENT,"Same assertions: non-null checks, empty array equality, size==0."
+DefaultSingleSelectionModelAutoTest,getselectedindex,6802,Java_benchmark,CONSISTENT,"Python asserts int1 == -1, matching Java's assertTrue(int1 == -1)."
+BasicPopupMenuSeparatorUIAutoTest,getpreferredsize,8857,Java_benchmark,CONSISTENT,Both assert the returned Dimension is non-null.
+JSliderAutoTest,getaccessiblecontext,7665,Java_benchmark,CONSISTENT,All three non-null assertions preserved with same targets.
+MetalIconFactoryAutoTest,getmenuitemarrowicon,9141,Java_benchmark,CONSISTENT,Java asserts non-null; Python asserts is not None. Same check.
+AtomicIntegerArrayAutoTest,addandget,4810,Java_benchmark,CONSISTENT,"Python asserts an exception is raised, matching Java's expected exception."
+BitSetAutoTest,or,3378,Java_benchmark,CONSISTENT,Expected exception checked via _raised; toString equality preserved.
+RandomAutoTest,doubles,3792,Java_benchmark,CONSISTENT,Both assert the stream is not null/None.
+MultiProgressBarUIAutoTest,update,9499,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+BasicTextAreaUIAutoTest,getbaseline,9005,Java_benchmark,CONSISTENT,"Python asserts an exception is raised, matching Java's expected NPE."
+ColorAutoTest,getblue,73,Java_benchmark,CONSISTENT,Both check color0 non-null and int1 == 0.
+ContainerAutoTest,add,149,Java_benchmark,CONSISTENT,Expected NPE checked via _raised; same non-null and array-equality assertions.
+StreamTokenizerAutoTest,pushback,1802,Java_benchmark,CONSISTENT,Same assertEquals on toString value after pushBack; no exception expected.
+java_util_ArraysAutoTest,parallelPrefix,490,Javadoc_new,CONSISTENT,"Python asserts NullPointerException raised and array remains empty, matching Java."
+CharacterAutoTest,isunicodeidentifierpart,1935,Java_benchmark,CONSISTENT,Same assertion: isUnicodeIdentifierPart(1) == True.
+MidiEventAutoTest,gettick,6479,Java_benchmark,CONSISTENT,Both assert getTick() equals 1.
+java_awt_print_BookAutoTest,setPage,1766,Javadoc_new,CONSISTENT,Python asserts an exception is raised for the same null-arg call.
+PropertyChangeSupportAutoTest,firepropertychange,1567,Java_benchmark,CONSISTENT,"Python asserts an exception is raised, matching Java's expected NPE."
+JTableAutoTest,setrowselectionallowed,7831,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+VetoableChangeSupportAutoTest,addvetoablechangelistener,1612,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+java_awt_color_ICC_ProfileAutoTest,getInstance,5508,Javadoc_new,CONSISTENT,Python asserts exception raised and empty array checks match Java.
+BigDecimalAutoTest,valueof,2447,Java_benchmark,CONSISTENT,Both assert the result is not None.
+java_net_URLConnectionAutoTest,setContentHandlerFactory,13263,Javadoc_new,CONSISTENT,Java only calls the method (no assertions); Python adds checks but preserves no-exception semantics.
+DefaultMutableTreeNodeAutoTest,setuserobject,10623,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+DateAutoTest,clone,3391,Java_benchmark,CONSISTENT,"Python asserts obj2 is not None, matching Java assertNotNull."
+DataBufferDoubleAutoTest,getelem,1192,Java_benchmark,CONSISTENT,Same assertion: getElem(1) == 0.
+DefaultListCellRendererAutoTest,isopaque,6734,Java_benchmark,CONSISTENT,"Python asserts boolean2 == True, matching Java's assertTrue."
+javax_swing_SwingUtilitiesAutoTest,convertPointToScreen,12102,Javadoc_new,CONSISTENT,"Python asserts NullPointerException raised, matching Java's expected exception."
+JMenuAutoTest,addmenulistener,7315,Java_benchmark,CONSISTENT,Both call addMenuListener(None) with no assertions or expected exceptions.
+FilteredImageSourceAutoTest,requesttopdownleftrightresend,1268,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+java_util_CollectionsAutoTest,emptySet,2411,Javadoc_new,CONSISTENT,Java asserts non-null; Python asserts non-null (extra checks are fine).
+PolygonAutoTest,intersects,468,Java_benchmark,CONSISTENT,Same assertion: boolean3 == False.
+ImageViewAutoTest,getattributes,10513,Java_benchmark,CONSISTENT,"Python asserts an exception is raised, matching Java's expected NPE."
+SearchControlsAutoTest,getsearchscope,5984,Java_benchmark,CONSISTENT,"Both assertions check getSearchScope() equals 1, matching Java."
+PolygonAutoTest,contains,462,Java_benchmark,CONSISTENT,Same assertion: boolean2 == False is checked.
+PropertyEditorSupportAutoTest,getastext,1584,Java_benchmark,CONSISTENT,Both assert the result is null/None.
+java_text_CollatorAutoTest,getInstance,2350,Javadoc_new,CONSISTENT,"Both assert collator0 and its class are not None, matching Java."
+VariableHeightLayoutCacheAutoTest,treestructurechanged,10786,Java_benchmark,CONSISTENT,Both call treeStructureChanged(None) with no assertions or expected exceptions.
+LocaleAutoTest,getunicodelocaleattributes,3674,Java_benchmark,CONSISTENT,Same non-null and value assertions preserved.
+SAXSourceAutoTest,sourcetoinputsource,10995,Java_benchmark,CONSISTENT,Java asserts null; Python asserts is None — same check.
+SplittableRandomAutoTest,ints,3893,Java_benchmark,CONSISTENT,Both assert the resulting IntStream is not null.
+PageAttributesAutoTest,setorigin,419,Java_benchmark,CONSISTENT,"Both assert originType1 and originType3 are non-null, matching Java."
+JTableAutoTest,getupdateselectiononsort,7885,Java_benchmark,CONSISTENT,"All four assertions match: null name, true flag, non-null array, empty array equality."
+StreamReaderDelegateAutoTest,isattributespecified,10935,Java_benchmark,CONSISTENT,"Python asserts an exception is raised, matching Java's expected NPE."
+java_time_chrono_JapaneseEraAutoTest,values,5974,Javadoc_new,CONSISTENT,Same non-null assertions preserved; extra assertions don't break semantics.
+java_lang_ref_CleanerAutoTest,create,2319,Javadoc_new,CONSISTENT,Python asserts NullPointerException raised and same non-null checks.
+IIOMetadataNodeAutoTest,getlength,5383,Java_benchmark,CONSISTENT,"Python asserts int3 == 0, matching Java's assertTrue(int3 == 0)."
+RepaintManagerAutoTest,getdirtyregion,8244,Java_benchmark,CONSISTENT,Both check exception raised and repaintManager1 non-null.
+XMLEncoderAutoTest,setowner,1630,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+JSplitPaneAutoTest,setorientation,7728,Java_benchmark,CONSISTENT,Both check the expected exception and assert rectangle2 non-null.
+HttpCookieAutoTest,getsecure,2557,Java_benchmark,CONSISTENT,Both assert getSecure() returns false for a new cookie.
+ButtonGroupAutoTest,add,6568,Java_benchmark,CONSISTENT,Java has no assertions or expected exceptions; Python matches.
+JListAutoTest,getfirstvisibleindex,7277,Java_benchmark,CONSISTENT,"All four assertions match: non-null locale, ""en_US"", selection mode 2, first visible index -1."
+java_time_chrono_HijrahDateAutoTest,of,5350,Javadoc_new,CONSISTENT,"Python asserts ValueError raised for invalid month, matching Java's expected exception."
+java_lang_StackWalkerAutoTest,getInstance,11454,Javadoc_new,CONSISTENT,"Same assertions: equality, non-null checks, and array equality preserved."
+MetalIconFactoryAutoTest,gettreefloppydriveicon,9158,Java_benchmark,CONSISTENT,Both assert the returned icon is not null/None.
+DataFlavorAutoTest,getparameter,647,Java_benchmark,CONSISTENT,"Same assertions: dataFlavor0 not null, str3 is None."
+ScriptEngineManagerAutoTest,put,6262,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+java_nio_ShortBufferAutoTest,wrap,11099,Javadoc_new,CONSISTENT,Expected IndexOutOfBounds/IndexError checked; array emptiness asserted.
+javax_swing_text_StyleConstantsAutoTest,getFontFamily,11966,Javadoc_new,CONSISTENT,"Python asserts NullPointerException raised for null input, matching Java."
+BasicFileChooserUIAutoTest,getfilename,8760,Java_benchmark,CONSISTENT,Java asserts null; Python asserts is None — same check.
+DefaultTreeSelectionModelAutoTest,isselectionempty,10746,Java_benchmark,CONSISTENT,"All three assertions match: int1==-1, boolean2==True, class non-null."
+MultiComboBoxUIAutoTest,createui,9327,Java_benchmark,CONSISTENT,Both assert the created ComponentUI is not null.
+java_lang_reflect_ModifierAutoTest,isNative,8982,Javadoc_new,CONSISTENT,Both assert isNative(0) == False with equivalent true assertion.
+ParameterBlockAutoTest,getparameters,1452,Java_benchmark,CONSISTENT,"Both assert non-null on parameterBlock2 and objList3, matching Java."
+StyleContextAutoTest,addchangelistener,10384,Java_benchmark,CONSISTENT,Both call addChangeListener(None) with no assertions or expected exceptions.
+AttributeChangeNotificationFilterAutoTest,disableallattributes,5529,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+StringMonitorAutoTest,getnotifymatch,5737,Java_benchmark,CONSISTENT,"Python asserts getNotifyMatch() == False, matching Java's assertTrue(boolean1 == false)."
+PriorityQueueAutoTest,remove,3718,Java_benchmark,CONSISTENT,"Same assertion: remove returns False, checked with assert."
+CopyOnWriteArrayListAutoTest,indexof,4391,Java_benchmark,CONSISTENT,"All three Java assertions (non-null, array equality, indexOf == -1) are preserved."
+DataFlavorAutoTest,match,676,Java_benchmark,CONSISTENT,Same null check and boolean false assertion preserved.
+DefaultTreeModelAutoTest,addtreemodellistener,10712,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+SynthButtonUIAutoTest,update,9727,Java_benchmark,CONSISTENT,"Python asserts an exception is raised, matching Java's expected NPE."
+SplittableRandomAutoTest,longs,3889,Java_benchmark,CONSISTENT,"Python asserts longStream4 is not None, matching Java assertNotNull."
+ImageViewAutoTest,getpreferredspan,10508,Java_benchmark,CONSISTENT,"Python asserts an exception is raised, matching Java's expected NPE."
+BasicSliderUIAutoTest,valueforxposition,8918,Java_benchmark,CONSISTENT,"Python asserts an exception is raised, matching Java's expected NPE."
+java_lang_module_ModuleDescriptorAutoTest,newModule,8992,Javadoc_new,CONSISTENT,"Python asserts IllegalArgumentException raised for empty module name, matching Java."
+MultiTabbedPaneUIAutoTest,createui,9597,Java_benchmark,CONSISTENT,Both assert the created ComponentUI is non-null.
+javax_swing_KeyStrokeAutoTest,getKeyStrokeForEvent,7655,Javadoc_new,CONSISTENT,"Python asserts NullPointerException raised for null event, matching Java."
+javax_swing_text_StyleConstantsAutoTest,setTabSet,11950,Javadoc_new,CONSISTENT,Python asserts NPE raised and same non-null/empty-array checks.
+DatagramPacketAutoTest,getaddress,2553,Java_benchmark,CONSISTENT,Java asserts null; Python asserts is None — same check.
+MultiViewportUIAutoTest,paint,9701,Java_benchmark,CONSISTENT,Both call paint with null args; no assertions or expected exceptions in either.
+PrinterStateReasonsAutoTest,getname,6236,Java_benchmark,CONSISTENT,Same value equality assertion on getName() result.
+java_util_OptionalLongAutoTest,empty,9697,Javadoc_new,CONSISTENT,Same non-null assertions preserved; extra assertions don't break semantics.
+DefaultListSelectionModelAutoTest,addselectioninterval,6783,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+TextInputCallbackAutoTest,settext,6353,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+Adler32AutoTest,reset,5119,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+DebugGraphicsAutoTest,drawpolygon,6601,Java_benchmark,CONSISTENT,"Python asserts an exception is raised, matching Java's expected NPE."
+MultiTableHeaderUIAutoTest,uninstallui,9607,Java_benchmark,CONSISTENT,No assertions in Java; Python matches by calling with None.
+GregorianCalendarAutoTest,getgreatestminimum,3470,Java_benchmark,CONSISTENT,"Python asserts an exception is raised, matching Java's expected exception."
+ImageWriteParamAutoTest,gettilewidth,5317,Java_benchmark,CONSISTENT,"Python asserts exception raised and boolean2 == False, matching Java."
+TreeSetAutoTest,comparator,3987,Java_benchmark,CONSISTENT,Both assert comparator() returns null/None.
+AsyncBoxViewAutoTest,setleftinset,10118,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+UndoManagerAutoTest,canundoorredo,10837,Java_benchmark,CONSISTENT,"Both assert canUndoOrRedo() returns False, matching Java's checks."
+ImageTypeSpecifierAutoTest,getsamplemodel,5313,Java_benchmark,CONSISTENT,Both assert non-null on imageTypeSpecifier1 and sampleModel4.
+MetalMenuBarUIAutoTest,update,9232,Java_benchmark,CONSISTENT,"Python asserts an exception is raised, matching Java's expected NPE."
+DecimalFormatSymbolsAutoTest,setmonetarydecimalseparator,3163,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+ChoiceFormatAutoTest,topattern,3031,Java_benchmark,CONSISTENT,Both assert toPattern() returns empty string.
+ReferenceAutoTest,clone,5945,Java_benchmark,CONSISTENT,Both assert non-null clone and equal toString value.
+DefaultListModelAutoTest,toarray,6756,Java_benchmark,CONSISTENT,Both assert non-null and empty array equality.
+AtomicIntegerAutoTest,compareandset,4763,Java_benchmark,CONSISTENT,Same compareAndSet call and asserts result equals False.
+AtomicBooleanAutoTest,compareandset,4739,Java_benchmark,CONSISTENT,Same compareAndSet call and assertTrue on boolean4 == true.
+MetalPopupMenuSeparatorUIAutoTest,getpreferredsize,9235,Java_benchmark,CONSISTENT,Both assert the returned Dimension is non-null.
+TableColumnAutoTest,enableresizedposting,10095,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+ScrollPaneLayoutAutoTest,addlayoutcomponent,8270,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+ThreadGroupAutoTest,activegroupcount,2350,Java_benchmark,CONSISTENT,Both assertions (toString equality and activeGroupCount==0) are preserved.
+java_lang_ClassLoaderAutoTest,getSystemResource,2317,Javadoc_new,CONSISTENT,"Python asserts result is None, matching Java's assertNull."
+ColorAutoTest,getrgbcolorcomponents,79,Java_benchmark,CONSISTENT,"Python asserts exception raised and color0 non-null, matching Java."
+javax_xml_stream_util_EventReaderDelegateAutoTest,getProperty,4599,Javadoc_new,CONSISTENT,Same null-parent assertion and expected NullPointerException check preserved.
+NameClassPairAutoTest,setnameinnamespace,5914,Java_benchmark,CONSISTENT,No assertions or expected exceptions in Java; Python matches.
+HttpCookieAutoTest,getcomment,2585,Java_benchmark,CONSISTENT,"Both assert get_comment() returns None, matching Java assertNull."
+BasicIconFactoryAutoTest,getradiobuttonicon,8784,Java_benchmark,CONSISTENT,Both assert the returned icon is not None.
+javax_swing_SwingUtilitiesAutoTest,getLocalBounds,12106,Javadoc_new,CONSISTENT,"Python asserts NullPointerException raised, matching Java's expected exception."

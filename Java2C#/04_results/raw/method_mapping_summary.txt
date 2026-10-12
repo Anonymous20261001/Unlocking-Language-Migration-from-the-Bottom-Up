@@ -1,0 +1,19 @@
+=================================================================
+  Java → C# Method-Level Mapping Summary
+  Generated: 2026-07-20 22:18:36
+=================================================================
+
+  Total inventory entries:        7141
+  C# methods found:               7141
+  C# methods missing:              0
+  Match rate:                     7141/7141 (100%)
+
+  C# by-class files:              811
+  C# splitted method files:       7141
+  C# splitted dirs:               811
+
+  Output structure:
+    CsAPI_by_class/<ClassName>.cs          — per class
+    CsAPI_splitted_method/<ClassName>/<method>_test_<id>.cs  — per method
+
+=================================================================

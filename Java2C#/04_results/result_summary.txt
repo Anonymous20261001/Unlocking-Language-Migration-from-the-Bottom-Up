@@ -1,0 +1,31 @@
+Java→C# 实验结果总览（论文口径：CSR / BSR，8,895 样本）
+
+# 与论文 Table 2 / Table 4 对齐的核心指标
+1. 编译成功率 CSR:      5,320/8,895 = 59.8%（论文 59.8%）
+2. 行为一致数:          4,771（论文 4,771）
+3. 行为成功率 BSR:      4771/5320 = 89.7%（论文 89.7%）
+4. 总体可靠率:          4771/8,895 = 53.6%（论文 53.6%）
+
+# result 分布
+PASS (行为一致):      4,771
+FAIL (行为失败):      549   ← 含 IN-80 重跑后 49 个 IN（工具类）失败
+ERROR (编译失败):     3,575
+
+# error_location 分布
+none:           4,771
+syntax_error:   3,122
+call_error:     624
+behavior_diff:  259
+import_error:   119
+
+# 分数据集
+dataset           samples   PASS    编译通过(非ERROR)
+Java_benchmark    7,141    3,921   4,303
+Javadoc_new       1,754    850     1,017
+
+# 注
+- IN-80 重跑（error_taxonomy/csharp_in80_supplement.csv）：10 行 → PASS，
+  21 行 → 行为失败（EX/RV 叶），49 行保持 IN（43 IN1 编译 / 4 IN2 无测试 / 2 IN3 超时）。
+- 论文 Fig.2（C# n=4,492 条编译错误，多错误/方法）的叶级分布由论文环境按
+  50 个 C# 错误码归类；本 CSV 每行保留首要错误码与消息，可复核。
+- 论文 Table 4: CSR 59.8% (5,320) / BSR 89.7% (4,771) / Overall 53.6% —— 与本表一致。

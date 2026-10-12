@@ -1,0 +1,6 @@
+row_key,class,method,number,status,new_outcome,failure_content
+AttributesAutoTest|get|5038,AttributesAutoTest,get,5038,still_fails,,"COMPILE_ERR: /tmp/tmpamcatt49/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+BidiAutoTest|getrunlimit|3002,BidiAutoTest,getrunlimit,3002,still_fails,,"COMPILE_ERR: /tmp/tmp5hdxbo_1/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+DateFormatSymbolsAutoTest|getshortweekdays|3074,DateFormatSymbolsAutoTest,getshortweekdays,3074,fixed,"TEST FAILED: locale1.ToString() != """" | ",
+MultiLabelUIAutoTest|getaccessiblechild|9398,MultiLabelUIAutoTest,getaccessiblechild,9398,fixed,TEST FAILED: Expected exception of type System.IndexOutOfRangeException; message: 0 >= 0 | ,
+SynthSeparatorUIAutoTest|uninstalldefaults|9899,SynthSeparatorUIAutoTest,uninstalldefaults,9899,still_fails,,"COMPILE_ERR: /tmp/tmpecr7_k46/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "

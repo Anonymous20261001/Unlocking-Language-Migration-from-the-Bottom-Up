@@ -1,0 +1,1058 @@
+language,class,method,leaf,evidence
+C#,ATRAutoTest,gethistoricalbytes,RV-repr,TEST FAILED: ATR must be at least 2 bytes long | Parameter name: atr | 
+C#,ActionEventAutoTest,getwhen,RV-value,TEST FAILED: '1786568677051' != '0' | 
+C#,ActionEventAutoTest,paramstring,RV-value,TEST FAILED: 'ACTION_PERFORMED;cmd=hi!;when=1786568677270;modifiers=0' != 'unknown type;cmd=hi!;when=0;modifiers=' | 
+C#,ArrayListAutoTest,clone,RV-repr,"TEST FAILED: Expected ""[]"" but got ""Generated.Test.ArrayList"" | "
+C#,ArrayListAutoTest,replaceall,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,AsyncBoxViewAutoTest,getpreferredspan,IN-compile,"COMPILE_ERR: /tmp/tmpmqs4fr4j/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,AsyncBoxViewAutoTest,getminimumspan,IN-compile,"COMPILE_ERR: /tmp/tmpvmvbze6z/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,AtomicReferenceArrayAutoTest,tostring,RV-repr,TEST FAILED: Expected '[null; null; null; null; null; null; null; null; null; null; null; null; null; null; null; null; 
+C#,AttributesAutoTest,get,IN-compile,"COMPILE_ERR: /tmp/tmpamcatt49/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,BadAttributeValueExpExceptionAutoTest,tostring,IN-compile,"COMPILE_ERR: /tmp/tmpp_8q7lgc/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,BasicButtonUIAutoTest,getbaselineresizebehavior,EX-missing,TEST FAILED: Expected exception of type NullReferenceException; message: Component must be non-null | 
+C#,BasicComboBoxEditorAutoTest,getitem,IN-compile,"COMPILE_ERR: /tmp/tmp6q5jnkrk/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,BasicComboBoxUIAutoTest,paintcurrentvalue,IN-compile,"COMPILE_ERR: /tmp/tmpnfp8myul/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,BasicComboBoxUIAutoTest,paint,IN-compile,"COMPILE_ERR: /tmp/tmpbn4gxvwh/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,BasicComboBoxUIAutoTest,getaccessiblechild,IN-compile,"/root/autodl-tmp/Java2C#/CsAPI_benchmark_translated/BasicComboBoxUIAutoTest/getAccessibleChild_test_8681.cs(5,9): error CS0246: The type or namespace name `Basi"
+C#,BasicComboBoxUIAutoTest,getminimumsize,IN-compile,"COMPILE_ERR: /tmp/tmp14el_y4b/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,BasicDesktopIconUIAutoTest,installui,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,BasicDesktopIconUIAutoTest,getpreferredsize,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,BasicLabelUIAutoTest,propertychange,EX-missing,TEST FAILED: Expected NullReferenceException was not thrown | 
+C#,BasicLabelUIAutoTest,getbaseline,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,BasicLabelUIAutoTest,getbaselineresizebehavior,EX-missing,TEST FAILED: Expected NullReferenceException but none was thrown. | 
+C#,BasicListUIAutoTest,paint,EX-missing,TEST FAILED: Expected exception of type NullReferenceException | 
+C#,BasicListUIAutoTest,getpreferredsize,EX-missing,"TEST FAILED: Expected exception of type NullReferenceException; message: Cannot invoke ""javax.swing.JList.getFixedCellHe"
+C#,BasicMenuItemUIAutoTest,uninstallui,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,BasicMenuItemUIAutoTest,getminimumsize,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,BasicOptionPaneUIAutoTest,uninstallui,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,BasicOptionPaneUIAutoTest,getpreferredsize,EX-missing,"TEST FAILED: Expected exception of type NullReferenceException; message: Cannot invoke ""javax.swing.JComponent.getLayout"
+C#,BasicProgressBarUIAutoTest,uninstallui,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException; but no exception was thrown. | 
+C#,BasicProgressBarUIAutoTest,getmaximumsize,EX-missing,TEST FAILED: Expected NullReferenceException because progressBar is null | 
+C#,BasicProgressBarUIAutoTest,getpreferredsize,EX-missing,"TEST FAILED: Expected exception of type System.NullReferenceException; message: Cannot invoke ""javax.swing.JProgressBar."
+C#,BasicRootPaneUIAutoTest,installui,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,BasicScrollBarUIAutoTest,uninstallui,IN-compile,"COMPILE_ERR: /tmp/tmpvh7bp3qs/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,BasicScrollBarUIAutoTest,minimumlayoutsize,IN-compile,"COMPILE_ERR: /tmp/tmptztkqf83/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,BasicScrollBarUIAutoTest,paint,IN-compile,"COMPILE_ERR: /tmp/tmpz_8b9s8z/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,BasicSliderUIAutoTest,paintthumb,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,BasicSliderUIAutoTest,scrollbyblock,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,BasicSliderUIAutoTest,getpreferredverticalsize,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException | 
+C#,BasicSliderUIAutoTest,uninstallui,EX-missing,TEST FAILED: Expected exception of type NullReferenceException | 
+C#,BasicSliderUIAutoTest,paintlabels,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,BasicSpinnerUIAutoTest,getbaselineresizebehavior,EX-missing,TEST FAILED: Expected exception of type NullReferenceException; message: Component must be non-null | 
+C#,BasicSplitPaneUIAutoTest,installui,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,BasicStrokeAutoTest,createstrokedshape,EX-missing,TEST FAILED: Expected exception of type NullReferenceException; but no exception was thrown. | 
+C#,BasicTabbedPaneUIAutoTest,installui,EX-missing,"TEST FAILED: Expected exception of type NullReferenceException; message: Cannot invoke ""javax.swing.JTabbedPane.getTabLa"
+C#,BasicTabbedPaneUIAutoTest,getminimumsize,RV-repr,TEST FAILED: Expected null | 
+C#,BasicTableHeaderUIAutoTest,paint,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,BasicTableUIAutoTest,installui,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException | 
+C#,BasicTableUIAutoTest,getmaximumsize,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,BasicTableUIAutoTest,getminimumsize,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException | 
+C#,BasicTableUIAutoTest,getbaselineresizebehavior,EX-missing,TEST FAILED: Expected exception of type NullReferenceException; message: Component must be non-null | 
+C#,BasicTextAreaUIAutoTest,getminimumsize,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException; but no exception was thrown. | 
+C#,BasicToggleButtonUIAutoTest,paint,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,BasicToolBarUIAutoTest,setfloating,RV-repr,TEST FAILED: Nullable object must have a value. | 
+C#,BasicToolBarUIAutoTest,setrolloverborders,EX-missing,"TEST FAILED: Expected exception of type System.NullReferenceException; message: Cannot invoke ""javax.swing.JComponent.getComponents()"" because ""c"" is null | "
+C#,BasicToolTipUIAutoTest,installui,EX-missing,"TEST FAILED: Expected NullReferenceException; message: Cannot invoke ""JComponent.getFont()"" because ""c"" is null | "
+C#,BasicToolTipUIAutoTest,uninstallui,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException; message: 'Object reference not set to an instance
+C#,BasicToolTipUIAutoTest,getmaximumsize,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException; but none was thrown. | 
+C#,BasicToolTipUIAutoTest,getpreferredsize,EX-missing,TEST FAILED: Expected NullReferenceException but no exception was thrown. | 
+C#,BasicToolTipUIAutoTest,getminimumsize,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException; but no exception was thrown. | 
+C#,BeanContextChildSupportAutoTest,getbeancontextchildpeer,IN-compile,"COMPILE_ERR: /tmp/tmpzfimswjq/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,BeansAutoTest,isguiavailable,RV-value,TEST FAILED: 'False' != 'true' | 
+C#,BevelBorderAutoTest,gethighlightoutercolor,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException; message: Cannot invoke method because component i
+C#,BevelBorderAutoTest,gethighlightinnercolor,RV-repr,TEST FAILED: Expected null but got Color | 
+C#,BevelBorderAutoTest,gethighlightinnercolor,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,BevelBorderAutoTest,getshadowoutercolor,RV-repr,TEST FAILED: Assertion failed: expected null; but got Color [DarkGray] | 
+C#,BidiAutoTest,getrunlimit,IN-compile,"COMPILE_ERR: /tmp/tmp5hdxbo_1/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,BlockViewAutoTest,getpreferredspan,EX-missing,TEST FAILED: Expected exception of type System.ArgumentException; message: Invalid axis: 13 | 
+C#,BlockViewAutoTest,getmaximumspan,RV-value,TEST FAILED: '0' != '2.147484E+09' | 
+C#,BookAutoTest,append,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,BoxLayoutAutoTest,removelayoutcomponent,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException | 
+C#,BoxLayoutAutoTest,minimumlayoutsize,EX-missing,"TEST FAILED: Expected exception of type NullReferenceException; message: Cannot invoke ""java.awt.Container.getComponentCount()"" because ""this.target"" is null | "
+C#,BoxLayoutAutoTest,getlayoutalignmenty,EX-missing,"TEST FAILED: Expected exception of type System.NullReferenceException; message: ""Object reference not set to an instance"
+C#,ButtonGroupAutoTest,setselected,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,ButtonGroupAutoTest,remove,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,ButtonGroupAutoTest,add,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,CSSAutoTest,getattribute,RV-repr,TEST FAILED: Assertion failed: expected non-null attribute | 
+C#,CardLayoutAutoTest,last,RV-repr,TEST FAILED: Value cannot be null. | Parameter name: parent | 
+C#,CardLayoutAutoTest,first,EX-missing,"TEST FAILED: Expected exception of type NullReferenceException; message: ""parent"" is null | "
+C#,ChoiceFormatAutoTest,getlimits,IN-compile,"COMPILE_ERR: /tmp/tmpqg53w92l/runner.cs(2,6): error CS1525: Unexpected symbol `public', expecting `identifier' or `static' | /tmp/tmpqg53w92l/runner.cs(2,12): e"
+C#,ChoiceFormatAutoTest,equals,IN-compile,"COMPILE_ERR: /tmp/tmpfoyeca5_/runner.cs(2,6): error CS1525: Unexpected symbol `public', expecting `identifier' or `static' | /tmp/tmpfoyeca5_/runner.cs(2,12): e"
+C#,ChoiceFormatAutoTest,clone,IN-compile,"COMPILE_ERR: /tmp/tmp05q8cn8r/runner.cs(2,6): error CS1525: Unexpected symbol `public', expecting `identifier' or `static' | /tmp/tmp05q8cn8r/runner.cs(2,12): e"
+C#,ChoiceFormatAutoTest,format,IN-compile,"COMPILE_ERR: /tmp/tmp6g5uma7j/runner.cs(2,6): error CS1525: Unexpected symbol `public', expecting `identifier' or `static' | /tmp/tmp6g5uma7j/runner.cs(2,12): e"
+C#,ChoiceFormatAutoTest,format,IN-compile,"COMPILE_ERR: /tmp/tmpla5mgr2e/runner.cs(2,6): error CS1525: Unexpected symbol `public', expecting `identifier' or `static' | /tmp/tmpla5mgr2e/runner.cs(2,12): e"
+C#,ChoiceFormatAutoTest,parse,IN-compile,"COMPILE_ERR: /tmp/tmpwk4svvme/runner.cs(2,6): error CS1525: Unexpected symbol `public', expecting `identifier' or `static' | /tmp/tmpwk4svvme/runner.cs(2,12): e"
+C#,ChoiceFormatAutoTest,isstrict,IN-compile,"COMPILE_ERR: /tmp/tmp406mvtl1/runner.cs(2,6): error CS1525: Unexpected symbol `public', expecting `identifier' or `static' | /tmp/tmp406mvtl1/runner.cs(2,12): e"
+C#,ChoiceFormatAutoTest,applypattern,IN-compile,"COMPILE_ERR: /tmp/tmptuj54ukc/runner.cs(2,6): error CS1525: Unexpected symbol `public', expecting `identifier' or `static' | /tmp/tmptuj54ukc/runner.cs(2,12): e"
+C#,ClipboardAutoTest,setcontents,RV-repr,TEST FAILED: Value cannot be null. | Parameter name: contents | 
+C#,ClipboardAutoTest,addflavorlistener,RV-repr,TEST FAILED: Value cannot be null. | Parameter name: listener | 
+C#,ColorAutoTest,getrgbcomponents,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException; message: Index 0 out of bounds for length 0 | 
+C#,ColorAutoTest,getcolorcomponents,EX-missing,TEST FAILED: Expected IndexOutOfRangeException | 
+C#,ColorConvertOpAutoTest,filter,EX-missing,TEST FAILED: Expected exception of type System.ArgumentException; message: Source or Destination ColorSpace is undefined
+C#,CompoundEditAutoTest,getundopresentationname,RV-repr,TEST FAILED: Expected 'Undo' but got 'Undo ' | 
+C#,ConcurrentLinkedDequeAutoTest,add,IN-compile,"/root/autodl-tmp/Java2C#/CsAPI_benchmark_translated/ConcurrentLinkedDequeAutoTest/add_test_4250.cs(433,35): error CS0029: Cannot implicitly convert type `void' "
+C#,ConcurrentLinkedQueueAutoTest,removeall,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,ConcurrentLinkedQueueAutoTest,retainall,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,ConcurrentSkipListSetAutoTest,ceiling,IN-compile,"COMPILE_ERR: /tmp/tmpuxu58l95/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,ConcurrentSkipListSetAutoTest,higher,IN-compile,"COMPILE_ERR: /tmp/tmpkf66w5ib/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,DataFlavorAutoTest,getdefaultrepresentationclassasstring,RV-value,TEST FAILED: 'java.lang.Object' != 'java.io.InputStream' | 
+C#,DataFlavorAutoTest,tostring,RV-repr,TEST FAILED: Expected: 'java.awt.datatransfer.DataFlavor[mimetype=text/html;representationclass=java.lang.String]' but w
+C#,DatagramPacketAutoTest,getsocketaddress,RV-repr,TEST FAILED: Assertion failed: socketAddress4 should not be null | 
+C#,DateAutoTest,tostring,RV-value,TEST FAILED: Assertion failed: date1.ToString() != expected | 
+C#,DateAutoTest,after,RV-repr,TEST FAILED: Expected toString: 'Thu Jan 01 08:00:00 CST 1970'; actual: 'Mon Jan 01 00:00:00 +08:05 0001' | 
+C#,DateAutoTest,gettime,RV-value,TEST FAILED: Assertion failed: date1.ToString() != expected | 
+C#,DateAutoTest,settime,RV-repr,TEST FAILED: Expected: Thu Jan 01 08:00:00 CST 1970 but was: Mon Jan 01 00:00:00 +00:00 0001 | 
+C#,DateAutoTest,getseconds,RV-repr,TEST FAILED: Ticks must be between DateTime.MinValue.Ticks and DateTime.MaxValue.Ticks. | Parameter name: ticks | 
+C#,DateAutoTest,getminutes,RV-value,TEST FAILED: '4' != '28' | 
+C#,DateAutoTest,getday,RV-repr,TEST FAILED: Ticks must be between DateTime.MinValue.Ticks and DateTime.MaxValue.Ticks. | Parameter name: ticks | 
+C#,DateFormatSymbolsAutoTest,setmonths,EX-missing,"TEST FAILED: Expected exception of type System.NullReferenceException; message: Cannot read the array length because ""ne"
+C#,DateFormatSymbolsAutoTest,getshortweekdays,RV-value,"TEST FAILED: locale1.ToString() != """" | "
+C#,DecimalFormatSymbolsAutoTest,getnan,RV-value,TEST FAILED: 'NaN' != '非數值' | 
+C#,DefaultCaretAutoTest,tostring,RV-repr,TEST FAILED: Expected 'Dot=(0; null) Mark=(0; null)' but got 'GeneratedTest.DefaultCaret' | 
+C#,DefaultColorSelectionModelAutoTest,addchangelistener,RV-repr,TEST FAILED: Value cannot be null. | Parameter name: listener | 
+C#,DefaultDesktopManagerAutoTest,closeframe,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,DefaultDesktopManagerAutoTest,begindraggingframe,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,DefaultKeyboardFocusManagerAutoTest,processkeyevent,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,DefaultTreeCellEditorAutoTest,iscelleditable,RV-value,TEST FAILED: 'False' != 'True' | 
+C#,DefaultTreeCellRendererAutoTest,getbackgroundnonselectioncolor,RV-repr,TEST FAILED: Assertion failed: color4 is not null | 
+C#,DestinationAutoTest,getname,RV-repr,TEST FAILED: Invalid URI: The format of the URI could not be determined. | 
+C#,DialogOwnerAutoTest,getcategory,RV-repr,TEST FAILED: Assertion failed: GetCategory() returned null | 
+C#,DigestOutputStreamAutoTest,on,IN-compile,"COMPILE_ERR: /tmp/tmp3t9vkyle/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,DocumentNameAutoTest,getname,RV-repr,TEST FAILED: Expected 'document-name' but got '' | 
+C#,DoubleAccumulatorAutoTest,reset,RV-repr,TEST FAILED: Value cannot be null. | Parameter name: accumulatorFunction | 
+C#,DoubleAccumulatorAutoTest,intvalue,RV-repr,TEST FAILED: Value cannot be null. | Parameter name: accumulatorFunction | 
+C#,DoubleAutoTest,tohexstring,RV-value,TEST FAILED: '0x0000000000000000' != '0x0.0p0' | 
+C#,EncryptionKeyAutoTest,getalgorithm,RV-value,TEST FAILED: 'Kerberos' != 'none' | 
+C#,ExpressionAutoTest,tostring,RV-repr,TEST FAILED: Assertion failed: expected '<unbound>=Double.();' but got 'Double.()' | 
+C#,FieldViewAutoTest,getpreferredspan,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,FileAutoTest,getname,RV-repr,TEST FAILED: file1.getParent() == null | 
+C#,FileAutoTest,length,RV-repr,TEST FAILED: The specified path is not of a legal form (empty). | 
+C#,FileAutoTest,delete,RV-repr,TEST FAILED: The specified path is not of a legal form (empty). | 
+C#,FileAutoTest,exists,RV-repr,TEST FAILED: The specified path is not of a legal form (empty). | 
+C#,FileAutoTest,mkdir,RV-repr,TEST FAILED: The specified path is not of a legal form (empty). | 
+C#,FileAutoTest,getparentfile,RV-repr,TEST FAILED: The specified path is not of a legal form (empty). | 
+C#,FileAutoTest,setwritable,RV-repr,TEST FAILED: Invalid path | 
+C#,FileAutoTest,setexecutable,RV-repr,TEST FAILED: Assertion failed: file1.getParent() == null | 
+C#,FileAutoTest,canwrite,RV-repr,TEST FAILED: The specified path is not of a legal form (empty). | 
+C#,FileAutoTest,isfile,RV-repr,TEST FAILED: file3.GetParent() should be null | 
+C#,FileAutoTest,deleteonexit,RV-repr,TEST FAILED: The specified path is not of a legal form (empty). | 
+C#,FileAutoTest,setlastmodified,RV-repr,TEST FAILED: The specified path is not of a legal form (empty). | 
+C#,FileAutoTest,getfreespace,RV-repr,TEST FAILED: The specified path is not of a legal form (empty). | 
+C#,FileAutoTest,getusablespace,RV-repr,TEST FAILED: The specified path is not of a legal form (empty). | 
+C#,FileSystemExceptionAutoTest,getotherfile,RV-repr,TEST FAILED: Assertion failed: getMessage() should be 'hi!' | 
+C#,FilteredImageSourceAutoTest,startproduction,IN-compile,"COMPILE_ERR: /tmp/tmpvyj89_5r/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,FixedHeightLayoutCacheAutoTest,getpathclosestto,IN-empty,no_test_method
+C#,FlowLayoutAutoTest,minimumlayoutsize,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException; but it was not thrown. | 
+C#,ForkJoinPoolAutoTest,submit,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,GridBagLayoutAutoTest,layoutcontainer,EX-missing,TEST FAILED: Expected exception of type NullReferenceException; message: Cannot invoke because parent is null | 
+C#,GridBagLayoutAutoTest,preferredlayoutsize,EX-missing,TEST FAILED: Expected exception of type NullReferenceException because parent is null. | 
+C#,GridBagLayoutAutoTest,minimumlayoutsize,EX-missing,TEST FAILED: Expected NullReferenceException but no exception was thrown. | 
+C#,HTMLDocumentAutoTest,gettokenthreshold,RV-value,TEST FAILED: '0' != '35' | 
+C#,HTMLDocumentAutoTest,getreader,RV-repr,TEST FAILED: Assertion failed: expected non-null | 
+C#,HTMLEditorKitAutoTest,createdefaultdocument,RV-repr,TEST FAILED: Document should not be null | 
+C#,HTMLEditorKitAutoTest,getviewfactory,RV-repr,TEST FAILED: Assertion failed: getViewFactory() should not return null | 
+C#,HTMLEditorKitAutoTest,isautoformsubmission,RV-value,TEST FAILED: 'False' != 'True' | 
+C#,ImageFilterAutoTest,resendtopdownleftright,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException | 
+C#,ImageViewAutoTest,getloadingimageicon,RV-repr,TEST FAILED: Assertion failed: expected non-null icon | 
+C#,ImageViewAutoTest,getimage,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException | 
+C#,ImageViewAutoTest,getalignment,RV-repr,TEST FAILED: Expected 0.5; but got 0 | 
+C#,ImageViewAutoTest,getimageurl,EX-missing,TEST FAILED: Expected NullReferenceException but no exception was thrown. | 
+C#,IntSummaryStatisticsAutoTest,combine,RV-value,TEST FAILED: Assertion failed: IntSummaryStatistics{count=0; sum=0; min=2147483647; max=-2147483648; average=F6} != IntS
+C#,IntSummaryStatisticsAutoTest,getsum,RV-repr,TEST FAILED: ToString mismatch: expected 'IntSummaryStatistics{count=0; sum=0; min=2147483647; average=0.000000; max=-21
+C#,IntSummaryStatisticsAutoTest,getmin,RV-repr,TEST FAILED: ToString mismatch: expected 'IntSummaryStatistics{count=0; sum=0; min=2147483647; average=0.000000; max=-21
+C#,JColorChooserAutoTest,getui,RV-repr,TEST FAILED: Assertion failed: GetUI() returned null | 
+C#,JColorChooserAutoTest,getaccessiblecontext,RV-repr,TEST FAILED: Assertion failed: accessibleContext2 should not be null | 
+C#,JMenuItemAutoTest,processmenudragmouseevent,EX-missing,TEST FAILED: Expected NullReferenceException but none was thrown | 
+C#,JOptionPaneAutoTest,setui,RV-value,TEST FAILED: '0' != '-1' | 
+C#,JOptionPaneAutoTest,getaccessiblecontext,RV-value,TEST FAILED: '0' != '-1' | 
+C#,JSpinnerAutoTest,getnextvalue,RV-value,TEST FAILED: '' != '1' | 
+C#,JSpinnerAutoTest,getvalue,RV-value,TEST FAILED: '' != '0' | 
+C#,JTextPaneAutoTest,setstyleddocument,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException | 
+C#,JTreeAutoTest,getscrollabletracksviewportwidth,RV-value,TEST FAILED: 'True' != 'false' | 
+C#,JTreeAutoTest,getmodel,RV-repr,TEST FAILED: model should not be null | 
+C#,JTreeAutoTest,getminselectionrow,RV-value,TEST FAILED: 'ON' != 'USE_SELECTION' | 
+C#,JTreeAutoTest,expandpath,RV-repr,TEST FAILED: Assertion failed: dropMode should be USE_SELECTION | 
+C#,JTreeAutoTest,getinvokesstopcellediting,RV-value,TEST FAILED: 'ON' != 'USE_SELECTION' | 
+C#,JTreeAutoTest,getexpandsselectedpaths,RV-value,TEST FAILED: 'ON' != 'USE_SELECTION' | 
+C#,JTreeAutoTest,ispatheditable,RV-value,TEST FAILED: 'ON' != 'USE_SELECTION' | 
+C#,JTreeAutoTest,setcellrenderer,RV-repr,TEST FAILED: Assertion failed: treeSelectionModel1 is null | 
+C#,JTreeAutoTest,getselectionmodel,RV-repr,TEST FAILED: selectionModel should not be null | 
+C#,JTreeAutoTest,iseditable,RV-value,TEST FAILED: 'ON' != 'USE_SELECTION' | 
+C#,KernelAutoTest,getyorigin,RV-repr,TEST FAILED: Width and height must be positive. | 
+C#,KernelAutoTest,getwidth,RV-repr,TEST FAILED: Width and height must be positive. | 
+C#,LDAPCertStoreParametersAutoTest,tostring,RV-value,TEST FAILED: 'LDAPCertStoreParameters: :100' != 'LDAPCertStoreParameters: [ |   serverName:  |   port: 100 | ]' | 
+C#,LocaleAutoTest,filter,RV-repr,TEST FAILED: Value cannot be null. | Parameter name: source | 
+C#,LocaleAutoTest,getunicodelocaletype,EX-missing,TEST FAILED: Expected ArgumentException | 
+C#,LocaleAutoTest,hasextensions,RV-value,TEST FAILED: locale0.ToString() != 'zh_TW': zh-TW | 
+C#,LocaleAutoTest,getdisplaylanguage,RV-repr,TEST FAILED: Expected toString 'it_IT' but got 'it-IT' | 
+C#,LongSummaryStatisticsAutoTest,accept,IN-compile,"COMPILE_ERR: /tmp/tmp472oszki/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,LongSummaryStatisticsAutoTest,getcount,IN-compile,"COMPILE_ERR: /tmp/tmplzac_n5q/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,MBeanNotificationInfoAutoTest,tostring,RV-repr,TEST FAILED: Expected 'javax.management.MBeanNotificationInfo[name=hi!; description=javax.management.MBeanNotificationIn
+C#,MBeanServerNotificationFilterAutoTest,getenabledobjectnames,RV-repr,TEST FAILED: Assertion failed: GetEnabledObjectNames() returned null | 
+C#,MatteBorderAutoTest,getborderinsets,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,MetalButtonUIAutoTest,uninstalldefaults,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException | 
+C#,MetalComboBoxUIAutoTest,layoutcombobox,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException | 
+C#,MetalFileChooserUIAutoTest,installcomponents,IN-compile,"COMPILE_ERR: /tmp/tmpoumswj2s/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,MetalIconFactoryAutoTest,getmenuitemarrowicon,RV-repr,TEST FAILED: Assertion failed. | 
+C#,MetalIconFactoryAutoTest,getcheckboxicon,RV-repr,TEST FAILED: Assertion failed: icon0 should not be null | 
+C#,MetalIconFactoryAutoTest,getradiobuttonmenuitemicon,RV-repr,TEST FAILED: Assertion failed: icon0 should not be null | 
+C#,MetalIconFactoryAutoTest,getfilechooserlistviewicon,RV-repr,TEST FAILED: assertion failed | 
+C#,MetalIconFactoryAutoTest,gettreecomputericon,RV-repr,TEST FAILED: icon0 should not be null | 
+C#,MetalInternalFrameTitlePaneAutoTest,paintcomponent,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException; message: Object reference not set to an instance 
+C#,MetalLookAndFeelAutoTest,getsupportswindowdecorations,RV-value,TEST FAILED: 'False' != 'true' | 
+C#,MetalScrollPaneUIAutoTest,uninstallui,EX-missing,TEST FAILED: Expected NullReferenceException but none was thrown | 
+C#,MetalScrollPaneUIAutoTest,installlisteners,EX-missing,TEST FAILED: Expected NullReferenceException but none was thrown | 
+C#,MetalSeparatorUIAutoTest,paint,IN-compile,"COMPILE_ERR: /tmp/tmpbeyf3oad/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,MetalSeparatorUIAutoTest,getpreferredsize,IN-compile,"COMPILE_ERR: /tmp/tmpbbkrkyfz/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,MetalSplitPaneUIAutoTest,createdefaultdivider,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException | 
+C#,MetalToggleButtonUIAutoTest,installdefaults,EX-missing,"TEST FAILED: Expected exception of type System.NullReferenceException; message: Cannot invoke ""javax.swing.AbstractButto"
+C#,MetalTreeUIAutoTest,installui,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException; message: null component passed to BasicTreeUI.ins
+C#,MetalTreeUIAutoTest,uninstallui,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,MultiButtonUIAutoTest,getpreferredsize,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException | 
+C#,MultiComboBoxUIAutoTest,getmaximumsize,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException; message: Index was outside the bounds of the ar
+C#,MultiDesktopIconUIAutoTest,getuis,RV-repr,TEST FAILED: Expected null | 
+C#,MultiDesktopIconUIAutoTest,getaccessiblechild,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException | 
+C#,MultiDesktopIconUIAutoTest,getpreferredsize,EX-missing,TEST FAILED: Expected exception of type IndexOutOfRangeException | 
+C#,MultiDesktopPaneUIAutoTest,createui,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException; but no exception was thrown. | 
+C#,MultiDesktopPaneUIAutoTest,getaccessiblechild,RV-repr,TEST FAILED: Index was out of range. Must be non-negative and less than the size of the collection. | Parameter name: in
+C#,MultiDesktopPaneUIAutoTest,getminimumsize,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException; message: 0 >= 0 | 
+C#,MultiInternalFrameUIAutoTest,createui,EX-missing,"TEST FAILED: Expected exception of type System.NullReferenceException; message: Cannot invoke ""Object.getClass()"" becaus"
+C#,MultiInternalFrameUIAutoTest,getmaximumsize,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException | 
+C#,MultiInternalFrameUIAutoTest,getpreferredsize,EX-missing,TEST FAILED: Expected exception of type IndexOutOfRangeException | 
+C#,MultiLabelUIAutoTest,getuis,RV-repr,TEST FAILED: Expected null but got non-null array | 
+C#,MultiLabelUIAutoTest,getaccessiblechild,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException; message: 0 >= 0 | 
+C#,MultiLabelUIAutoTest,getpreferredsize,EX-missing,TEST FAILED: Expected exception of type IndexOutOfRangeException | 
+C#,MultiLookAndFeelAutoTest,getdefaults,RV-repr,TEST FAILED: Assert failed: result should not be null | 
+C#,MultiLookAndFeelAutoTest,getdescription,RV-repr,TEST FAILED: Assertion failed: expected 'Allows multiple UI instances per component instance'; got 'MultiLookAndFeel' | 
+C#,MultiLookAndFeelAutoTest,getname,RV-value,TEST FAILED: 'MultiLookAndFeel' != 'Multiplexing Look and Feel' | 
+C#,MultiMenuItemUIAutoTest,getmaximumsize,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException | 
+C#,MultiMenuItemUIAutoTest,getpreferredsize,EX-missing,TEST FAILED: Expected exception of type IndexOutOfRangeException; message: Index was outside the bounds of the array. | 
+C#,MultiOptionPaneUIAutoTest,getuis,RV-repr,TEST FAILED: Assertion failed: getUIs() should return null | 
+C#,MultiOptionPaneUIAutoTest,createui,EX-missing,"TEST FAILED: Expected exception of type System.NullReferenceException; message: Cannot invoke ""Object.getClass()"" becaus"
+C#,MultiOptionPaneUIAutoTest,getaccessiblechild,EX-missing,TEST FAILED: Expected exception of type IndexOutOfRangeException; message: 0 >= 0 | 
+C#,MultiPanelUIAutoTest,getuis,RV-repr,TEST FAILED: Expected null but got non-null array from GetUIs() | 
+C#,MultiPanelUIAutoTest,getmaximumsize,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException; message: 0 >= 0 | 
+C#,MultiPopupMenuUIAutoTest,getpopup,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException; message: 0 >= 0 | 
+C#,MultiPopupMenuUIAutoTest,contains,EX-missing,TEST FAILED: Expected exception of type IndexOutOfRangeException; but none was thrown. | 
+C#,MultiProgressBarUIAutoTest,getmaximumsize,IN-compile,"COMPILE_ERR: /tmp/tmpnrg1p862/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,MultiProgressBarUIAutoTest,getaccessiblechildrencount,IN-empty,no_test_method
+C#,MultiProgressBarUIAutoTest,getpreferredsize,IN-empty,no_test_method
+C#,MultiProgressBarUIAutoTest,contains,IN-empty,no_test_method
+C#,MultiRootPaneUIAutoTest,contains,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException; message: 0 >= 0 | 
+C#,MultiScrollPaneUIAutoTest,getuis,RV-repr,TEST FAILED: Expected null | 
+C#,MultiScrollPaneUIAutoTest,createui,EX-missing,"TEST FAILED: Expected exception of type System.NullReferenceException; message: Cannot invoke ""Object.getClass()"" becaus"
+C#,MultiSeparatorUIAutoTest,getaccessiblechild,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException; message: 0 >= 0 | 
+C#,MultiSeparatorUIAutoTest,getminimumsize,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException | 
+C#,MultiSliderUIAutoTest,getmaximumsize,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException | 
+C#,MultiSliderUIAutoTest,contains,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException | 
+C#,MultiSpinnerUIAutoTest,getaccessiblechild,IN-compile,"COMPILE_ERR: /tmp/tmpmn8s05du/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,MultiSpinnerUIAutoTest,contains,IN-compile,"COMPILE_ERR: /tmp/tmpv_b8ew29/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,MultiSplitPaneUIAutoTest,getdividerlocation,EX-missing,TEST FAILED: Expected IndexOutOfRangeException | 
+C#,MultiSplitPaneUIAutoTest,getminimumdividerlocation,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException; message: 0 >= 0 | 
+C#,MultiSplitPaneUIAutoTest,getmaximumdividerlocation,EX-missing,TEST FAILED: Expected exception of type IndexOutOfRangeException | 
+C#,MultiSplitPaneUIAutoTest,getaccessiblechildrencount,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException | 
+C#,MultiSplitPaneUIAutoTest,getaccessiblechild,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException; message: 0 >= 0 | 
+C#,MultiTextUIAutoTest,getpreferredsize,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException | 
+C#,MultiToolBarUIAutoTest,getminimumsize,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException; message: 0 >= 0 | 
+C#,MultiTreeUIAutoTest,getpathforrow,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException | 
+C#,MultiTreeUIAutoTest,getpathbounds,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException; but none thrown | 
+C#,MultiTreeUIAutoTest,getclosestpathforlocation,EX-missing,TEST FAILED: Expected exception of type IndexOutOfRangeException | 
+C#,MultiTreeUIAutoTest,getmaximumsize,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException; message: 0 >= 0 | 
+C#,MultiTreeUIAutoTest,getaccessiblechild,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException; message: 0 >= 0 | 
+C#,MultiTreeUIAutoTest,contains,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException; message: 0 >= 0 | 
+C#,MultiViewportUIAutoTest,getaccessiblechild,EX-missing,TEST FAILED: Expected IndexOutOfRangeException | 
+C#,MultiViewportUIAutoTest,getpreferredsize,EX-missing,TEST FAILED: Expected exception of type System.IndexOutOfRangeException; message: 0 >= 0 | 
+C#,NameClassPairAutoTest,getnameinnamespace,EX-missing,TEST FAILED: Expected NotSupportedException | 
+C#,NamingExceptionAutoTest,tostring,RV-repr,TEST FAILED: Assertion failed: expected 'Generated.Test.NamingException' but got 'Generated.Test.NamingException: Except
+C#,NamingExceptionAutoTest,tostring,EX-missing,TEST FAILED: Assertion failed: Expected 'Generated.Test.NamingException' but got 'Generated.Test.NamingException: Except
+C#,NavigationFilterAutoTest,setdot,EX-missing,TEST FAILED: Expected NullReferenceException but none was thrown | 
+C#,NimbusLookAndFeelAutoTest,shouldupdatestyleonancestorchanged,RV-value,TEST FAILED: 'False' != 'True' | 
+C#,NotificationAutoTest,tostring,RV-value,TEST FAILED: 'Notification[hi!]' != 'javax.management.Notification[source=][type=hi!][message=]' | 
+C#,NotificationBroadcasterSupportAutoTest,addnotificationlistener,IN-compile,"COMPILE_ERR: /tmp/tmp4ronjqww/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,OverlayLayoutAutoTest,minimumlayoutsize,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,ParameterBlockAutoTest,getbyteparameter,RV-repr,TEST FAILED: Index was out of range. Must be non-negative and less than the size of the collection. | Parameter name: in
+C#,ParameterBlockAutoTest,getintparameter,RV-repr,TEST FAILED: Index was out of range. Must be non-negative and less than the size of the collection. | Parameter name: in
+C#,PasswordViewAutoTest,getpreferredspan,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException | 
+C#,PlainViewAutoTest,paint,EX-missing,"TEST FAILED: Expected exception of type NullReferenceException; message: Cannot read field ""x"" because ""alloc"" is null |"
+C#,PrinterStateReasonsAutoTest,printerstatereasonset,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException; severity is null | 
+C#,QueryAutoTest,leq,RV-repr,TEST FAILED: Assertion failed: valueExp1 should not be null | 
+C#,QueryAutoTest,initialsubstring,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException | 
+C#,QueryAutoTest,anysubstring,RV-repr,TEST FAILED: queryExp4 is null | 
+C#,QueryAutoTest,value,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,QueryAutoTest,value,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,QueryAutoTest,value,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,QueryAutoTest,value,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,QueryAutoTest,value,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,QueryAutoTest,value,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,QueryAutoTest,value,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,QueryAutoTest,match,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,QueryAutoTest,eq,RV-repr,TEST FAILED: assertNotNull failed | 
+C#,QueryAutoTest,not,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,RandomAutoTest,nextdouble,RV-value,TEST FAILED: '4.30572727895608' != '43.7075698652951' | 
+C#,RandomAutoTest,longs,EX-missing,TEST FAILED: Expected exception of type System.ArgumentException; message: bound must be greater than origin | 
+C#,RandomAutoTest,nextfloat,RV-value,TEST FAILED: '0.07176212' != '0.7284595' | 
+C#,RandomAutoTest,nextgaussian,IN-timeout,timeout
+C#,ReentrantLockAutoTest,lock,IN-timeout,timeout
+C#,RepaintManagerAutoTest,addinvalidcomponent,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException | 
+C#,ReplicateScaleFilterAutoTest,setproperties,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,SSLParametersAutoTest,setuseciphersuitesorder,RV-repr,TEST FAILED: strArray3 should not be null | 
+C#,SSLParametersAutoTest,getnamedgroups,RV-value,TEST FAILED: 'False' != 'True' | 
+C#,ScriptEngineManagerAutoTest,registerenginename,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException; message: null | 
+C#,ScrollPaneLayoutAutoTest,syncwithscrollpane,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException; message: Object reference not set to an instance 
+C#,ScrollPaneLayoutAutoTest,layoutcontainer,EX-missing,"TEST FAILED: Expected exception of type System.NullReferenceException; message: Cannot invoke ""javax.swing.JScrollPane.g"
+C#,SearchResultAutoTest,tostring,RV-value,TEST FAILED: 'SearchResult: ' != ': java.lang.Integer:10:null' | 
+C#,ShortMessageAutoTest,getcommand,RV-value,TEST FAILED: '15' != '240' | 
+C#,SimpleBindingsAutoTest,keyset,RV-repr,TEST FAILED: Specified cast is not valid. | 
+C#,SizeSequenceAutoTest,getsize,RV-repr,TEST FAILED: Index was outside the bounds of the array. | 
+C#,SizeSequenceAutoTest,setsize,RV-repr,TEST FAILED: Index was outside the bounds of the array. | 
+C#,SocketAutoTest,getlocalport,RV-repr,TEST FAILED: Expected -1 but got 0 | 
+C#,SpringLayoutAutoTest,removelayoutcomponent,RV-repr,TEST FAILED: Value cannot be null. | Parameter name: key | 
+C#,StreamReaderDelegateAutoTest,getparent,RV-repr,TEST FAILED: parent is null | 
+C#,StringValueExpAutoTest,getvalue,RV-repr,TEST FAILED: Assertion failed: expected null | 
+C#,StringWriterAutoTest,append,RV-repr,TEST FAILED: The requested operation caused a stack overflow. | 
+C#,StringWriterAutoTest,append,RV-repr,TEST FAILED: The requested operation caused a stack overflow. | 
+C#,StringWriterAutoTest,write,RV-repr,TEST FAILED: The requested operation caused a stack overflow. | 
+C#,StringWriterAutoTest,write,RV-repr,TEST FAILED: The requested operation caused a stack overflow. | 
+C#,StyleSheetAutoTest,getpointsize,RV-repr,TEST FAILED: Assertion failed: expected 8.0f; got 0 | 
+C#,StyledEditorKitAutoTest,deinstall,IN-compile,"COMPILE_ERR: /tmp/tmpatpq_4kc/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,StyledEditorKitAutoTest,getinputattributes,IN-compile,"/root/autodl-tmp/Java2C#/CsAPI_benchmark_translated/StyledEditorKitAutoTest/getInputAttributes_test_10404.cs(5,9): error CS0246: The type or namespace name `Sty"
+C#,StyledEditorKitAutoTest,getviewfactory,IN-compile,"/root/autodl-tmp/Java2C#/CsAPI_benchmark_translated/StyledEditorKitAutoTest/getViewFactory_test_10405.cs(5,9): error CS0246: The type or namespace name `StyledE"
+C#,SynthButtonUIAutoTest,getmaximumsize,EX-missing,TEST FAILED: Expected NullReferenceException but none was thrown. | 
+C#,SynthButtonUIAutoTest,paint,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,SynthButtonUIAutoTest,getpreferredsize,EX-missing,TEST FAILED: Expected NullReferenceException but no exception was thrown. | 
+C#,SynthColorChooserUIAutoTest,update,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException | 
+C#,SynthComboBoxUIAutoTest,update,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException; but no exception was thrown | 
+C#,SynthDesktopIconUIAutoTest,propertychange,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException; message: Object reference not set to an instance 
+C#,SynthDesktopIconUIAutoTest,paint,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException | 
+C#,SynthDesktopIconUIAutoTest,update,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,SynthEditorPaneUIAutoTest,update,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,SynthLabelUIAutoTest,getmaximumsize,EX-missing,TEST FAILED: Expected NullReferenceException but none was thrown | 
+C#,SynthLabelUIAutoTest,getpreferredsize,EX-missing,TEST FAILED: Expected NullReferenceException but no exception was thrown | 
+C#,SynthLabelUIAutoTest,getminimumsize,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException | 
+C#,SynthLabelUIAutoTest,getbaseline,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException; but none thrown | 
+C#,SynthListUIAutoTest,update,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException | 
+C#,SynthLookAndFeelAutoTest,getdescription,RV-value,TEST FAILED: 'Synth Look and Feel' != 'Synth look and feel' | 
+C#,SynthMenuItemUIAutoTest,uninstallui,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,SynthMenuUIAutoTest,uninstallui,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException; message: Object reference not set to an instance 
+C#,SynthMenuUIAutoTest,update,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,SynthMenuUIAutoTest,getcontext,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException; message: Object reference not set to an instance 
+C#,SynthOptionPaneUIAutoTest,paint,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException | 
+C#,SynthPanelUIAutoTest,paint,EX-missing,"TEST FAILED: Expected exception of type NullReferenceException; message: Cannot invoke ""Component.isEnabled()"" because """
+C#,SynthPanelUIAutoTest,update,EX-missing,TEST FAILED: Expected exception of type NullReferenceException | 
+C#,SynthPanelUIAutoTest,getcontext,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,SynthPopupMenuUIAutoTest,getcontext,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,SynthProgressBarUIAutoTest,getbaseline,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException; message: Component must be non-null | 
+C#,SynthProgressBarUIAutoTest,getcontext,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,SynthScrollBarUIAutoTest,getsupportsabsolutepositioning,EX-missing,"TEST FAILED: Expected exception of type System.NullReferenceException; message: Cannot invoke ""java.awt.Component.isEnab"
+C#,SynthScrollBarUIAutoTest,paint,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,SynthScrollPaneUIAutoTest,update,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException; but none was thrown. | 
+C#,SynthSeparatorUIAutoTest,uninstalldefaults,IN-compile,"COMPILE_ERR: /tmp/tmpecr7_k46/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,SynthSeparatorUIAutoTest,getminimumsize,IN-compile,"/root/autodl-tmp/Java2C#/CsAPI_benchmark_translated/SynthSeparatorUIAutoTest/getMinimumSize_test_9903.cs(5,9): error CS0246: The type or namespace name `SynthSe"
+C#,SynthSeparatorUIAutoTest,update,IN-compile,"COMPILE_ERR: /tmp/tmpaadzhron/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,SynthSpinnerUIAutoTest,propertychange,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,SynthSpinnerUIAutoTest,paint,EX-missing,TEST FAILED: Expected NullReferenceException was not thrown. | 
+C#,SynthSpinnerUIAutoTest,update,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,SynthSplitPaneUIAutoTest,createdefaultdivider,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,SynthSplitPaneUIAutoTest,finishedpaintingchildren,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,SynthTabbedPaneUIAutoTest,paint,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,SynthTabbedPaneUIAutoTest,update,EX-missing,TEST FAILED: Expected exception of type NullReferenceException | 
+C#,SynthTabbedPaneUIAutoTest,getcontext,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,SynthTableHeaderUIAutoTest,getcontext,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,SynthTableUIAutoTest,paint,EX-missing,TEST FAILED: Expected NullReferenceException but no exception was thrown. | 
+C#,SynthTableUIAutoTest,getcontext,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException; no exception was thrown. | 
+C#,SynthToolBarUIAutoTest,paint,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,SynthToolBarUIAutoTest,getcontext,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,SynthToolTipUIAutoTest,paint,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,SynthToolTipUIAutoTest,update,EX-missing,"TEST FAILED: Expected exception of type NullReferenceException; message: Cannot invoke ""javax.swing.JToolTip.getComponent()"" because ""c"" is null | "
+C#,SynthTreeUIAutoTest,paint,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,SynthViewportUIAutoTest,uninstallui,EX-missing,TEST FAILED: Expected exception of type NullReferenceException | 
+C#,SynthViewportUIAutoTest,paint,EX-missing,TEST FAILED: Expected NullReferenceException | 
+C#,TimeAutoTest,setyear,EX-missing,TEST FAILED: Expected exception of type System.ArgumentException; message: null | 
+C#,TimeAutoTest,getday,EX-missing,TEST FAILED: Expected exception of type System.ArgumentException; message: null | 
+C#,TitledBorderAutoTest,gettitle,RV-value,TEST FAILED: '' != '' | 
+C#,TreeSetAutoTest,floor,RV-repr,TEST FAILED: Set is empty | 
+C#,TreeSetAutoTest,higher,RV-repr,TEST FAILED: Set is empty | 
+C#,TreeSetAutoTest,tailset,RV-repr,TEST FAILED: Set is empty | 
+C#,TreeSetAutoTest,tailset,RV-repr,TEST FAILED: Set is empty | 
+C#,UndeclaredThrowableExceptionAutoTest,getundeclaredthrowable,RV-repr,TEST FAILED: throwable3.Message == null | 
+C#,ViewportLayoutAutoTest,layoutcontainer,EX-missing,TEST FAILED: Expected exception of type System.NullReferenceException | 
+C#,X509CertSelectorAutoTest,setprivatekeyvalid,RV-repr,TEST FAILED: Assertion failed: toString mismatch | 
+C#,X509CertSelectorAutoTest,getmatchallsubjectaltnames,RV-value,TEST FAILED: 'False' != 'True' | 
+C#,X509CertSelectorAutoTest,clone,RV-repr,"TEST FAILED: toString mismatch: expected ""X509CertSelector: [\n  matchAllSubjectAltNames flag: true\n]"" but got ""X509Cer"
+C#,XMLEncoderAutoTest,flush,IN-compile,"COMPILE_ERR: /tmp/tmpwr_igto_/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+C#,XMLFormatterAutoTest,gethead,RV-value,"TEST FAILED: '' != '<?xml version=""1.0"" encoding=""US-ASCII"" standalone=""no""?> | <!DOCTYPE log SYSTEM ""logger.dtd""> | <lo"
+C#,java_util_concurrent_ForkJoinTaskAutoTest,adapt,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,java_nio_DoubleBufferAutoTest,allocate,RV-repr,TEST FAILED: Expected java.nio.HeapDoubleBuffer[pos=0 lim=1 cap=1] but got Generated.Test.DoubleBuffer | 
+C#,java_nio_file_attribute_PosixFilePermissionsAutoTest,asFileAttribute,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,java_util_CollectionsAutoTest,asLifoQueue,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,java_util_concurrent_ExecutorsAutoTest,callable,EX-unexpected, | Unhandled Exception: | System.NullReferenceException: Object reference not set to an instance of an object |   at Gen
+C#,java_util_concurrent_ExecutorsAutoTest,callable,EX-unexpected, | Unhandled Exception: | System.NullReferenceException: Object reference not set to an instance of an object |   at Gen
+C#,java_util_concurrent_ExecutorsAutoTest,callable,EX-unexpected, | Unhandled Exception: | System.NullReferenceException: Object reference not set to an instance of an object |   at Gen
+C#,javax_management_relation_RoleInfoAutoTest,checkMinDegree,RV-repr,TEST FAILED: incorrect min degree | 
+C#,java_util_regex_PatternAutoTest,compile,RV-repr,TEST FAILED: Expected  but got Generated.Test.Pattern | 
+C#,java_util_regex_PatternAutoTest,compile,RV-repr,TEST FAILED: Expected  but got Generated.Test.Pattern | 
+C#,java_awt_image_RasterAutoTest,createWritableRaster,RV-value,TEST FAILED: 'Generated.Test.Point' != 'java.awt.Point[x=0;y=0]' | 
+C#,jdk_jfr_EventFactoryAutoTest,create,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,javax_swing_RowFilterAutoTest,dateFilter,RV-value,TEST FAILED: intArray3 != new int[] { 0 } | 
+C#,java_net_URLDecoderAutoTest,decode,RV-value,TEST FAILED: 'utf-8' != 'UTF-8' | 
+C#,java_util_concurrent_ExecutorsAutoTest,defaultThreadFactory,EX-unexpected, | Unhandled Exception: | System.NullReferenceException: Object reference not set to an instance of an object |   at Gen
+C#,java_lang_module_ConfigurationAutoTest,empty,RV-repr,TEST FAILED: Expected  but got Generated.Test.Configuration | 
+C#,java_lang_ModuleLayerAutoTest,empty,RV-repr,TEST FAILED: Expected  but got Generated.Test.ModuleLayer | 
+C#,java_util_OptionalAutoTest,empty,RV-repr,TEST FAILED: Expected Optional.empty but got Generated.Test.Optional | 
+C#,java_util_HexFormatAutoTest,fromHexDigitsToLong,RV-repr,TEST FAILED: hex string length must be 1 to 16 | 
+C#,java_util_HexFormatAutoTest,fromHexDigits,RV-repr,TEST FAILED: hex string length must be 1 to 8 | 
+C#,java_nio_file_attribute_FileTimeAutoTest,fromMillis,RV-value,TEST FAILED: 'Generated.Test.FileTime' != '1969-12-31T23:59:59.999Z' | 
+C#,jdk_management_jfr_RecordingInfoAutoTest,from,RV-repr,TEST FAILED: Value cannot be null. | Parameter name: cd | 
+C#,jdk_management_jfr_SettingDescriptorInfoAutoTest,from,RV-repr,TEST FAILED: Value cannot be null. | Parameter name: cd | 
+C#,java_time_chrono_ThaiBuddhistDateAutoTest,from,RV-repr,TEST FAILED: Expected ThaiBuddhist BE 2569-08-04 but got Generated.Test.ThaiBuddhistDate | 
+C#,java_time_ZoneIdAutoTest,from,RV-repr,TEST FAILED: Specified cast is not valid. | 
+C#,jdk_management_jfr_ConfigurationInfoAutoTest,from,RV-repr,TEST FAILED: Value cannot be null. | Parameter name: cd | 
+C#,java_time_DurationAutoTest,from,RV-repr,TEST FAILED: Specified cast is not valid. | 
+C#,java_time_LocalDateAutoTest,from,RV-repr,TEST FAILED: Year; Month; and Day parameters describe an un-representable DateTime. | 
+C#,java_lang_invoke_MethodTypeAutoTest,genericMethodType,RV-repr,TEST FAILED: Expected ()Object but got Generated.Test.MethodType | 
+C#,java_awt_AWTKeyStrokeAutoTest,getAWTKeyStroke,RV-value,TEST FAILED: 'Generated.Test.AWTKeyStroke' != 'typed a' | 
+C#,java_awt_AWTKeyStrokeAutoTest,getAWTKeyStroke,RV-value,TEST FAILED: 'Generated.Test.AWTKeyStroke' != 'typed a' | 
+C#,java_awt_AWTKeyStrokeAutoTest,getAWTKeyStroke,RV-value,TEST FAILED: 'Generated.Test.AWTKeyStroke' != 'pressed SPACE' | 
+C#,java_awt_AWTKeyStrokeAutoTest,getAWTKeyStroke,RV-value,TEST FAILED: 'Generated.Test.AWTKeyStroke' != 'pressed SPACE' | 
+C#,java_util_CalendarAutoTest,getAvailableCalendarTypes,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,javax_imageio_metadata_IIOMetadataNodeAutoTest,getBaseURI,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,java_util_ResourceBundleAutoTest,getBundle,RV-repr,TEST FAILED: locale2.toString() | 
+C#,java_util_ResourceBundleAutoTest,getBundle,RV-value,TEST FAILED: 'Generated.Test.Locale' != 'en_US' | 
+C#,java_util_ResourceBundleAutoTest,getBundle,RV-repr,TEST FAILED: locale1.toString() | 
+C#,java_util_ResourceBundleAutoTest,getBundle,RV-value,TEST FAILED: 'Generated.Test.Locale' != 'de' | 
+C#,java_util_ResourceBundleAutoTest,getBundle,RV-value,TEST FAILED: 'Generated.Test.Locale' != 'de' | 
+C#,java_text_BreakIteratorAutoTest,getCharacterInstance,RV-repr,TEST FAILED: Expected en but got Generated.Test.Locale | 
+C#,java_text_NumberFormatAutoTest,getCompactNumberInstance,RV-value,TEST FAILED: 'zh_TW_' != 'zh_TW' | 
+C#,java_text_NumberFormatAutoTest,getCurrencyInstance,RV-repr,TEST FAILED: locale0.toString() | 
+C#,java_text_NumberFormatAutoTest,getCurrencyInstance,RV-value,TEST FAILED: '' != '$0;000;000;000;000;000;000;000;000;000;000;000;000;000;000;000;000;000;000;000;000;000;000;000;000;0
+C#,java_util_Base64AutoTest,getDecoder,RV-repr,TEST FAILED: Expected System.Byte[] but got System.Byte[] | 
+C#,javax_swing_JComponentAutoTest,getDefaultLocale,RV-value,TEST FAILED: locale1.Language != 'ko' | 
+C#,java_net_ProxySelectorAutoTest,getDefault,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,java_util_random_RandomGeneratorFactoryAutoTest,getDefault,RV-value,TEST FAILED: '0' != '96' | 
+C#,javax_smartcardio_TerminalFactoryAutoTest,getDefault,RV-repr,TEST FAILED: Expected TerminalFactory for type None from provider None but got Generated.Test.TerminalFactory | 
+C#,java_awt_dnd_DragSourceAutoTest,getDragThreshold,RV-value,TEST FAILED: '0' != '5' | 
+C#,java_util_Base64AutoTest,getEncoder,RV-repr,TEST FAILED: Expected System.Byte[] but got System.Byte[] | 
+C#,java_awt_geom_CubicCurve2DAutoTest,getFlatnessSq,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,java_awt_FrameAutoTest,getFrames,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,java_util_logging_LoggerAutoTest,getGlobal,RV-repr,TEST FAILED: handlerArray1 == new Handler[] {} | 
+C#,java_util_LocaleAutoTest,getISO3Country,RV-value,TEST FAILED: '??' != '' | 
+C#,java_util_LocaleAutoTest,getISO3Language,RV-value,TEST FAILED: 'zh??' != 'zho' | 
+C#,jdk_dynalink_linker_support_GuardsAutoTest,getIdentityGuard,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,java_lang_StackWalkerAutoTest,getInstance,RV-value,TEST FAILED: optionArray2 != expected | 
+C#,java_lang_StackWalkerAutoTest,getInstance,RV-value,TEST FAILED: 'System.Collections.Generic.HashSet`1[Generated.Test.StackWalker+Option]' != '[]' | 
+C#,javax_xml_crypto_dsig_XMLSignatureFactoryAutoTest,getInstance,RV-repr,TEST FAILED: Value cannot be null. | Parameter name: provider | 
+C#,java_util_CalendarAutoTest,getInstance,RV-repr,TEST FAILED: Expected Greenwich Mean Time but got China Standard Time | 
+C#,java_util_CalendarAutoTest,getInstance,RV-repr,TEST FAILED: Expected Greenwich Mean Time but got China Standard Time | 
+C#,java_util_CalendarAutoTest,getInstance,RV-repr,TEST FAILED: Expected Greenwich Mean Time but got China Standard Time | 
+C#,java_util_CurrencyAutoTest,getInstance,RV-repr,TEST FAILED: currencyCode is not a supported ISO 4217 code. | Parameter name: currencyCode | 
+C#,java_util_CurrencyAutoTest,getInstance,RV-repr,TEST FAILED: currencyCode is not a supported ISO 4217 code. | Parameter name: currencyCode | 
+C#,java_awt_color_ICC_ProfileAutoTest,getInstance,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,javax_xml_crypto_dsig_keyinfo_KeyInfoFactoryAutoTest,getInstance,RV-repr,TEST FAILED: Value cannot be null. | Parameter name: provider | 
+C#,java_text_NumberFormatAutoTest,getInstance,RV-repr,TEST FAILED: locale0.toString() | 
+C#,java_text_NumberFormatAutoTest,getIntegerInstance,RV-repr,TEST FAILED: locale0.toString() | 
+C#,java_text_BreakIteratorAutoTest,getLineInstance,RV-value,"TEST FAILED: locale0.toString() != ""zh_TW"" | "
+C#,java_awt_GraphicsEnvironmentAutoTest,getLocalGraphicsEnvironment,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,java_net_InetAddressAutoTest,getLoopbackAddress,RV-value,TEST FAILED: 'Generated.Test.InetAddress' != 'localhost/127.0.0.1' | 
+C#,javax_management_relation_RoleInfoAutoTest,getMaxDegree,RV-value,TEST FAILED: '0' != '1' | 
+C#,javax_sound_midi_MidiSystemAutoTest,getMidiFileTypes,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,java_util_Base64AutoTest,getMimeDecoder,RV-repr,TEST FAILED: Expected System.Byte[] but got System.Byte[] | 
+C#,javax_management_relation_RoleInfoAutoTest,getMinDegree,RV-repr,TEST FAILED: incorrect min degree | 
+C#,javax_sound_sampled_AudioSystemAutoTest,getMixerInfo,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,jdk_dynalink_NamespaceOperationAutoTest,getNamespaces,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,jdk_dynalink_NamespaceOperationAutoTest,getNamespaces,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,java_text_NumberFormatAutoTest,getNumberInstance,RV-value,TEST FAILED: '__' != '' | 
+C#,java_security_GuardedObjectAutoTest,getObject,RV-repr,TEST FAILED: assertEquals failed | 
+C#,java_text_NumberFormatAutoTest,getPercentInstance,RV-value,"TEST FAILED: locale0.toString() != ""zh_CN"" | "
+C#,javax_management_relation_RoleUnresolvedAutoTest,getProblemType,RV-repr,TEST FAILED: roleValue is null | 
+C#,javax_imageio_ImageIOAutoTest,getReaderMIMETypes,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,javax_management_relation_RoleInfoAutoTest,getRefMBeanClassName,RV-value,TEST FAILED: 'Generated.Test.RoleInfo' != 'role info name: hi!; isReadable: true; isWritable: true; description: null; m
+C#,javax_management_relation_RoleUnresolvedAutoTest,getRoleName,RV-repr,TEST FAILED: roleValue is null | 
+C#,javax_management_relation_RoleUnresolvedAutoTest,getRoleValue,RV-repr,TEST FAILED: roleValue is null | 
+C#,javax_imageio_metadata_IIOMetadataNodeAutoTest,getSchemaTypeInfo,RV-repr,TEST FAILED: Expected  but got  | 
+C#,java_text_BreakIteratorAutoTest,getSentenceInstance,RV-repr,TEST FAILED: Expected de but got Generated.Test.Locale | 
+C#,javax_sound_sampled_AudioSystemAutoTest,getSourceLineInfo,RV-repr,TEST FAILED: assertArrayEquals | 
+C#,javax_sound_sampled_AudioSystemAutoTest,getTargetLineInfo,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,javax_security_auth_kerberos_KeyTabAutoTest,getUnboundInstance,RV-value,TEST FAILED: 'Generated.Test.KeyTab' != 'Default keytab' | 
+C#,java_util_Base64AutoTest,getUrlDecoder,RV-repr,TEST FAILED: Expected System.Byte[] but got System.Byte[] | 
+C#,java_util_Base64AutoTest,getUrlEncoder,RV-repr,TEST FAILED: Expected System.Byte[] but got System.Byte[] | 
+C#,java_text_BreakIteratorAutoTest,getWordInstance,RV-repr,TEST FAILED: Expected ko_KR but got Generated.Test.Locale | 
+C#,javax_imageio_ImageIOAutoTest,getWriterMIMETypes,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,java_util_concurrent_ForkJoinTaskAutoTest,invokeAll,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,java_util_concurrent_ForkJoinTaskAutoTest,invokeAll,RV-repr,TEST FAILED: forkJoinTaskArray1 | 
+C#,java_util_concurrent_ForkJoinTaskAutoTest,invokeAll,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,java_nio_file_FilesAutoTest,isExecutable,RV-value,TEST FAILED: 'False' != 'True' | 
+C#,javax_sound_sampled_AudioSystemAutoTest,isFileTypeSupported,RV-value,TEST FAILED: 'javax.sound.sampled.AudioFileFormat+Type' != 'AU' | 
+C#,jdk_dynalink_linker_support_GuardsAutoTest,isNotNull,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,jdk_dynalink_linker_support_GuardsAutoTest,isNull,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,javax_management_relation_RoleInfoAutoTest,isReadable,RV-value,TEST FAILED: 'Generated.Test.RoleInfo' != 'role info name: hi!; isReadable: true; isWritable: true; description: null; m
+C#,java_nio_file_FilesAutoTest,isReadable,RV-value,TEST FAILED: 'False' != 'True' | 
+C#,java_nio_file_FilesAutoTest,isSymbolicLink,RV-value,TEST FAILED: strArray1 != new string[] {} | 
+C#,javax_management_relation_RoleInfoAutoTest,isWritable,RV-value,TEST FAILED: 'False' != 'True' | 
+C#,java_nio_file_FilesAutoTest,isWritable,RV-repr,TEST FAILED: The specified path is not of a legal form (empty). | 
+C#,java_awt_font_TextHitInfoAutoTest,leading,RV-repr,TEST FAILED: Expected TextHitInfo[0L] but got TextHitInfo[0;L] | 
+C#,javax_print_PrintServiceLookupAutoTest,lookupPrintServices,RV-repr,TEST FAILED: printServiceArray2 | 
+C#,javax_print_StreamPrintServiceFactoryAutoTest,lookupStreamPrintServiceFactories,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,java_util_stream_CollectorsAutoTest,minBy,RV-value,TEST FAILED: '1' != '3' | 
+C#,java_applet_AppletAutoTest,newAudioClip,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,java_net_http_HttpRequestAutoTest,newBuilder,RV-repr,TEST FAILED: Invalid URI: The URI is empty. | 
+C#,java_util_ObjectsAutoTest,nonNull,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,java_time_chrono_HijrahDateAutoTest,now,RV-repr,TEST FAILED: Expected Hijrah-umalqura AH 1448-02-22 but got Generated.Test.HijrahDate | 
+C#,java_time_LocalDateAutoTest,now,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,java_time_LocalDateAutoTest,now,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,java_time_LocalTimeAutoTest,now,RV-repr,TEST FAILED: Expected 15 but got 40 | 
+C#,java_lang_constant_DynamicConstantDescAutoTest,ofCanonical,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,java_lang_constant_ConstantDescsAutoTest,ofConstantBootstrap,RV-repr,TEST FAILED: classDescArray3 | 
+C#,java_time_format_DecimalStyleAutoTest,ofDefaultLocale,RV-repr,TEST FAILED: Expected DecimalStyle[0+-.] but got Generated.Test.DecimalStyle | 
+C#,java_time_DurationAutoTest,ofMinutes,RV-value,TEST FAILED: 'Generated.Test.Duration' != 'PT35H' | 
+C#,java_lang_constant_DynamicConstantDescAutoTest,ofNamed,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,java_time_LocalTimeAutoTest,ofNanoOfDay,RV-repr,TEST FAILED: Expected 00:00:00.000000001 but got Generated.Test.LocalTime | 
+C#,java_time_DurationAutoTest,ofNanos,RV-value,TEST FAILED: 'Generated.Test.Duration' != 'PT0.0000001S' | 
+C#,java_util_OptionalAutoTest,ofNullable,RV-repr,TEST FAILED: Expected Optional[Optional[hi!]] but got Generated.Test.Optional | 
+C#,java_time_format_DateTimeFormatterAutoTest,ofPattern,RV-value,TEST FAILED: locale1.toString() != 'zh' | 
+C#,java_time_LocalDateAutoTest,ofYearDay,RV-repr,TEST FAILED: Year; Month; and Day parameters describe an un-representable DateTime. | 
+C#,java_util_random_RandomGeneratorFactoryAutoTest,of,RV-value,TEST FAILED: '' != 'LXM' | 
+C#,java_time_temporal_ValueRangeAutoTest,of,RV-repr,TEST FAILED: Expected 0 - 100 but got 0-100 | 
+C#,java_time_temporal_WeekFieldsAutoTest,of,RV-repr,TEST FAILED: Value cannot be null. | Parameter name: locale | 
+C#,java_time_ZoneIdAutoTest,of,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,java_time_format_DecimalStyleAutoTest,of,RV-repr,TEST FAILED: Expected it but got en_US_ | 
+C#,java_lang_constant_DynamicCallSiteDescAutoTest,of,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,java_lang_constant_DynamicConstantDescAutoTest,of,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,java_util_HexFormatAutoTest,of,RV-value,"TEST FAILED: 'Generated.Test.HexFormat' != 'uppercase: false; delimiter: """"; prefix: """"; suffix: """"' | "
+C#,java_time_chrono_JapaneseEraAutoTest,of,RV-repr,TEST FAILED: Expected Heisei but got Generated.Test.JapaneseEra | 
+C#,java_time_LocalTimeAutoTest,of,RV-repr,TEST FAILED: Expected 00:10 but got Generated.Test.LocalTime | 
+C#,java_util_OptionalAutoTest,of,RV-repr,TEST FAILED: Expected Optional[hi!] but got Generated.Test.Optional | 
+C#,java_util_OptionalDoubleAutoTest,of,RV-value,TEST FAILED: 'Generated.Test.OptionalDouble' != 'OptionalDouble[35.0]' | 
+C#,java_util_OptionalLongAutoTest,of,RV-repr,TEST FAILED: Expected OptionalLong[0] but got Generated.Test.OptionalLong | 
+C#,java_rmi_server_LogStreamAutoTest,parseLevel,RV-repr,TEST FAILED: Invalid log level:  | 
+C#,java_time_MonthDayAutoTest,parse,RV-repr,TEST FAILED: Expected en_US but got --MM-dd | 
+C#,java_time_OffsetTimeAutoTest,parse,RV-repr,TEST FAILED: Expected en_US but got Generated.Test.DateTimeFormatter | 
+C#,java_time_PeriodAutoTest,parse,RV-value,TEST FAILED: 'Generated.Test.Period' != 'P0D' | 
+C#,javax_swing_RowFilterAutoTest,regexFilter,RV-repr,TEST FAILED: Expected System.Int32[] but got System.Int32[] | 
+C#,java_util_ObjectsAutoTest,requireNonNull,RV-repr,TEST FAILED: 10 | 
+C#,java_util_ObjectsAutoTest,requireNonNull,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,javax_management_relation_RoleAutoTest,roleValueToString,RV-value,TEST FAILED: 'System.Object[]' != 'System.Object[]' | 
+C#,javax_net_ssl_HttpsURLConnectionAutoTest,setDefaultHostnameVerifier,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,javax_swing_JComponentAutoTest,setDefaultLocale,RV-repr,TEST FAILED: Expected  but got Generated.Test.Locale | 
+C#,java_net_ProxySelectorAutoTest,setDefault,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,java_util_TimeZoneAutoTest,setDefault,RV-value,TEST FAILED: 'CST' != 'Asia/Shanghai' | 
+C#,javax_management_ImmutableDescriptorAutoTest,setField,RV-value,TEST FAILED: '' != '{}' | 
+C#,java_sql_DriverManagerAutoTest,setLogWriter,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,jdk_jfr_RecordingAutoTest,setMaxAge,RV-repr,TEST FAILED: Nullable object must have a value. | 
+C#,java_util_CollectionsAutoTest,synchronizedSet,RV-repr,TEST FAILED: randomAccessArray1 | 
+C#,java_util_prefs_PreferencesAutoTest,systemRoot,RV-repr,TEST FAILED: Expected System Preference Node: / but got Generated.Test.Preferences | 
+C#,java_util_CollectionsAutoTest,unmodifiableCollection,RV-repr,TEST FAILED: Object reference not set to an instance of an object | 
+C#,java_time_chrono_JapaneseEraAutoTest,valueOf,RV-repr,TEST FAILED: No enum constant JapaneseEra.Showa | Parameter name: name | 
+C#,java_nio_CharBufferAutoTest,wrap,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,java_nio_CharBufferAutoTest,wrap,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,java_nio_CharBufferAutoTest,wrap,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,java_nio_IntBufferAutoTest,wrap,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,java_nio_IntBufferAutoTest,wrap,RV-repr,TEST FAILED: assertArrayEquals failed | 
+C#,javax_smartcardio_TerminalFactoryAutoTest,getDefaultType,RV-value,TEST FAILED: 'PC/SC' != 'None' | 
+C++,AbstractUndoableEditAutoTest,getundopresentationname,RV-value,"[value_mismatch] str2 == ""Undo"""
+C++,ActionEventAutoTest,getwhen,RV-value,[value_mismatch] long4 == 0L
+C++,AllPermissionAutoTest,getactions,RV-value,"[value_mismatch] str3 == ""<all actions>"""
+C++,AnnotationAutoTest,getvalue,CR-signal,[other] terminate called after throwing an instance of 'std::bad_any_cast' |   what():  bad any_cast | 
+C++,AreaAutoTest,isrectangular,RV-value,[value_mismatch] boolean3 == true
+C++,AreaAutoTest,issingular,RV-value,[value_mismatch] boolean2 == true
+C++,AsyncBoxViewAutoTest,getmaximumspan,RV-value,[value_mismatch] float4 == 2.14748365E9f
+C++,AsyncBoxViewAutoTest,getminimumspan,RV-value,[value_mismatch] float4 == 5.0f
+C++,AsyncBoxViewAutoTest,getminoraxis,RV-value,[value_mismatch] int3 == 0
+C++,AsyncBoxViewAutoTest,getpreferredspan,RV-value,[value_mismatch] float4 == 30.0f
+C++,AudioFileFormatAutoTest,tostring,RV-null,"[null_check_failed] str4 == ""AU (.au) file, data format: null"""
+C++,BadAttributeValueExpExceptionAutoTest,tostring,CR-signal,[other] terminate called after throwing an instance of 'std::runtime_error' |   what():  'javax.management.BadAttributeV
+C++,BasicButtonListenerAutoTest,uninstallkeyboardactions,EX-missing,"[expected_exception_not_thrown] false && ""Expected exception of type java.lang.NullPointerException"""
+C++,BasicCheckBoxUIAutoTest,getpropertyprefix,RV-value,"[value_mismatch] str1 == ""CheckBox."""
+C++,BasicEditorPaneUIAutoTest,uninstallui,EX-missing,[expected_exception_not_thrown] uncaught C++ exception (Java expected exception)
+C++,BasicFileChooserUIAutoTest,createlistselectionlistener,RV-null,[null_check_failed] listSelectionListener3 != nullptr
+C++,BasicFileChooserUIAutoTest,createui,RV-null,[null_check_failed] componentUI4 != nullptr
+C++,BasicFileChooserUIAutoTest,getcancelselectionaction,RV-null,[null_check_failed] action4 != nullptr
+C++,BasicFileChooserUIAutoTest,getchangetoparentdirectoryaction,RV-null,[null_check_failed] action3 != nullptr
+C++,BasicFileChooserUIAutoTest,getfileview,RV-null,[null_check_failed] fileView4 != nullptr
+C++,BasicFileChooserUIAutoTest,getgohomeaction,RV-null,[null_check_failed] action2 != nullptr
+C++,BasicFileChooserUIAutoTest,getnewfolderaction,RV-null,[null_check_failed] action3 != nullptr
+C++,BasicFileChooserUIAutoTest,getupdateaction,RV-null,[null_check_failed] action3 != nullptr
+C++,BasicFileChooserUIAutoTest,uninstallui,EX-missing,"[expected_exception_not_thrown] false && ""Expected exception of type std::exception (simulating NullPointerException)"""
+C++,BasicSpinnerUIAutoTest,installui,EX-missing,"[expected_exception_not_thrown] false && ""Expected NullPointerException"""
+C++,BasicTextAreaUIAutoTest,getpreferredsize,CR-signal,runtime crash (CRASH(1))
+C++,BasicToolBarUIAutoTest,setrolloverborders,EX-missing,"[expected_exception_not_thrown] false && ""Expected exception of type java.lang.NullPointerException; message: Cannot inv"
+C++,BasicTreeUIAutoTest,getmaximumsize,RV-null,[null_check_failed] dimension4 != nullptr
+C++,BasicTreeUIAutoTest,getminimumsize,RV-null,[null_check_failed] dimension4 != nullptr
+C++,BasicTreeUIAutoTest,getpreferredsize,RV-null,[null_check_failed] dimension2 != nullptr
+C++,BeansAutoTest,isguiavailable,RV-value,[value_mismatch] boolean0 == true
+C++,BidiAutoTest,getrunlimit,RV-value,[value_mismatch] int4 == 2
+C++,BidiAutoTest,tostring,RV-value,"[value_mismatch] (""toString result mismatch"", str3 == expected)"
+C++,BigDecimalAutoTest,negate,CR-signal,[other] terminate called after throwing an instance of 'std::runtime_error' |   what():  negate of zero should be zero |
+C++,BindingAutoTest,tostring,CR-signal,"[other] terminate called after throwing an instance of 'std::runtime_error' |   what():  Assertion failed: expected "": j"
+C++,BlockViewAutoTest,getmaximumspan,RV-value,[value_mismatch] float4 == 2.14748365E9f
+C++,BorderUIResourceAutoTest,isborderopaque,RV-value,[value_mismatch] boolean2 == true
+C++,BoxViewAutoTest,getmaximumspan,RV-value,[value_mismatch] result == expected
+C++,BufferedImageAutoTest,getalpharaster,RV-null,[null_check_failed] writableRaster4 == nullptr
+C++,BufferedImageAutoTest,getnumytiles,RV-value,[value_mismatch] int4 == 1
+C++,BufferedImageAutoTest,gettransparency,RV-value,[value_mismatch] int4 == 3
+C++,BufferedImageAutoTest,hastilewriters,RV-value,[value_mismatch] result == true
+C++,ButtonGroupAutoTest,isselected,RV-value,[value_mismatch] boolean2 == true
+C++,CharacterAutoTest,reversebytes,CR-signal,[other] signal -6
+C++,CharacterAutoTest,getdirectionality,RV-value,[value_mismatch] byte1 == 5
+C++,CharacterAutoTest,gettype,RV-value,[value_mismatch] int1 == 15
+C++,CharacterAutoTest,isbmpcodepoint,RV-value,[value_mismatch] boolean1 == false
+C++,CharacterAutoTest,isjavaidentifierpart,RV-value,"[value_mismatch] boolean1 == false && ""Expected false"""
+C++,CharacterAutoTest,isjavaidentifierpart,RV-value,[value_mismatch] boolean1 == false
+C++,CharacterAutoTest,isjavaidentifierstart,RV-value,[value_mismatch] boolean1 == false
+C++,CharacterAutoTest,isletterordigit,RV-value,[value_mismatch] result == true
+C++,CharacterAutoTest,islowercase,RV-value,[value_mismatch] boolean1 == true
+C++,CharacterAutoTest,islowercase,RV-value,[value_mismatch] boolean1 == true
+C++,CharacterAutoTest,tochars,RV-value,[value_mismatch] !result.empty()
+C++,ColorAutoTest,hsbtorgb,CR-signal,[other] terminate called after throwing an instance of 'std::runtime_error' |   what():  Assertion failed: int3 == -165 
+C++,CompoundEditAutoTest,issignificant,RV-value,[value_mismatch] boolean1 == false
+C++,ConcurrentLinkedDequeAutoTest,addlast,EX-missing,"[expected_exception_not_thrown] false && ""Expected NullPointerException"""
+C++,ContainerAutoTest,getalignmenty,RV-value,[value_mismatch] float2 == 0.5f
+C++,ContainerAutoTest,isfocuscycleroot,RV-value,[value_mismatch] !focusListenerArray2.empty()
+C++,ContainerOrderFocusTraversalPolicyAutoTest,getimplicitdowncycletraversal,RV-value,[value_mismatch] result == true
+C++,CounterMonitorAutoTest,getmodulus,RV-value,[value_mismatch] number4 == 0
+C++,DateAutoTest,after,RV-value,"[value_mismatch] date1.toString() == ""Thu Jan 01 08:00:00 CST 1970"""
+C++,DateAutoTest,equals,RV-value,[value_mismatch] actual == expected
+C++,DateAutoTest,getdate,RV-value,[value_mismatch] int1 == 17
+C++,DateAutoTest,getday,RV-value,"[value_mismatch] date1.toString() == ""Thu Jan 01 07:59:59 CST 1970"""
+C++,DateAutoTest,getminutes,RV-value,[value_mismatch] int2 == 28
+C++,DateAutoTest,getseconds,RV-value,"[value_mismatch] instance.toString() == ""Thu Jan 01 07:59:59 CST 1970"""
+C++,DateAutoTest,setseconds,RV-value,"[value_mismatch] instance.toString() == ""Fri Jul 17 02:27:00 CST 2026"""
+C++,DateAutoTest,settime,RV-value,"[value_mismatch] instance.toString() == ""Thu Jan 01 08:00:00 CST 1970"""
+C++,DateAutoTest,setyear,RV-value,"[value_mismatch] date1.toString() == ""Wed Jan 01 08:00:00 CST 1997"""
+C++,DateAutoTest,tostring,RV-value,"[value_mismatch] result == ""Thu Jan 01 08:00:00 CST 1970"""
+C++,DebugGraphicsAutoTest,setclip,CR-signal,[other] signal -6
+C++,DecimalFormatSymbolsAutoTest,getpermill,CR-signal,[other] terminate called after throwing an instance of 'std::runtime_error' |   what():  Assertion failed: getPerMill() 
+C++,DefaultHighlighterAutoTest,getdrawslayeredhighlights,RV-value,[value_mismatch] boolean1 == true
+C++,DefaultListModelAutoTest,indexof,CR-signal,[other] terminate called after throwing an instance of 'std::out_of_range' |   what():  startIndex out of bounds in inde
+C++,DefaultStyledDocumentAutoTest,getcharacterelement,RV-null,[null_check_failed] element4 != nullptr
+C++,DefaultStyledDocumentAutoTest,getdefaultrootelement,RV-null,[null_check_failed] element != nullptr
+C++,DefaultStyledDocumentAutoTest,getforeground,RV-null,[null_check_failed] color4 != nullptr
+C++,DefaultStyledDocumentAutoTest,getlogicalstyle,RV-null,[null_check_failed] style2 != nullptr
+C++,DefaultTreeSelectionModelAutoTest,removeselectionpath,RV-value,[value_mismatch] int1 == 4
+C++,DeflaterAutoTest,deflate,RV-value,[value_mismatch] int4 == 2
+C++,DeflaterAutoTest,deflate,RV-value,[value_mismatch] int4 == 2
+C++,DeflaterAutoTest,deflate,RV-value,[value_mismatch] int4 == 2
+C++,DescriptorSupportAutoTest,tostring,RV-value,"[value_mismatch] str2 == """""
+C++,DocFlavorAutoTest,getmimetype,RV-value,"[value_mismatch] str3 == ""text/plain; charset=utf-16be"""
+C++,DocFlavorAutoTest,getrepresentationclassname,RV-value,"[value_mismatch] str3 == ""text/plain; charset=\""utf-16be\"""""
+C++,DoubleAccumulatorAutoTest,tostring,RV-value,"[value_mismatch] str3 == ""0.0"""
+C++,DoubleAutoTest,tostring,RV-value,"[value_mismatch] str1 == ""0.0"""
+C++,EncoderAutoTest,getexceptionlistener,RV-null,[null_check_failed] exceptionListener1 != nullptr
+C++,EntityAutoTest,getstring,CR-signal,[other] terminate called after throwing an instance of 'std::runtime_error' |   what():  Assertion failed: '&;' != '' | 
+C++,EtchedBorderAutoTest,getetchtype,RV-value,[value_mismatch] int1 == 1
+C++,FeatureDescriptorAutoTest,getvalue,RV-value,"[value_mismatch] instance.toString() == ""FeatureDescriptor[name=]"""
+C++,FeatureDescriptorAutoTest,setname,RV-value,"[value_mismatch] instance.toString() == ""FeatureDescriptor[name=]"""
+C++,FieldPositionAutoTest,tostring,RV-value,[value_mismatch] str2 == expected
+C++,FilteredImageSourceAutoTest,removeconsumer,CR-signal,runtime crash (CRASH(-11))
+C++,FilteredImageSourceAutoTest,requesttopdownleftrightresend,CR-signal,runtime crash (CRASH(-11))
+C++,FixedHeightLayoutCacheAutoTest,getpathclosestto,RV-null,[null_check_failed] treePath3 == nullptr
+C++,FontAutoTest,candisplay,RV-value,[value_mismatch] boolean4 == false
+C++,FontAutoTest,candisplay,RV-value,[value_mismatch] boolean4 == false
+C++,GregorianCalendarAutoTest,getactualminimum,RV-value,[value_mismatch] int2 == 1
+C++,GregorianCalendarAutoTest,getmaximum,RV-value,[value_mismatch] int4 == 1
+C++,GregorianCalendarAutoTest,getweeksinweekyear,RV-value,[value_mismatch] int4 == 52
+C++,HTMLDocumentAutoTest,getpreservesunknowntags,RV-value,[value_mismatch] result == true
+C++,HTMLDocumentAutoTest,getreader,RV-null,[null_check_failed] ret != nullptr
+C++,HTMLDocumentAutoTest,getreader,RV-null,[null_check_failed] parserCallback != nullptr
+C++,HTMLEditorKitAutoTest,createdefaultdocument,RV-null,[null_check_failed] document1 != nullptr
+C++,HTMLEditorKitAutoTest,getlinkcursor,RV-null,[null_check_failed] cursor3 != nullptr
+C++,HTMLEditorKitAutoTest,getviewfactory,RV-null,[null_check_failed] viewFactory != nullptr
+C++,HashSetAutoTest,spliterator,RV-null,[null_check_failed] objSpliterator1 != nullptr
+C++,HttpCookieAutoTest,clone,RV-value,"[value_mismatch] obj3->toString() == ""hi!=\""\"""""
+C++,ImageViewAutoTest,getalignment,RV-value,[value_mismatch] float3 == 0.5f
+C++,ImageViewAutoTest,getnoimageicon,RV-value,[value_mismatch] icon2 != 0
+C++,InflaterInputStreamAutoTest,mark,CR-signal,[other] terminate called after throwing an instance of 'std::runtime_error' |   what():  mark not supported | 
+C++,InputMapAutoTest,put,CR-signal,[other] terminate called after throwing an instance of 'std::runtime_error' |   what():  NullPointerException | 
+C++,IntSummaryStatisticsAutoTest,accept,RV-value,[value_mismatch] instance.toString() == expected
+C++,IntSummaryStatisticsAutoTest,getsum,RV-value,[value_mismatch] instance.toString() == expected
+C++,InternationalFormatterAutoTest,getfields,CR-signal,[other] signal -6
+C++,JDesktopPaneAutoTest,getdesktopmanager,RV-null,[null_check_failed] desktopManager != nullptr
+C++,JLabelAutoTest,getaccessiblecontext,RV-null,[null_check_failed] accessibleContext3 != nullptr
+C++,JLabelAutoTest,getdisplayedmnemonic,RV-null,[null_check_failed] vetoableChangeListenerArray1.data() != nullptr
+C++,JLayeredPaneAutoTest,getcomponentsinlayer,RV-value,[value_mismatch] !componentArray4.empty()
+C++,JListAutoTest,getaccessiblecontext,RV-value,[value_mismatch] vetoableChangeListenerArray3.empty() == false
+C++,JListAutoTest,getselectedindices,RV-value,[value_mismatch] color1.r == 0 && color1.g == 0 && color1.b == 0
+C++,JListAutoTest,getselectionmodel,RV-null,[null_check_failed] listSelectionModel4 != nullptr
+C++,JMXPrincipalAutoTest,tostring,RV-value,"[value_mismatch] str2 == ""JMXPrincipal:  """
+C++,JOptionPaneAutoTest,geticon,RV-null,[null_check_failed] componentArray3.data() != nullptr
+C++,JOptionPaneAutoTest,setui,RV-value,[value_mismatch] int1 == -1
+C++,JOptionPaneAutoTest,setvalue,RV-null,[null_check_failed] mouseListenerArray2.data() != nullptr
+C++,JOptionPaneAutoTest,showinternalconfirmdialog,EX-missing,[expected_exception_not_thrown] uncaught C++ exception (Java expected exception)
+C++,JScrollBarAutoTest,getorientation,RV-value,[value_mismatch] int4 == 1
+C++,JScrollPaneAutoTest,getverticalscrollbar,RV-null,[null_check_failed] bar != nullptr
+C++,JScrollPaneAutoTest,getviewport,RV-null,[null_check_failed] viewport != nullptr
+C++,JScrollPaneAutoTest,setverticalscrollbarpolicy,CR-signal,runtime crash (CRASH(1))
+C++,JSliderAutoTest,getchangelisteners,RV-null,[null_check_failed] accessibleContext2 != nullptr
+C++,JSliderAutoTest,getmajortickspacing,RV-null,[null_check_failed] accessibleContext2 != nullptr
+C++,JSliderAutoTest,setminimum,RV-null,[null_check_failed] rectangle2 != nullptr
+C++,JSplitPaneAutoTest,getrightcomponent,RV-null,[null_check_failed] component4 != nullptr
+C++,JSplitPaneAutoTest,getui,RV-null,[null_check_failed] splitPaneUI4 != nullptr
+C++,JTabbedPaneAutoTest,add,EX-missing,[expected_exception_not_thrown] false
+C++,JTabbedPaneAutoTest,add,EX-missing,[expected_exception_not_thrown] false
+C++,JTabbedPaneAutoTest,getbackgroundat,EX-missing,[expected_exception_not_thrown] false
+C++,JTabbedPaneAutoTest,getboundsat,EX-missing,[expected_exception_not_thrown] false
+C++,JTabbedPaneAutoTest,getdisablediconat,EX-missing,[expected_exception_not_thrown] false
+C++,JTabbedPaneAutoTest,gettabcomponentat,EX-missing,[expected_exception_not_thrown] false
+C++,JTabbedPaneAutoTest,gettablayoutpolicy,CR-signal,[other] terminate called after throwing an instance of 'std::runtime_error' |   what():  '1' != '0' | 
+C++,JTabbedPaneAutoTest,getui,RV-null,[null_check_failed] ui != nullptr
+C++,JTableAutoTest,getautoresizemode,RV-value,[value_mismatch] boolean3 == true
+C++,JTableAutoTest,getrowheight,RV-value,[value_mismatch] int2 == 16
+C++,JTableAutoTest,getrowheight,RV-value,[value_mismatch] int2 == 16
+C++,JTableAutoTest,getscrollabletracksviewportwidth,RV-value,[value_mismatch] boolean0 == true
+C++,JTableAutoTest,getselectedrows,RV-value,[value_mismatch] !intArray3.empty()
+C++,JTableAutoTest,getui,RV-null,[null_check_failed] tableUI4 != nullptr
+C++,JTableAutoTest,removecolumn,RV-value,[value_mismatch] boolean1 == true
+C++,JTableHeaderAutoTest,getui,RV-null,[null_check_failed] tableHeaderUI1 != nullptr
+C++,JTextFieldAutoTest,getaccessiblecontext,RV-null,[null_check_failed] accessibleContext4 != nullptr
+C++,JTreeAutoTest,cancelediting,RV-null,[null_check_failed] treeSelectionModel1 != nullptr
+C++,JTreeAutoTest,firetreeexpanded,RV-null,[null_check_failed] treeSelectionModel1 != nullptr
+C++,JTreeAutoTest,getcellrenderer,RV-null,[null_check_failed] treeCellRenderer4 != nullptr
+C++,JTreeAutoTest,getexpandsselectedpaths,RV-value,[value_mismatch] dropMode2 == DropMode::USE_SELECTION
+C++,JTreeAutoTest,getrowheight,RV-value,[value_mismatch] int2 == 0
+C++,JTreeAutoTest,removeselectionrow,RV-null,[null_check_failed] treeSelectionModel1 != nullptr
+C++,JViewportAutoTest,getui,RV-null,[null_check_failed] viewportUI != nullptr
+C++,KernelAutoTest,getxorigin,RV-value,[value_mismatch] result == -1
+C++,KernelAutoTest,getyorigin,RV-value,[value_mismatch] int4 == 25
+C++,KeyEventAutoTest,getkeytext,RV-value,"[value_mismatch] str1 == ""2"""
+C++,LDAPCertStoreParametersAutoTest,tostring,RV-value,[value_mismatch] str3 == expected
+C++,LocaleAutoTest,availablelocales,RV-value,[value_mismatch] !locales.empty()
+C++,LocaleAutoTest,casefoldlanguagetag,EX-missing,[expected_exception_not_thrown] false
+C++,LocaleAutoTest,of,RV-value,"[value_mismatch] locale2.toString() == ""hi!"""
+C++,LocaleAutoTest,of,RV-value,"[value_mismatch] locale2.toString() == ""hi!"""
+C++,LocaleAutoTest,clone,RV-value,"[value_mismatch] locale0.toString() == ""zh_TW"""
+C++,LocaleAutoTest,forlanguagetag,RV-value,"[value_mismatch] locale1.toString() == """""
+C++,LocaleAutoTest,getdisplaycountry,RV-value,"[value_mismatch] locale0.toString() == ""fr"""
+C++,LocaleAutoTest,getdisplaylanguage,RV-value,"[value_mismatch] str1 == ""意大利语"""
+C++,LocaleAutoTest,getdisplaylanguage,RV-value,"[value_mismatch] locale0.toString() == ""it_IT"""
+C++,LocaleAutoTest,getdisplayscript,RV-value,"[value_mismatch] locale1.toString() == ""kor"""
+C++,LocaleAutoTest,getdisplayvariant,RV-value,"[value_mismatch] locale0.toString() == ""ko_KR"""
+C++,LocaleAutoTest,getlanguage,RV-value,"[value_mismatch] locale0.toString() == ""zh_CN"""
+C++,LocaleAutoTest,getunicodelocalekeys,RV-value,"[value_mismatch] locale0.toString() == ""zh_CN"""
+C++,LocaleAutoTest,getunicodelocaletype,RV-value,"[value_mismatch] locale0.toString() == ""en_US"""
+C++,LocaleAutoTest,lookuptag,CR-signal,"[other] terminate called after throwing an instance of 'std::logic_error' |   what():  Expected null/empty result, but g"
+C++,LocaleAutoTest,stripextensions,RV-value,"[value_mismatch] locale1.toString() == ""cn"""
+C++,LocaleAutoTest,tostring,RV-value,"[value_mismatch] locale3.toString() == ""it"""
+C++,LongAccumulatorAutoTest,longvalue,CR-signal,[other] terminate called after throwing an instance of 'std::invalid_argument' |   what():  LongBinaryOperator must not 
+C++,LongSummaryStatisticsAutoTest,accept,RV-value,[value_mismatch] instance.toString() == expected
+C++,LongSummaryStatisticsAutoTest,accept,RV-value,[value_mismatch] instance.toString() == expected
+C++,LongSummaryStatisticsAutoTest,getaverage,RV-value,"[value_mismatch] instance.toString() == ""LongSummaryStatistics{count=0, sum=0, min=9223372036854775807, average=0.000"
+C++,LongSummaryStatisticsAutoTest,getcount,RV-value,"[value_mismatch] instance.toString() == ""LongSummaryStatistics{count=0, sum=0, min=9223372036854775807, average=0.000"
+C++,LongSummaryStatisticsAutoTest,getmax,RV-value,"[value_mismatch] instance.toString() == ""LongSummaryStatistics{count=0, sum=0, min=9223372036854775807, average=0.000"
+C++,LongSummaryStatisticsAutoTest,getmin,RV-value,"[value_mismatch] instance.toString() == ""LongSummaryStatistics{count=0, sum=0, min=9223372036854775807, average=0.000"
+C++,LongSummaryStatisticsAutoTest,getsum,RV-value,"[value_mismatch] instance.toString() == ""LongSummaryStatistics{count=0, sum=0, min=9223372036854775807, average=0.000"
+C++,LongSummaryStatisticsAutoTest,tostring,RV-value,[value_mismatch] result == expected
+C++,MBeanNotificationInfoAutoTest,clone,RV-value,"[value_mismatch] clonePtr->toString() == ""javax.management.MBeanNotificationInfo[description=javax.management.MBeanNo"
+C++,MBeanParameterInfoAutoTest,clone,CR-signal,[other] terminate called after throwing an instance of 'std::runtime_error' |   what():  toString mismatch: expected jav
+C++,MediaTrackerAutoTest,checkall,RV-value,[value_mismatch] boolean3 == true
+C++,MenuShortcutAutoTest,tostring,RV-value,"[value_mismatch] str == ""+Unknown keyCode: 0x0"""
+C++,MessageFormatAutoTest,format,CR-signal,[other] '[static format with 3 args]' != '' | terminate called after throwing an instance of 'std::runtime_error' |   wh
+C++,MetalCheckBoxIconAutoTest,geticonheight,RV-value,[value_mismatch] int1 == 13
+C++,MetalCheckBoxUIAutoTest,getpropertyprefix,RV-value,"[value_mismatch] str1 == ""CheckBox."" && ""Prefix mismatch"""
+C++,MouseEventAutoTest,getmousemodifierstext,RV-value,"[value_mismatch] str1 == """" && ""Expected empty string for getMouseModifiersText(0)"""
+C++,MultiListUIAutoTest,getaccessiblechild,EX-missing,"[expected_exception_not_thrown] false && ""Expected std::out_of_range (translated from java.lang.ArrayIndexOutOfBoundsExc"
+C++,MultiLookAndFeelAutoTest,getid,RV-value,"[value_mismatch] str2 == ""Multiplex"""
+C++,MultiLookAndFeelAutoTest,issupportedlookandfeel,RV-value,[value_mismatch] boolean1 == true
+C++,MultiMenuBarUIAutoTest,getaccessiblechild,EX-missing,"[expected_exception_not_thrown] false && ""Expected exception of type std::out_of_range"""
+C++,MultiMenuItemUIAutoTest,getaccessiblechildrencount,EX-missing,"[expected_exception_not_thrown] false && ""Expected exception of type std::out_of_range"""
+C++,MultiPopupMenuUIAutoTest,getmaximumsize,CR-signal,runtime crash (CRASH(1))
+C++,MultiPopupMenuUIAutoTest,getpreferredsize,EX-missing,[expected_exception_not_thrown] uncaught C++ exception (Java expected exception)
+C++,MultiScrollBarUIAutoTest,getpreferredsize,EX-missing,[expected_exception_not_thrown] false
+C++,MultiScrollPaneUIAutoTest,getaccessiblechildrencount,EX-missing,"[expected_exception_not_thrown] false && ""Expected exception of type std::out_of_range; message: 0 >= 0"""
+C++,MultiSpinnerUIAutoTest,getmaximumsize,EX-missing,"[expected_exception_not_thrown] false && ""Expected exception of type std::exception; message: 0 >= 0"""
+C++,MultiSplitPaneUIAutoTest,getdividerlocation,EX-missing,[expected_exception_not_thrown] false
+C++,MultiTextUIAutoTest,viewtomodel,EX-missing,"[expected_exception_not_thrown] false && ""Expected exception of type ArrayIndexOutOfBoundsException"""
+C++,NimbusLookAndFeelAutoTest,getdescription,RV-value,"[value_mismatch] str1 == ""Nimbus Look and Feel"""
+C++,NimbusLookAndFeelAutoTest,getid,RV-value,"[value_mismatch] str1 == ""Nimbus"""
+C++,NotificationAutoTest,tostring,CR-signal,[other] signal -6
+C++,PageFormatAutoTest,getorientation,RV-value,[value_mismatch] int1 == 1
+C++,ParameterBlockAutoTest,set,CR-signal,runtime crash (CRASH(-11))
+C++,ParameterBlockAutoTest,set,CR-signal,runtime crash (CRASH(-11))
+C++,ParameterBlockAutoTest,set,CR-signal,runtime crash (CRASH(-11))
+C++,ParameterBlockAutoTest,set,CR-signal,runtime crash (CRASH(-11))
+C++,ParameterBlockAutoTest,set,CR-signal,runtime crash (CRASH(-11))
+C++,ParameterBlockAutoTest,set,CR-signal,runtime crash (CRASH(-11))
+C++,PlainViewAutoTest,setsize,EX-missing,"[expected_exception_not_thrown] exceptionCaught && ""Expected NullPointerException-like exception"""
+C++,PrinterMessageFromOperatorAutoTest,getcategory,CR-signal,[other] terminate called after throwing an instance of 'std::runtime_error' |   what():  locale::facet::_S_create_c_loca
+C++,PrinterMessageFromOperatorAutoTest,getname,CR-signal,[other] terminate called after throwing an instance of 'std::runtime_error' |   what():  locale::facet::_S_create_c_loca
+C++,PrinterResolutionAutoTest,getcategory,CR-signal,[other] terminate called after throwing an instance of 'std::invalid_argument' |   what():  Units must be DPCM or DPI | 
+C++,PrinterResolutionAutoTest,getname,CR-signal,[other] terminate called after throwing an instance of 'std::invalid_argument' |   what():  Units must be DPCM or DPI | 
+C++,RandomAutoTest,nextdouble,RV-value,[value_mismatch] double3 == 43.70756986529507
+C++,RandomAutoTest,nextfloat,RV-value,[value_mismatch] float2 == 0.7284595f
+C++,RandomAutoTest,nextgaussian,CR-signal,[other] terminate called after throwing an instance of 'std::runtime_error' |   what():  nextGaussian test failed | 
+C++,RandomAutoTest,nextint,RV-value,[value_mismatch] result == 25
+C++,RandomAutoTest,nextint,RV-value,[value_mismatch] int2 == -348908809
+C++,RenderingHintsAutoTest,clone,RV-value,[value_mismatch] cloned->toString() == expected
+C++,RepaintManagerAutoTest,currentmanager,RV-null,[null_check_failed] repaintManager1 != nullptr
+C++,RepaintManagerAutoTest,setdoublebufferingenabled,CR-signal,runtime crash (CRASH(-11))
+C++,ResponseAPDUAutoTest,tostring,CR-signal,[other] terminate called after throwing an instance of 'std::logic_error' |   what():  'ResponseAPDU: 00 00' != 'Respons
+C++,RoleListAutoTest,set,EX-missing,[expected_exception_not_thrown] uncaught C++ exception (Java expected exception)
+C++,RoleStatusAutoTest,isrolestatus,RV-value,[value_mismatch] result == true
+C++,SSLParametersAutoTest,getnamedgroups,RV-value,[value_mismatch] boolean1 == true
+C++,SSLParametersAutoTest,getsignatureschemes,RV-value,[value_mismatch] boolean1 == true
+C++,SaslExceptionAutoTest,tostring,RV-value,"[value_mismatch] str2 == ""javax.security.sasl.SaslException: """
+C++,SecurityManagerAutoTest,checkexec,CR-signal,[other] signal -6
+C++,SimpleTimeZoneAutoTest,getdstsavings,RV-value,"[value_mismatch] instance.toString() == ""java.util.SimpleTimeZone[id=hi!,offset=100,dstSavings=3600000,useDaylight=fa"
+C++,SimpleTimeZoneAutoTest,getoffset,RV-value,"[value_mismatch] simpleTimeZone2.toString() == ""java.util.SimpleTimeZone[id=,offset=100,dstSavings=3600000,useDayligh"
+C++,SizeSequenceAutoTest,setsize,CR-signal,[other] terminate called after throwing an instance of 'std::out_of_range' |   what():  setSize: index out of range | 
+C++,SplittableRandomAutoTest,nextlong,RV-value,[value_mismatch] result == 375680647576599932L
+C++,StatementAutoTest,tostring,CR-signal,"[other] 'Statement[target=0, methodName=, arguments count=0]' != 'null.();' | terminate called after throwing an instanc"
+C++,StreamReaderDelegateAutoTest,getnamespacecount,EX-missing,"[expected_exception_not_thrown] false && ""Expected exception of type java.lang.NullPointerException; message: Cannot inv"
+C++,StringBufferAutoTest,appendcodepoint,RV-value,"[value_mismatch] instance.toString() == ""\000"""
+C++,StringBufferAutoTest,capacity,RV-value,[value_mismatch] int4 == 19
+C++,StringBufferAutoTest,insert,RV-value,"[value_mismatch] stringBuffer1.toString() == ""100.0"""
+C++,StringBufferAutoTest,insert,RV-value,"[value_mismatch] stringBuffer1.toString() == ""100.0"""
+C++,StringBufferAutoTest,insert,RV-value,"[value_mismatch] stringBuffer1.toString() == ""100.0"""
+C++,StringBufferAutoTest,insert,RV-value,"[value_mismatch] stringBuffer1.toString() == ""100.0"""
+C++,StringBufferAutoTest,insert,RV-value,"[value_mismatch] stringBuffer1.toString() == ""100.0"""
+C++,StringBufferAutoTest,insert,RV-value,"[value_mismatch] stringBuffer1.toString() == ""100.0"""
+C++,StringBufferAutoTest,insert,RV-value,"[value_mismatch] stringBuffer1.toString() == ""100.0"""
+C++,StringBufferAutoTest,insert,RV-value,"[value_mismatch] instance.toString() == ""100.0"""
+C++,StringBufferAutoTest,insert,RV-value,[value_mismatch] stringBuffer1.toString() == expected
+C++,StringBufferAutoTest,insert,RV-value,"[value_mismatch] instance.toString() == ""100.0"""
+C++,StringBufferAutoTest,insert,RV-value,"[value_mismatch] stringBuffer1.toString() == ""100.0"""
+C++,StringBuilderAutoTest,indexof,RV-value,[value_mismatch] int4 == 0
+C++,StringBuilderAutoTest,insert,RV-value,"[value_mismatch] stringBuilder1.toString() == ""100.0"""
+C++,StringBuilderAutoTest,insert,RV-value,"[value_mismatch] instance.toString() == ""100.0"""
+C++,StringBuilderAutoTest,insert,RV-value,"[value_mismatch] stringBuilder1.toString() == ""100.0"""
+C++,StringBuilderAutoTest,insert,CR-signal,[other] terminate called after throwing an instance of 'std::runtime_error' |   what():  Assertion failed: stringBuilder
+C++,StringBuilderAutoTest,insert,RV-value,[value_mismatch] stringBuilder1.toString() == expected
+C++,StringBuilderAutoTest,insert,RV-value,"[value_mismatch] instance.toString() == ""100.0"""
+C++,StringBuilderAutoTest,insert,RV-value,"[value_mismatch] stringBuilder1.toString() == ""100.0"""
+C++,StringBuilderAutoTest,insert,RV-value,"[value_mismatch] stringBuilder1.toString() == ""100.0"""
+C++,StringBuilderAutoTest,insert,RV-value,"[value_mismatch] stringBuilder1.toString() == ""100.0"""
+C++,StringBuilderAutoTest,insert,RV-value,"[value_mismatch] stringBuilder1.toString() == ""100.0"""
+C++,StringBuilderAutoTest,insert,RV-value,"[value_mismatch] stringBuilder1.toString() == ""100.0"""
+C++,StringBuilderAutoTest,insert,RV-value,"[value_mismatch] instance.toString() == ""100.0"""
+C++,StyleContextAutoTest,getstaticattribute,RV-value,"[value_mismatch] obj1.value != """""
+C++,StyleContextAutoTest,tostring,RV-value,[value_mismatch] expected == str1
+C++,StyleSheetAutoTest,getrule,RV-null,[null_check_failed] style2 != nullptr
+C++,SynthButtonUIAutoTest,getmaximumsize,EX-missing,"[expected_exception_not_thrown] false && ""Expected NullPointerException, but no exception was thrown"""
+C++,SynthMenuItemUIAutoTest,paint,EX-missing,[expected_exception_not_thrown] false
+C++,SynthMenuUIAutoTest,createui,RV-null,[null_check_failed] componentUI1 != nullptr
+C++,SynthMenuUIAutoTest,uninstallui,CR-signal,runtime crash (CRASH(1))
+C++,SynthProgressBarUIAutoTest,paint,EX-missing,"[expected_exception_not_thrown] false && ""Expected exception"""
+C++,SynthTableHeaderUIAutoTest,paint,EX-missing,"[expected_exception_not_thrown] false && ""Expected exception of type java.lang.NullPointerException; message: Cannot inv"
+C++,SynthViewportUIAutoTest,update,EX-missing,[expected_exception_not_thrown] false
+C++,TIFFDirectoryAutoTest,getasmetadata,RV-null,[null_check_failed] result != nullptr
+C++,TimerAutoTest,getlogtimers,RV-value,[value_mismatch] boolean0 == true
+C++,TimestampAutoTest,tostring,RV-value,[value_mismatch] str3 == expected
+C++,TreeModelEventAutoTest,getchildindices,RV-value,[value_mismatch] !intArray4.empty()
+C++,TreeSetAutoTest,descendingiterator,RV-null,[null_check_failed] iter != nullptr
+C++,TreeSetAutoTest,headset,RV-null,[null_check_failed] strSet4 != nullptr
+C++,TreeSetAutoTest,iterator,RV-null,[null_check_failed] it != nullptr
+C++,TreeSetAutoTest,subset,CR-signal,[other] terminate called after throwing an instance of 'std::runtime_error' |   what():  assertNotNull failed | 
+C++,TreeSetAutoTest,subset,RV-null,[null_check_failed] strSet3 != nullptr
+C++,UIManagerAutoTest,getsystemlookandfeelclassname,RV-value,"[value_mismatch] str0 == ""javax.swing.plaf.metal.MetalLookAndFeel"""
+C++,UndeclaredThrowableExceptionAutoTest,getundeclaredthrowable,CR-signal,[other] signal -6
+C++,XMLDecoderAutoTest,createhandler,RV-null,[null_check_failed] defaultHandler3 != nullptr
+C++,XMLFormatterAutoTest,gethead,CR-signal,[other] signal -6
+C++,java_awt_AWTKeyStrokeAutoTest,getAWTKeyStrokeForEvent,CR-silent,no_output
+C++,java_awt_DesktopAutoTest,isDesktopSupported,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_awt_DesktopAutoTest/isDeskto
+C++,java_awt_SystemTrayAutoTest,isSupported,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_awt_SystemTrayAutoTest/isSup
+C++,java_awt_datatransfer_SystemFlavorMapAutoTest,encodeDataFlavor,RV-repr,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_awt_datatransfer_SystemFlavo
+C++,java_awt_datatransfer_SystemFlavorMapAutoTest,encodeJavaMIMEType,RV-repr,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_awt_datatransfer_SystemFlavo
+C++,java_awt_dnd_DragSourceAutoTest,getDefaultDragSource,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_awt_dnd_DragSourceAutoTest/g
+C++,java_awt_dnd_DragSourceAutoTest,getDragThreshold,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_awt_dnd_DragSourceAutoTest/g
+C++,java_awt_geom_CubicCurve2DAutoTest,solveCubic,CR-silent,no_output
+C++,java_awt_geom_Path2DAutoTest,contains,CR-silent,no_output
+C++,java_awt_geom_Path2DAutoTest,contains,CR-silent,no_output
+C++,java_awt_geom_Path2DAutoTest,contains,CR-silent,no_output
+C++,java_awt_geom_Path2DAutoTest,intersects,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_awt_geom_Path2DAutoTest/inte
+C++,java_awt_geom_Path2DAutoTest,intersects,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_awt_geom_Path2DAutoTest/inte
+C++,java_io_ReaderAutoTest,nullReader,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_io_ReaderAutoTest/nullReader
+C++,java_lang_PackageAutoTest,getPackages,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_lang_PackageAutoTest/getPack
+C++,java_lang_constant_DynamicConstantDescAutoTest,ofCanonical,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_lang_constant_DynamicConstan
+C++,java_lang_constant_DynamicConstantDescAutoTest,of,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_lang_constant_DynamicConstan
+C++,java_lang_invoke_MethodHandleProxiesAutoTest,isWrapperInstance,RV-null,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_lang_invoke_MethodHandleProx
+C++,java_lang_invoke_MethodHandleProxiesAutoTest,wrapperInstanceTarget,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_lang_invoke_MethodHandleProx
+C++,java_lang_invoke_MethodHandleProxiesAutoTest,wrapperInstanceType,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_lang_invoke_MethodHandleProx
+C++,java_lang_management_ManagementFactoryAutoTest,getMemoryPoolMXBeans,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_lang_management_ManagementFa
+C++,java_lang_module_ModuleDescriptorAutoTest,newModule,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_lang_module_ModuleDescriptor
+C++,java_lang_reflect_ArrayAutoTest,getBoolean,CR-silent,no_output
+C++,java_lang_reflect_ArrayAutoTest,getFloat,CR-silent,no_output
+C++,java_lang_reflect_ArrayAutoTest,get,CR-silent,no_output
+C++,java_lang_reflect_ArrayAutoTest,setChar,CR-silent,no_output
+C++,java_lang_reflect_ArrayAutoTest,setDouble,CR-silent,no_output
+C++,java_lang_reflect_ArrayAutoTest,setFloat,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_lang_reflect_ArrayAutoTest/s
+C++,java_lang_reflect_ArrayAutoTest,setInt,CR-silent,no_output
+C++,java_lang_reflect_ArrayAutoTest,setShort,CR-silent,no_output
+C++,java_lang_reflect_ProxyAutoTest,newProxyInstance,CR-silent,no_output
+C++,java_net_InetAddressAutoTest,getLoopbackAddress,RV-repr,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_net_InetAddressAutoTest/getL
+C++,java_net_URLConnectionAutoTest,getDefaultUseCaches,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_net_URLConnectionAutoTest/ge
+C++,java_net_URLConnectionAutoTest,guessContentTypeFromName,RV-repr,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_net_URLConnectionAutoTest/gu
+C++,java_net_URLConnectionAutoTest,setFileNameMap,RV-repr,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_net_URLConnectionAutoTest/se
+C++,java_net_UnixDomainSocketAddressAutoTest,of,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_net_UnixDomainSocketAddressA
+C++,java_nio_ByteBufferAutoTest,wrap,CR-silent,no_output
+C++,java_nio_channels_ChannelsAutoTest,newWriter,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_nio_channels_ChannelsAutoTes
+C++,java_nio_file_FilesAutoTest,exists,CR-silent,no_output
+C++,java_nio_file_FilesAutoTest,isDirectory,CR-silent,no_output
+C++,java_nio_file_FilesAutoTest,isRegularFile,CR-signal,exception:logic_error
+C++,java_nio_file_FilesAutoTest,notExists,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_nio_file_FilesAutoTest/notEx
+C++,java_nio_file_spi_FileSystemProviderAutoTest,installedProviders,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_nio_file_spi_FileSystemProvi
+C++,java_rmi_server_LogStreamAutoTest,parseLevel,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_rmi_server_LogStreamAutoTest
+C++,java_security_SecurityAutoTest,addProvider,CR-silent,no_output
+C++,java_security_SecurityAutoTest,getAlgorithms,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_security_SecurityAutoTest/ge
+C++,java_security_SecurityAutoTest,getProviders,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_security_SecurityAutoTest/ge
+C++,java_security_SecurityAutoTest,getProviders,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_security_SecurityAutoTest/ge
+C++,java_security_SecurityAutoTest,getProviders,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_security_SecurityAutoTest/ge
+C++,java_sql_DriverManagerAutoTest,setLogWriter,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_sql_DriverManagerAutoTest/se
+C++,java_text_BreakIteratorAutoTest,getWordInstance,RV-repr,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_text_BreakIteratorAutoTest/g
+C++,java_text_DateFormatAutoTest,getTimeInstance,RV-repr,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_text_DateFormatAutoTest/getT
+C++,java_text_NumberFormatAutoTest,getCompactNumberInstance,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_text_NumberFormatAutoTest/ge
+C++,java_time_ClockAutoTest,tick,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_ClockAutoTest/tick_test
+C++,java_time_DurationAutoTest,between,CR-silent,no_output
+C++,java_time_DurationAutoTest,of,CR-silent,no_output
+C++,java_time_InstantAutoTest,parse,CR-silent,no_output
+C++,java_time_LocalDateTimeAutoTest,of,CR-silent,no_output
+C++,java_time_LocalDateTimeAutoTest,of,CR-silent,no_output
+C++,java_time_LocalDateTimeAutoTest,of,CR-silent,no_output
+C++,java_time_LocalDateTimeAutoTest,of,CR-silent,no_output
+C++,java_time_LocalDateTimeAutoTest,of,CR-silent,no_output
+C++,java_time_LocalTimeAutoTest,now,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_LocalTimeAutoTest/now_t
+C++,java_time_LocalTimeAutoTest,ofInstant,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_LocalTimeAutoTest/ofIns
+C++,java_time_MonthDayAutoTest,parse,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_MonthDayAutoTest/parse_
+C++,java_time_OffsetDateTimeAutoTest,of,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_OffsetDateTimeAutoTest/
+C++,java_time_OffsetDateTimeAutoTest,of,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_OffsetDateTimeAutoTest/
+C++,java_time_OffsetDateTimeAutoTest,of,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_OffsetDateTimeAutoTest/
+C++,java_time_OffsetDateTimeAutoTest,parse,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_OffsetDateTimeAutoTest/
+C++,java_time_OffsetTimeAutoTest,parse,CR-signal,exception:logic_error
+C++,java_time_YearMonthAutoTest,of,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_YearMonthAutoTest/of_te
+C++,java_time_ZoneIdAutoTest,ofOffset,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_ZoneIdAutoTest/ofOffset
+C++,java_time_ZoneIdAutoTest,systemDefault,RV-repr,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_ZoneIdAutoTest/systemDe
+C++,java_time_ZonedDateTimeAutoTest,ofInstant,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_ZonedDateTimeAutoTest/o
+C++,java_time_ZonedDateTimeAutoTest,of,CR-silent,no_output
+C++,java_time_ZonedDateTimeAutoTest,of,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_ZonedDateTimeAutoTest/o
+C++,java_time_ZonedDateTimeAutoTest,of,CR-silent,no_output
+C++,java_time_chrono_HijrahDateAutoTest,of,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_chrono_HijrahDateAutoTe
+C++,java_time_chrono_JapaneseEraAutoTest,of,RV-repr,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_chrono_JapaneseEraAutoT
+C++,java_time_chrono_JapaneseEraAutoTest,valueOf,CR-signal,exception:invalid_argument
+C++,java_time_chrono_MinguoDateAutoTest,from,RV-repr,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_chrono_MinguoDateAutoTe
+C++,java_time_temporal_TemporalAdjustersAutoTest,dayOfWeekInMonth,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_temporal_TemporalAdjust
+C++,java_time_temporal_TemporalAdjustersAutoTest,previous,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_temporal_TemporalAdjust
+C++,java_time_zone_ZoneRulesAutoTest,of,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_zone_ZoneRulesAutoTest/
+C++,java_time_zone_ZoneRulesAutoTest,of,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_zone_ZoneRulesAutoTest/
+C++,java_time_zone_ZoneRulesProviderAutoTest,getAvailableZoneIds,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_zone_ZoneRulesProviderA
+C++,java_time_zone_ZoneRulesProviderAutoTest,refresh,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_time_zone_ZoneRulesProviderA
+C++,java_util_CalendarAutoTest,getInstance,RV-repr,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_CalendarAutoTest/getIns
+C++,java_util_CalendarAutoTest,getInstance,RV-repr,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_CalendarAutoTest/getIns
+C++,java_util_CollectionsAutoTest,checkedNavigableMap,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_CollectionsAutoTest/che
+C++,java_util_CollectionsAutoTest,checkedNavigableSet,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_CollectionsAutoTest/che
+C++,java_util_CollectionsAutoTest,emptySet,RV-null,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_CollectionsAutoTest/emp
+C++,java_util_CollectionsAutoTest,fill,RV-null,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_CollectionsAutoTest/fil
+C++,java_util_CollectionsAutoTest,lastIndexOfSubList,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_CollectionsAutoTest/las
+C++,java_util_CollectionsAutoTest,list,CR-silent,no_output
+C++,java_util_CollectionsAutoTest,nCopies,RV-null,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_CollectionsAutoTest/nCo
+C++,java_util_CollectionsAutoTest,replaceAll,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_CollectionsAutoTest/rep
+C++,java_util_CollectionsAutoTest,reverseOrder,RV-null,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_CollectionsAutoTest/rev
+C++,java_util_CollectionsAutoTest,singletonMap,RV-null,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_CollectionsAutoTest/sin
+C++,java_util_CollectionsAutoTest,synchronizedList,RV-null,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_CollectionsAutoTest/syn
+C++,java_util_CollectionsAutoTest,synchronizedNavigableMap,RV-null,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_CollectionsAutoTest/syn
+C++,java_util_CollectionsAutoTest,synchronizedSortedSet,RV-null,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_CollectionsAutoTest/syn
+C++,java_util_CollectionsAutoTest,unmodifiableNavigableSet,RV-null,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_CollectionsAutoTest/unm
+C++,java_util_CurrencyAutoTest,getInstance,CR-signal,exception:invalid_argument
+C++,java_util_CurrencyAutoTest,getInstance,CR-signal,exception:invalid_argument
+C++,java_util_HexFormatAutoTest,fromHexDigitsToLong,CR-signal,exception:invalid_argument
+C++,java_util_HexFormatAutoTest,fromHexDigits,CR-signal,exception:invalid_argument
+C++,java_util_ResourceBundleAutoTest,getBundle,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_ResourceBundleAutoTest/
+C++,java_util_ResourceBundleAutoTest,getBundle,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_ResourceBundleAutoTest/
+C++,java_util_SpliteratorsAutoTest,emptyDoubleSpliterator,CR-silent,no_output
+C++,java_util_SpliteratorsAutoTest,emptyIntSpliterator,CR-silent,no_output
+C++,java_util_SpliteratorsAutoTest,iterator,CR-silent,no_output
+C++,java_util_SpliteratorsAutoTest,iterator,CR-silent,no_output
+C++,java_util_SpliteratorsAutoTest,iterator,CR-silent,no_output
+C++,java_util_SpliteratorsAutoTest,iterator,CR-silent,no_output
+C++,java_util_SpliteratorsAutoTest,spliteratorUnknownSize,CR-silent,no_output
+C++,java_util_SpliteratorsAutoTest,spliteratorUnknownSize,CR-silent,no_output
+C++,java_util_SpliteratorsAutoTest,spliteratorUnknownSize,CR-silent,no_output
+C++,java_util_SpliteratorsAutoTest,spliteratorUnknownSize,CR-silent,no_output
+C++,java_util_SpliteratorsAutoTest,spliterator,CR-silent,no_output
+C++,java_util_SpliteratorsAutoTest,spliterator,RV-null,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_SpliteratorsAutoTest/sp
+C++,java_util_SpliteratorsAutoTest,spliterator,CR-silent,no_output
+C++,java_util_SpliteratorsAutoTest,spliterator,RV-null,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_SpliteratorsAutoTest/sp
+C++,java_util_SpliteratorsAutoTest,spliterator,RV-null,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_SpliteratorsAutoTest/sp
+C++,java_util_SpliteratorsAutoTest,spliterator,CR-silent,no_output
+C++,java_util_SpliteratorsAutoTest,spliterator,RV-null,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_SpliteratorsAutoTest/sp
+C++,java_util_SpliteratorsAutoTest,spliterator,CR-silent,no_output
+C++,java_util_SpliteratorsAutoTest,spliterator,RV-null,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_SpliteratorsAutoTest/sp
+C++,java_util_SpliteratorsAutoTest,spliterator,CR-silent,no_output
+C++,java_util_concurrent_ExecutorsAutoTest,callable,CR-silent,no_output
+C++,java_util_concurrent_ExecutorsAutoTest,callable,CR-silent,no_output
+C++,java_util_concurrent_ExecutorsAutoTest,callable,CR-silent,no_output
+C++,java_util_concurrent_ExecutorsAutoTest,defaultThreadFactory,CR-silent,no_output
+C++,java_util_random_RandomGeneratorFactoryAutoTest,of,RV-repr,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_random_RandomGeneratorF
+C++,java_util_regex_PatternAutoTest,quote,RV-repr,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_regex_PatternAutoTest/q
+C++,java_util_stream_StreamSupportAutoTest,doubleStream,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_stream_StreamSupportAut
+C++,java_util_stream_StreamSupportAutoTest,intStream,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_stream_StreamSupportAut
+C++,java_util_stream_StreamSupportAutoTest,intStream,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_stream_StreamSupportAut
+C++,java_util_stream_StreamSupportAutoTest,longStream,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_stream_StreamSupportAut
+C++,java_util_stream_StreamSupportAutoTest,longStream,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/java_util_stream_StreamSupportAut
+C++,javax_imageio_ImageIOAutoTest,getImageWritersByFormatName,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_imageio_ImageIOAutoTest/get
+C++,javax_imageio_ImageIOAutoTest,getReaderMIMETypes,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_imageio_ImageIOAutoTest/get
+C++,javax_imageio_ImageIOAutoTest,getWriterFormatNames,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_imageio_ImageIOAutoTest/get
+C++,javax_imageio_ImageIOAutoTest,getWriterMIMETypes,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_imageio_ImageIOAutoTest/get
+C++,javax_management_MBeanServerFactoryAutoTest,createMBeanServer,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_management_MBeanServerFacto
+C++,javax_management_MBeanServerFactoryAutoTest,getClassLoaderRepository,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_management_MBeanServerFacto
+C++,javax_management_QueryEvalAutoTest,getMBeanServer,RV-null,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_management_QueryEvalAutoTes
+C++,javax_management_modelmbean_DescriptorSupportAutoTest,getFieldValue,RV-repr,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_management_modelmbean_Descr
+C++,javax_management_monitor_CounterMonitorAutoTest,setThreshold,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_management_monitor_CounterM
+C++,javax_management_relation_MBeanServerNotificationFilterAutoTest,disableObjectName,CR-silent,no_output
+C++,javax_management_relation_MBeanServerNotificationFilterAutoTest,enableObjectName,CR-silent,no_output
+C++,javax_management_relation_RelationServiceAutoTest,isRelation,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_management_relation_Relatio
+C++,javax_management_relation_RoleAutoTest,roleValueToString,RV-repr,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_management_relation_RoleAut
+C++,javax_net_ssl_HttpsURLConnectionAutoTest,getDefaultHostnameVerifier,CR-silent,no_output
+C++,javax_print_PrintServiceLookupAutoTest,registerServiceProvider,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_print_PrintServiceLookupAut
+C++,javax_security_auth_kerberos_KeyTabAutoTest,getInstance,CR-silent,no_output
+C++,javax_security_auth_login_ConfigurationAutoTest,getConfiguration,RV-null,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_security_auth_login_Configu
+C++,javax_smartcardio_TerminalFactoryAutoTest,getDefaultType,RV-repr,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_smartcardio_TerminalFactory
+C++,javax_sound_midi_MidiSystemAutoTest,getMidiFileTypes,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_sound_midi_MidiSystemAutoTe
+C++,javax_sound_midi_MidiSystemAutoTest,getMidiFileTypes,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_sound_midi_MidiSystemAutoTe
+C++,javax_sound_sampled_AudioSystemAutoTest,getAudioFileTypes,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_sound_sampled_AudioSystemAu
+C++,javax_sound_sampled_AudioSystemAutoTest,getAudioFileTypes,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_sound_sampled_AudioSystemAu
+C++,javax_sound_sampled_AudioSystemAutoTest,getMixer,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_sound_sampled_AudioSystemAu
+C++,javax_sound_sampled_AudioSystemAutoTest,isConversionSupported,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_sound_sampled_AudioSystemAu
+C++,javax_sound_sampled_AudioSystemAutoTest,isConversionSupported,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_sound_sampled_AudioSystemAu
+C++,javax_sound_sampled_AudioSystemAutoTest,isFileTypeSupported,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_sound_sampled_AudioSystemAu
+C++,javax_sound_sampled_AudioSystemAutoTest,isFileTypeSupported,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_sound_sampled_AudioSystemAu
+C++,javax_sql_rowset_spi_SyncFactoryAutoTest,setLogger,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_sql_rowset_spi_SyncFactoryA
+C++,javax_sql_rowset_spi_SyncFactoryAutoTest,setLogger,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_sql_rowset_spi_SyncFactoryA
+C++,javax_swing_BorderFactoryAutoTest,createBevelBorder,CR-silent,no_output
+C++,javax_swing_BorderFactoryAutoTest,createCompoundBorder,CR-silent,no_output
+C++,javax_swing_BorderFactoryAutoTest,createEtchedBorder,CR-silent,no_output
+C++,javax_swing_BorderFactoryAutoTest,createSoftBevelBorder,RV-null,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_swing_BorderFactoryAutoTest
+C++,javax_swing_FocusManagerAutoTest,isFocusManagerEnabled,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_swing_FocusManagerAutoTest/
+C++,javax_swing_JComponentAutoTest,isLightweightComponent,CR-silent,no_output
+C++,javax_swing_JFrameAutoTest,isDefaultLookAndFeelDecorated,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_swing_JFrameAutoTest/isDefa
+C++,javax_swing_LookAndFeelAutoTest,installColors,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_swing_LookAndFeelAutoTest/i
+C++,javax_swing_LookAndFeelAutoTest,makeInputMap,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_swing_LookAndFeelAutoTest/m
+C++,javax_swing_text_JTextComponentAutoTest,getKeymap,RV-null,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_swing_text_JTextComponentAu
+C++,javax_swing_text_JTextComponentAutoTest,removeKeymap,RV-null,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_swing_text_JTextComponentAu
+C++,javax_swing_text_html_parser_ElementAutoTest,name2type,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_swing_text_html_parser_Elem
+C++,javax_swing_undo_UndoManagerAutoTest,redo,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_swing_undo_UndoManagerAutoT
+C++,javax_swing_undo_UndoManagerAutoTest,undoOrRedo,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_swing_undo_UndoManagerAutoT
+C++,javax_xml_parsers_SAXParserFactoryAutoTest,newDefaultNSInstance,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/javax_xml_parsers_SAXParserFactor
+C++,jdk_javadoc_doclet_StandardDocletAutoTest,getName,RV-repr,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/jdk_javadoc_doclet_StandardDoclet
+C++,jdk_javadoc_doclet_StandardDocletAutoTest,getSupportedSourceVersion,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/jdk_javadoc_doclet_StandardDoclet
+C++,jdk_javadoc_doclet_StandardDocletAutoTest,run,RV-repr,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/jdk_javadoc_doclet_StandardDoclet
+C++,jdk_jfr_RecordingAutoTest,getDumpOnExit,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/jdk_jfr_RecordingAutoTest/getDump
+C++,jdk_jfr_RecordingAutoTest,getSize,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/jdk_jfr_RecordingAutoTest/getSize
+C++,jdk_jfr_RecordingAutoTest,isToDisk,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/jdk_jfr_RecordingAutoTest/isToDis
+C++,jdk_jfr_RecordingAutoTest,stop,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/jdk_jfr_RecordingAutoTest/stop_te
+C++,jdk_jshell_execution_UtilAutoTest,detectJdiExitEvent,EX-missing,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/jdk_jshell_execution_UtilAutoTest
+C++,jdk_management_jfr_ConfigurationInfoAutoTest,from,CR-silent,no_output
+C++,jdk_management_jfr_SettingDescriptorInfoAutoTest,from,CR-silent,no_output
+C++,jdk_nio_ChannelsAutoTest,readWriteSelectableChannel,RV-value,t.out: /root/autodl-tmp/Java2C++/pipeline/03_CppJavadoc_test_cases/jdk_nio_ChannelsAutoTest/readWrit
+C++,AttributeAutoTest,equals,IN-compile,compile error: expected initializer before ‘)’ token
+C++,MultiTableUIAutoTest,createui,IN-compile,compile error: no matching function for call to ‘MultiTableUI::creat
+C++,SimpleScriptContextAutoTest,getattribute,IN-compile,linker_error: undefined reference to SimpleScriptContext::ENGINE_SCOPE
+C++,SimpleScriptContextAutoTest,getattribute,IN-compile,linker_error: undefined reference to SimpleScriptContext::ENGINE_SCOPE
+C++,SimpleScriptContextAutoTest,getattributesscope,IN-compile,linker_error: undefined reference to SimpleScriptContext::ENGINE_SCOPE
+C++,SimpleScriptContextAutoTest,getbindings,IN-compile,linker_error: undefined reference to SimpleScriptContext::ENGINE_SCOPE
+C++,SimpleScriptContextAutoTest,geterrorwriter,IN-compile,linker_error: undefined reference to SimpleScriptContext::ENGINE_SCOPE
+C++,SimpleScriptContextAutoTest,getreader,IN-compile,linker_error: undefined reference to SimpleScriptContext::ENGINE_SCOPE
+C++,SimpleScriptContextAutoTest,getscopes,IN-compile,linker_error: undefined reference to SimpleScriptContext::ENGINE_SCOPE
+C++,SimpleScriptContextAutoTest,getwriter,IN-compile,linker_error: undefined reference to SimpleScriptContext::ENGINE_SCOPE
+C++,SimpleScriptContextAutoTest,removeattribute,IN-compile,linker_error: undefined reference to SimpleScriptContext::ENGINE_SCOPE
+C++,SimpleScriptContextAutoTest,setattribute,IN-compile,linker_error: undefined reference to SimpleScriptContext::ENGINE_SCOPE
+C++,SimpleScriptContextAutoTest,setbindings,IN-compile,linker_error: undefined reference to SimpleScriptContext::ENGINE_SCOPE
+C++,SimpleScriptContextAutoTest,seterrorwriter,IN-compile,linker_error: undefined reference to SimpleScriptContext::ENGINE_SCOPE
+C++,SimpleScriptContextAutoTest,setreader,IN-compile,linker_error: undefined reference to SimpleScriptContext::ENGINE_SCOPE
+C++,SimpleScriptContextAutoTest,setwriter,IN-compile,linker_error: undefined reference to SimpleScriptContext::ENGINE_SCOPE

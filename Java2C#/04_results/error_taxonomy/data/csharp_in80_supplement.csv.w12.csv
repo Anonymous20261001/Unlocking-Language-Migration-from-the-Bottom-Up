@@ -1,0 +1,6 @@
+row_key,class,method,number,status,new_outcome,failure_content
+BasicScrollBarUIAutoTest|paint|8893,BasicScrollBarUIAutoTest,paint,8893,still_fails,,"COMPILE_ERR: /tmp/tmpz_8b9s8z/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+ChoiceFormatAutoTest|isstrict|3029,ChoiceFormatAutoTest,isstrict,3029,still_fails,,"COMPILE_ERR: /tmp/tmp406mvtl1/runner.cs(2,6): error CS1525: Unexpected symbol `public', expecting `identifier' or `static' | /tmp/tmp406mvtl1/runner.cs(2,12): error CS1525: Unexpected symbol `;', expecting `identifi"
+JTextPaneAutoTest|setstyleddocument|7980,JTextPaneAutoTest,setstyleddocument,7980,fixed,TEST FAILED: Expected exception of type System.NullReferenceException | ,
+NameCallbackAutoTest|getprompt|6342,NameCallbackAutoTest,getprompt,6342,fixed,PASS,
+jdk_jfr_RecordingAutoTest|enable|10372,jdk_jfr_RecordingAutoTest,enable,10372,fixed,PASS,

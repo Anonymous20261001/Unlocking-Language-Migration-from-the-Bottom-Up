@@ -1,0 +1,11 @@
+translation_audit_150.csv — 随机 150 条 Java→C# 翻译审计（宽松判定）
+
+采样: 从 5,425 个已翻译单元随机抽 150（seed=20261002）
+
+判定标准（宽松）: 只要 Java 测试的主 API 调用在 C# 测试体中有同名映射
+（方法/属性访问均可，get/set/is 前缀归一化）即视为 consistent。
+
+结果:
+- consistent: 147 (98.0%)
+- no_test_method: 3 (2.0%) — 翻译产物无可执行测试方法（AffineTransform ×2, ChoiceFormat ×1）
+- inconsistent: 0

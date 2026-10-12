@@ -1,0 +1,15 @@
+domain,C#_leaf,C#_share,C#_n,C++_leaf,C++_share,C++_n,Py_leaf,Py_share,Py_n
+Core Language,S1,18.1,1178,T1,27.2,298,T4,45.6,388
+Data Containers,T4,30.6,762,T2,50.5,501,T4,34.9,518
+Concurrency,T4,34.2,243,T4,32.4,136,T1,39.7,116
+IO,T4,36.0,86,C1,85.3,68,T4,44.0,116
+Date & Time,R1,33.8,65,C2,100.0,8,S1,81.1,122
+Security,R1,42.5,80,C3,58.1,31,T4,46.8,111
+AWT (Graphics 2D),R1,41.1,450,T2,42.3,111,T4,67.2,399
+Swing (GUI),R1,36.7,1194,R1,59.4,461,T1,31.2,1023
+Networking,R1,43.1,72,S1,60.0,5,T1,44.4,72
+Database,R1,46.7,45,S2,100.0,5,T1,56.9,116
+Monitoring & Managing,C3,32.6,95,T2,64.7,17,S1,29.0,124
+Media,T4,35.0,203,C1,67.8,59,T4,47.3,169
+Dynamic Languages,S1,42.9,7,T2,63.2,19,R1,43.5,23
+Dev Tools,T4,58.3,12,-,0,0,T4,42.9,7

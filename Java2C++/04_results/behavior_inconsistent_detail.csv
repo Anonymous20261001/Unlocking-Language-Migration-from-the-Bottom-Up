@@ -1,0 +1,285 @@
+class,cpp_function,category,failing_assert
+AreaAutoTest,isSingular_test_978,value_mismatch,boolean2 == true
+AsyncBoxViewAutoTest,getMaximumSpan_test_10124,value_mismatch,float4 == 2.14748365E9f
+AsyncBoxViewAutoTest,getMinimumSpan_test_10123,value_mismatch,float4 == 5.0f
+AsyncBoxViewAutoTest,getMinorAxis_test_10115,value_mismatch,int3 == 0
+AsyncBoxViewAutoTest,getPreferredSpan_test_10122,value_mismatch,float4 == 30.0f
+BasicToolBarUIAutoTest,setRolloverBorders_test_9023,expected_exception_not_thrown,"false && ""Expected exception of type java.lang.NullPointerException; message: Cannot invoke \""javax."
+BasicTreeUIAutoTest,getMaximumSize_test_9063,null_check_failed,dimension4 != nullptr
+BasicTreeUIAutoTest,getMinimumSize_test_9067,null_check_failed,dimension4 != nullptr
+BasicTreeUIAutoTest,getPreferredSize_test_9065,null_check_failed,dimension2 != nullptr
+BeansAutoTest,isGuiAvailable_test_1513,value_mismatch,boolean0 == true
+BasicFileChooserUIAutoTest,getGoHomeAction_test_8746,null_check_failed,action2 != nullptr
+BasicFileChooserUIAutoTest,getNewFolderAction_test_8745,null_check_failed,action3 != nullptr
+BasicFileChooserUIAutoTest,getUpdateAction_test_8747,null_check_failed,action3 != nullptr
+BasicFileChooserUIAutoTest,uninstallUI_test_8749,expected_exception_not_thrown,"false && ""Expected exception of type std::exception (simulating NullPointerException)"""
+BasicSpinnerUIAutoTest,installUI_test_8932,expected_exception_not_thrown,"false && ""Expected NullPointerException"""
+BasicFileChooserUIAutoTest,createListSelectionListener_test_8736,null_check_failed,listSelectionListener3 != nullptr
+BasicFileChooserUIAutoTest,createUI_test_8755,null_check_failed,componentUI4 != nullptr
+BasicFileChooserUIAutoTest,getCancelSelectionAction_test_8740,null_check_failed,action4 != nullptr
+BasicFileChooserUIAutoTest,getChangeToParentDirectoryAction_test_8741,null_check_failed,action3 != nullptr
+BasicFileChooserUIAutoTest,getFileView_test_8735,null_check_failed,fileView4 != nullptr
+AudioFileFormatAutoTest,toString_test_6500,null_check_failed,"str4 == ""AU (.au) file, data format: null"""
+BadAttributeValueExpExceptionAutoTest,toString_test_5545,other,terminate called after throwing an instance of 'std::runtime_error' |   what():  'javax.management.BadAttributeValueExpExc
+BasicButtonListenerAutoTest,uninstallKeyboardActions_test_8630,expected_exception_not_thrown,"false && ""Expected exception of type java.lang.NullPointerException"""
+BasicCheckBoxUIAutoTest,getPropertyPrefix_test_8653,value_mismatch,"str1 == ""CheckBox."""
+BasicEditorPaneUIAutoTest,uninstallUI_test_8729,expected_exception_not_thrown,uncaught C++ exception (Java expected exception)
+DefaultStyledDocumentAutoTest,getDefaultRootElement_test_10228,null_check_failed,element != nullptr
+DefaultStyledDocumentAutoTest,getForeground_test_10239,null_check_failed,color4 != nullptr
+DefaultStyledDocumentAutoTest,getLogicalStyle_test_10232,null_check_failed,style2 != nullptr
+DefaultTreeSelectionModelAutoTest,removeSelectionPath_test_10743,value_mismatch,int1 == 4
+DeflaterAutoTest,deflate_test_5136,value_mismatch,int4 == 2
+DateAutoTest,after_test_3396,value_mismatch,"date1.toString() == ""Thu Jan 01 08:00:00 CST 1970"""
+DateAutoTest,equals_test_3388,value_mismatch,actual == expected
+DateAutoTest,getDate_test_3412,value_mismatch,int1 == 17
+DateAutoTest,getDay_test_3413,value_mismatch,"date1.toString() == ""Thu Jan 01 07:59:59 CST 1970"""
+DateAutoTest,getMinutes_test_3408,value_mismatch,int2 == 28
+DateAutoTest,getSeconds_test_3402,value_mismatch,"instance.toString() == ""Thu Jan 01 07:59:59 CST 1970"""
+DateAutoTest,setSeconds_test_3410,value_mismatch,"instance.toString() == ""Fri Jul 17 02:27:00 CST 2026"""
+DateAutoTest,setTime_test_3401,value_mismatch,"instance.toString() == ""Thu Jan 01 08:00:00 CST 1970"""
+DateAutoTest,setYear_test_3411,value_mismatch,"date1.toString() == ""Wed Jan 01 08:00:00 CST 1997"""
+DateAutoTest,toString_test_3389,value_mismatch,"result == ""Thu Jan 01 08:00:00 CST 1970"""
+DebugGraphicsAutoTest,setClip_test_6616,other,signal -6
+DecimalFormatSymbolsAutoTest,getPerMill_test_3147,other,terminate called after throwing an instance of 'std::runtime_error' |   what():  Assertion failed: getPerMill() did not re
+DefaultHighlighterAutoTest,getDrawsLayeredHighlights_test_10221,value_mismatch,boolean1 == true
+DefaultListModelAutoTest,indexOf_test_6750,other,terminate called after throwing an instance of 'std::out_of_range' |   what():  startIndex out of bounds in indexOf(Object
+DefaultStyledDocumentAutoTest,getCharacterElement_test_10233,null_check_failed,element4 != nullptr
+CharacterAutoTest,isBmpCodePoint_test_1918,value_mismatch,boolean1 == false
+CharacterAutoTest,isJavaIdentifierPart_test_1874,value_mismatch,"boolean1 == false && ""Expected false"""
+CharacterAutoTest,isJavaIdentifierPart_test_1875,value_mismatch,boolean1 == false
+CharacterAutoTest,isJavaIdentifierStart_test_1872,value_mismatch,boolean1 == false
+CharacterAutoTest,isLetterOrDigit_test_1925,value_mismatch,result == true
+AbstractUndoableEditAutoTest,getUndoPresentationName_test_10811,value_mismatch,"str2 == ""Undo"""
+ActionEventAutoTest,getWhen_test_741,value_mismatch,long4 == 0L
+AllPermissionAutoTest,getActions_test_2679,value_mismatch,"str3 == ""<all actions>"""
+AnnotationAutoTest,getValue_test_2995,other,terminate called after throwing an instance of 'std::bad_any_cast' |   what():  bad any_cast | 
+AreaAutoTest,isRectangular_test_977,value_mismatch,boolean3 == true
+BidiAutoTest,getRunLimit_test_3002,value_mismatch,int4 == 2
+BidiAutoTest,toString_test_3015,value_mismatch,"(""toString result mismatch"", str3 == expected)"
+BigDecimalAutoTest,negate_test_2457,other,terminate called after throwing an instance of 'std::runtime_error' |   what():  negate of zero should be zero | 
+BindingAutoTest,toString_test_5878,other,"terminate called after throwing an instance of 'std::runtime_error' |   what():  Assertion failed: expected "": java.lang.B"
+BlockViewAutoTest,getMaximumSpan_test_10452,value_mismatch,float4 == 2.14748365E9f
+BorderUIResourceAutoTest,isBorderOpaque_test_8582,value_mismatch,boolean2 == true
+BoxViewAutoTest,getMaximumSpan_test_10139,value_mismatch,result == expected
+BufferedImageAutoTest,getAlphaRaster_test_1070,null_check_failed,writableRaster4 == nullptr
+BufferedImageAutoTest,getNumYTiles_test_1052,value_mismatch,int4 == 1
+BufferedImageAutoTest,getTransparency_test_1082,value_mismatch,int4 == 3
+CharacterAutoTest,isLowerCase_test_1886,value_mismatch,boolean1 == true
+CharacterAutoTest,isLowerCase_test_1887,value_mismatch,boolean1 == true
+CharacterAutoTest,toChars_test_1895,value_mismatch,!result.empty()
+ColorAutoTest,HSBtoRGB_test_77,other,terminate called after throwing an instance of 'std::runtime_error' |   what():  Assertion failed: int3 == -165 | 
+CompoundEditAutoTest,isSignificant_test_10819,value_mismatch,boolean1 == false
+BufferedImageAutoTest,hasTileWriters_test_1065,value_mismatch,result == true
+ButtonGroupAutoTest,isSelected_test_6566,value_mismatch,boolean2 == true
+CharacterAutoTest,reverseBytes_test_1882,other,signal -6
+CharacterAutoTest,getDirectionality_test_1954,value_mismatch,byte1 == 5
+CharacterAutoTest,getType_test_1921,value_mismatch,int1 == 15
+ConcurrentLinkedDequeAutoTest,addLast_test_4264,expected_exception_not_thrown,"false && ""Expected NullPointerException"""
+ContainerAutoTest,getAlignmentY_test_111,value_mismatch,float2 == 0.5f
+ContainerAutoTest,isFocusCycleRoot_test_102,value_mismatch,!focusListenerArray2.empty()
+ContainerOrderFocusTraversalPolicyAutoTest,getImplicitDownCycleTraversal_test_160,value_mismatch,result == true
+CounterMonitorAutoTest,getModulus_test_5712,value_mismatch,number4 == 0
+DoubleAccumulatorAutoTest,toString_test_4949,value_mismatch,"str3 == ""0.0"""
+DoubleAutoTest,toString_test_1969,value_mismatch,"str1 == ""0.0"""
+EncoderAutoTest,getExceptionListener_test_1518,null_check_failed,exceptionListener1 != nullptr
+EntityAutoTest,getString_test_10586,other,terminate called after throwing an instance of 'std::runtime_error' |   what():  Assertion failed: '&;' != '' | 
+EtchedBorderAutoTest,getEtchType_test_8475,value_mismatch,int1 == 1
+DeflaterAutoTest,deflate_test_5138,value_mismatch,int4 == 2
+DeflaterAutoTest,deflate_test_5140,value_mismatch,int4 == 2
+DescriptorSupportAutoTest,toString_test_5679,value_mismatch,"str2 == """""
+DocFlavorAutoTest,getMimeType_test_6078,value_mismatch,"str3 == ""text/plain; charset=utf-16be"""
+DocFlavorAutoTest,getRepresentationClassName_test_6076,value_mismatch,"str3 == ""text/plain; charset=\""utf-16be\"""""
+InputMapAutoTest,put_test_6851,other,terminate called after throwing an instance of 'std::runtime_error' |   what():  NullPointerException | 
+IntSummaryStatisticsAutoTest,accept_test_3577,value_mismatch,instance.toString() == expected
+IntSummaryStatisticsAutoTest,getSum_test_3580,value_mismatch,instance.toString() == expected
+InternationalFormatterAutoTest,getFields_test_10289,other,signal -6
+JDesktopPaneAutoTest,getDesktopManager_test_6963,null_check_failed,desktopManager != nullptr
+FontAutoTest,canDisplay_test_268,value_mismatch,boolean4 == false
+GregorianCalendarAutoTest,getActualMinimum_test_3473,value_mismatch,int2 == 1
+GregorianCalendarAutoTest,getMaximum_test_3463,value_mismatch,int4 == 1
+GregorianCalendarAutoTest,getWeeksInWeekYear_test_3472,value_mismatch,int4 == 52
+HTMLDocumentAutoTest,getPreservesUnknownTags_test_10474,value_mismatch,result == true
+JLabelAutoTest,getAccessibleContext_test_7180,null_check_failed,accessibleContext3 != nullptr
+JLabelAutoTest,getDisplayedMnemonic_test_7163,null_check_failed,vetoableChangeListenerArray1.data() != nullptr
+JLayeredPaneAutoTest,getComponentsInLayer_test_7218,value_mismatch,!componentArray4.empty()
+JListAutoTest,getAccessibleContext_test_7299,value_mismatch,vetoableChangeListenerArray3.empty() == false
+JListAutoTest,getSelectedIndices_test_7265,value_mismatch,color1.r == 0 && color1.g == 0 && color1.b == 0
+JListAutoTest,getSelectionModel_test_7296,null_check_failed,listSelectionModel4 != nullptr
+JMXPrincipalAutoTest,toString_test_5836,value_mismatch,"str2 == ""JMXPrincipal:  """
+JOptionPaneAutoTest,getIcon_test_7432,null_check_failed,componentArray3.data() != nullptr
+JOptionPaneAutoTest,setUI_test_7400,value_mismatch,int1 == -1
+JOptionPaneAutoTest,setValue_test_7441,null_check_failed,mouseListenerArray2.data() != nullptr
+HTMLDocumentAutoTest,getReader_test_10480,null_check_failed,ret != nullptr
+HTMLDocumentAutoTest,getReader_test_10481,null_check_failed,parserCallback != nullptr
+HTMLEditorKitAutoTest,createDefaultDocument_test_10482,null_check_failed,document1 != nullptr
+HTMLEditorKitAutoTest,getLinkCursor_test_10493,null_check_failed,cursor3 != nullptr
+HTMLEditorKitAutoTest,getViewFactory_test_10488,null_check_failed,viewFactory != nullptr
+JOptionPaneAutoTest,showInternalConfirmDialog_test_7406,expected_exception_not_thrown,uncaught C++ exception (Java expected exception)
+JScrollBarAutoTest,getOrientation_test_7573,value_mismatch,int4 == 1
+JScrollPaneAutoTest,getVerticalScrollBar_test_7609,null_check_failed,bar != nullptr
+JScrollPaneAutoTest,getViewport_test_7611,null_check_failed,viewport != nullptr
+JSliderAutoTest,getChangeListeners_test_7663,null_check_failed,accessibleContext2 != nullptr
+FeatureDescriptorAutoTest,getValue_test_1548,value_mismatch,"instance.toString() == ""FeatureDescriptor[name=]"""
+FeatureDescriptorAutoTest,setName_test_1549,value_mismatch,"instance.toString() == ""FeatureDescriptor[name=]"""
+FieldPositionAutoTest,toString_test_3167,value_mismatch,str2 == expected
+FixedHeightLayoutCacheAutoTest,getPathClosestTo_test_10766,null_check_failed,treePath3 == nullptr
+FontAutoTest,canDisplay_test_267,value_mismatch,boolean4 == false
+JSliderAutoTest,getMajorTickSpacing_test_7644,null_check_failed,accessibleContext2 != nullptr
+JSliderAutoTest,setMinimum_test_7670,null_check_failed,rectangle2 != nullptr
+JSplitPaneAutoTest,getRightComponent_test_7707,null_check_failed,component4 != nullptr
+JSplitPaneAutoTest,getUI_test_7702,null_check_failed,splitPaneUI4 != nullptr
+JTabbedPaneAutoTest,add_test_7790,expected_exception_not_thrown,false
+HashSetAutoTest,spliterator_test_3513,null_check_failed,objSpliterator1 != nullptr
+HttpCookieAutoTest,clone_test_2578,value_mismatch,"obj3->toString() == ""hi!=\""\"""""
+ImageViewAutoTest,getAlignment_test_10511,value_mismatch,float3 == 0.5f
+ImageViewAutoTest,getNoImageIcon_test_10505,value_mismatch,icon2 != 0
+InflaterInputStreamAutoTest,mark_test_5180,other,terminate called after throwing an instance of 'std::runtime_error' |   what():  mark not supported | 
+JTreeAutoTest,getRowHeight_test_8036,value_mismatch,int2 == 0
+JTreeAutoTest,removeSelectionRow_test_8113,null_check_failed,treeSelectionModel1 != nullptr
+JViewportAutoTest,getUI_test_8149,null_check_failed,viewportUI != nullptr
+KernelAutoTest,getXOrigin_test_1309,value_mismatch,result == -1
+KernelAutoTest,getYOrigin_test_1310,value_mismatch,int4 == 25
+JTextFieldAutoTest,getAccessibleContext_test_7966,null_check_failed,accessibleContext4 != nullptr
+JTreeAutoTest,cancelEditing_test_8081,null_check_failed,treeSelectionModel1 != nullptr
+JTreeAutoTest,fireTreeExpanded_test_8090,null_check_failed,treeSelectionModel1 != nullptr
+JTreeAutoTest,getCellRenderer_test_8123,null_check_failed,treeCellRenderer4 != nullptr
+JTreeAutoTest,getExpandsSelectedPaths_test_8103,value_mismatch,dropMode2 == DropMode::USE_SELECTION
+JTableAutoTest,getScrollableTracksViewportWidth_test_7794,value_mismatch,boolean0 == true
+JTableAutoTest,getSelectedRows_test_7824,value_mismatch,!intArray3.empty()
+JTableAutoTest,getUI_test_7902,null_check_failed,tableUI4 != nullptr
+JTableAutoTest,removeColumn_test_7815,value_mismatch,boolean1 == true
+JTableHeaderAutoTest,getUI_test_10057,null_check_failed,tableHeaderUI1 != nullptr
+JTabbedPaneAutoTest,add_test_7791,expected_exception_not_thrown,false
+JTabbedPaneAutoTest,getBackgroundAt_test_7756,expected_exception_not_thrown,false
+JTabbedPaneAutoTest,getBoundsAt_test_7746,expected_exception_not_thrown,false
+JTabbedPaneAutoTest,getDisabledIconAt_test_7754,expected_exception_not_thrown,false
+JTabbedPaneAutoTest,getTabComponentAt_test_7749,expected_exception_not_thrown,false
+JTabbedPaneAutoTest,getTabLayoutPolicy_test_7752,other,terminate called after throwing an instance of 'std::runtime_error' |   what():  '1' != '0' | 
+JTabbedPaneAutoTest,getUI_test_7774,null_check_failed,ui != nullptr
+JTableAutoTest,getAutoResizeMode_test_7879,value_mismatch,boolean3 == true
+JTableAutoTest,getRowHeight_test_7807,value_mismatch,int2 == 16
+JTableAutoTest,getRowHeight_test_7808,value_mismatch,int2 == 16
+KeyEventAutoTest,getKeyText_test_791,value_mismatch,"str1 == ""2"""
+LDAPCertStoreParametersAutoTest,toString_test_2774,value_mismatch,str3 == expected
+LocaleAutoTest,availableLocales_test_3687,value_mismatch,!locales.empty()
+LocaleAutoTest,caseFoldLanguageTag_test_3694,expected_exception_not_thrown,false
+LocaleAutoTest,of_test_3654,value_mismatch,"locale2.toString() == ""hi!"""
+MediaTrackerAutoTest,checkAll_test_408,value_mismatch,boolean3 == true
+MenuShortcutAutoTest,toString_test_412,value_mismatch,"str == ""+Unknown keyCode: 0x0"""
+MessageFormatAutoTest,format_test_3184,other,'[static format with 3 args]' != '' | terminate called after throwing an instance of 'std::runtime_error' |   what():  Asser
+MetalCheckBoxIconAutoTest,getIconHeight_test_9091,value_mismatch,int1 == 13
+MetalCheckBoxUIAutoTest,getPropertyPrefix_test_9094,value_mismatch,"str1 == ""CheckBox."" && ""Prefix mismatch"""
+MultiMenuItemUIAutoTest,getAccessibleChildrenCount_test_9443,expected_exception_not_thrown,"false && ""Expected exception of type std::out_of_range"""
+MultiPopupMenuUIAutoTest,getPreferredSize_test_9484,expected_exception_not_thrown,uncaught C++ exception (Java expected exception)
+MultiScrollBarUIAutoTest,getPreferredSize_test_9521,expected_exception_not_thrown,false
+MultiScrollPaneUIAutoTest,getAccessibleChildrenCount_test_9531,expected_exception_not_thrown,"false && ""Expected exception of type std::out_of_range; message: 0 >= 0"""
+MultiSpinnerUIAutoTest,getMaximumSize_test_9565,expected_exception_not_thrown,"false && ""Expected exception of type std::exception; message: 0 >= 0"""
+MouseEventAutoTest,getMouseModifiersText_test_795,value_mismatch,"str1 == """" && ""Expected empty string for getMouseModifiersText(0)"""
+MultiListUIAutoTest,getAccessibleChild_test_9413,expected_exception_not_thrown,"false && ""Expected std::out_of_range (translated from java.lang.ArrayIndexOutOfBoundsException)"""
+MultiLookAndFeelAutoTest,getID_test_9424,value_mismatch,"str2 == ""Multiplex"""
+MultiLookAndFeelAutoTest,isSupportedLookAndFeel_test_9422,value_mismatch,boolean1 == true
+MultiMenuBarUIAutoTest,getAccessibleChild_test_9432,expected_exception_not_thrown,"false && ""Expected exception of type std::out_of_range"""
+LocaleAutoTest,of_test_3656,value_mismatch,"locale2.toString() == ""hi!"""
+LocaleAutoTest,clone_test_3653,value_mismatch,"locale0.toString() == ""zh_TW"""
+LocaleAutoTest,forLanguageTag_test_3695,value_mismatch,"locale1.toString() == """""
+LocaleAutoTest,getDisplayCountry_test_3681,value_mismatch,"locale0.toString() == ""fr"""
+LocaleAutoTest,getDisplayLanguage_test_3676,value_mismatch,"str1 == ""意大利语"""
+MultiSplitPaneUIAutoTest,getDividerLocation_test_9573,expected_exception_not_thrown,false
+MultiTextUIAutoTest,viewToModel_test_9632,expected_exception_not_thrown,"false && ""Expected exception of type ArrayIndexOutOfBoundsException"""
+NimbusLookAndFeelAutoTest,getDescription_test_9710,value_mismatch,"str1 == ""Nimbus Look and Feel"""
+NimbusLookAndFeelAutoTest,getID_test_9718,value_mismatch,"str1 == ""Nimbus"""
+NotificationAutoTest,toString_test_5621,other,signal -6
+LongSummaryStatisticsAutoTest,accept_test_3697,value_mismatch,instance.toString() == expected
+LongSummaryStatisticsAutoTest,accept_test_3698,value_mismatch,instance.toString() == expected
+LongSummaryStatisticsAutoTest,getAverage_test_3703,value_mismatch,"instance.toString() == ""LongSummaryStatistics{count=0, sum=0, min=9223372036854775807, average=0.000"
+LongSummaryStatisticsAutoTest,getCount_test_3699,value_mismatch,"instance.toString() == ""LongSummaryStatistics{count=0, sum=0, min=9223372036854775807, average=0.000"
+LongSummaryStatisticsAutoTest,getMax_test_3704,value_mismatch,"instance.toString() == ""LongSummaryStatistics{count=0, sum=0, min=9223372036854775807, average=0.000"
+PageFormatAutoTest,getOrientation_test_1496,value_mismatch,int1 == 1
+PlainViewAutoTest,setSize_test_10339,expected_exception_not_thrown,"exceptionCaught && ""Expected NullPointerException-like exception"""
+PrinterMessageFromOperatorAutoTest,getCategory_test_6219,other,terminate called after throwing an instance of 'std::runtime_error' |   what():  locale::facet::_S_create_c_locale name no
+PrinterMessageFromOperatorAutoTest,getName_test_6220,other,terminate called after throwing an instance of 'std::runtime_error' |   what():  locale::facet::_S_create_c_locale name no
+PrinterResolutionAutoTest,getCategory_test_6231,other,terminate called after throwing an instance of 'std::invalid_argument' |   what():  Units must be DPCM or DPI | 
+LongSummaryStatisticsAutoTest,getMin_test_3702,value_mismatch,"instance.toString() == ""LongSummaryStatistics{count=0, sum=0, min=9223372036854775807, average=0.000"
+LongSummaryStatisticsAutoTest,getSum_test_3701,value_mismatch,"instance.toString() == ""LongSummaryStatistics{count=0, sum=0, min=9223372036854775807, average=0.000"
+LongSummaryStatisticsAutoTest,toString_test_3696,value_mismatch,result == expected
+MBeanNotificationInfoAutoTest,clone_test_5576,value_mismatch,"clonePtr->toString() == ""javax.management.MBeanNotificationInfo[description=javax.management.MBeanNo"
+MBeanParameterInfoAutoTest,clone_test_5587,other,terminate called after throwing an instance of 'std::runtime_error' |   what():  toString mismatch: expected javax.managem
+RoleStatusAutoTest,isRoleStatus_test_5826,value_mismatch,result == true
+SSLParametersAutoTest,getNamedGroups_test_6068,value_mismatch,boolean1 == true
+SSLParametersAutoTest,getSignatureSchemes_test_6066,value_mismatch,boolean1 == true
+SaslExceptionAutoTest,toString_test_6445,value_mismatch,"str2 == ""javax.security.sasl.SaslException: """
+SecurityManagerAutoTest,checkExec_test_2063,other,signal -6
+LocaleAutoTest,getDisplayLanguage_test_3677,value_mismatch,"locale0.toString() == ""it_IT"""
+LocaleAutoTest,getDisplayScript_test_3678,value_mismatch,"locale1.toString() == ""kor"""
+LocaleAutoTest,getDisplayVariant_test_3682,value_mismatch,"locale0.toString() == ""ko_KR"""
+LocaleAutoTest,getLanguage_test_3662,value_mismatch,"locale0.toString() == ""zh_CN"""
+LocaleAutoTest,getUnicodeLocaleKeys_test_3675,value_mismatch,"locale0.toString() == ""zh_CN"""
+LocaleAutoTest,getUnicodeLocaleType_test_3666,value_mismatch,"locale0.toString() == ""en_US"""
+LocaleAutoTest,lookupTag_test_3686,other,"terminate called after throwing an instance of 'std::logic_error' |   what():  Expected null/empty result, but got: US- | "
+LocaleAutoTest,stripExtensions_test_3668,value_mismatch,"locale1.toString() == ""cn"""
+LocaleAutoTest,toString_test_3651,value_mismatch,"locale3.toString() == ""it"""
+LongAccumulatorAutoTest,longValue_test_4969,other,terminate called after throwing an instance of 'std::invalid_argument' |   what():  LongBinaryOperator must not be null | 
+RandomAutoTest,nextInt_test_3781,value_mismatch,int2 == -348908809
+RenderingHintsAutoTest,clone_test_518,value_mismatch,cloned->toString() == expected
+RepaintManagerAutoTest,currentManager_test_8236,null_check_failed,repaintManager1 != nullptr
+ResponseAPDUAutoTest,toString_test_6467,other,terminate called after throwing an instance of 'std::logic_error' |   what():  'ResponseAPDU: 00 00' != 'ResponseAPDU: 2 b
+RoleListAutoTest,set_test_5820,expected_exception_not_thrown,uncaught C++ exception (Java expected exception)
+SimpleTimeZoneAutoTest,getDSTSavings_test_3872,value_mismatch,"instance.toString() == ""java.util.SimpleTimeZone[id=hi!,offset=100,dstSavings=3600000,useDaylight=fa"
+SimpleTimeZoneAutoTest,getOffset_test_3870,value_mismatch,"simpleTimeZone2.toString() == ""java.util.SimpleTimeZone[id=,offset=100,dstSavings=3600000,useDayligh"
+SizeSequenceAutoTest,setSize_test_8288,other,terminate called after throwing an instance of 'std::out_of_range' |   what():  setSize: index out of range | 
+SplittableRandomAutoTest,nextLong_test_3899,value_mismatch,result == 375680647576599932L
+StatementAutoTest,toString_test_1606,other,"'Statement[target=0, methodName=, arguments count=0]' != 'null.();' | terminate called after throwing an instance of 'std:"
+SynthButtonUIAutoTest,getMaximumSize_test_9722,expected_exception_not_thrown,"false && ""Expected NullPointerException, but no exception was thrown"""
+SynthMenuItemUIAutoTest,paint_test_9825,expected_exception_not_thrown,false
+SynthMenuUIAutoTest,createUI_test_9831,null_check_failed,componentUI1 != nullptr
+SynthProgressBarUIAutoTest,paint_test_9862,expected_exception_not_thrown,"false && ""Expected exception"""
+SynthTableHeaderUIAutoTest,paint_test_9929,expected_exception_not_thrown,"false && ""Expected exception of type java.lang.NullPointerException; message: Cannot invoke \""java.a"
+PrinterResolutionAutoTest,getName_test_6232,other,terminate called after throwing an instance of 'std::invalid_argument' |   what():  Units must be DPCM or DPI | 
+RandomAutoTest,nextDouble_test_3779,value_mismatch,double3 == 43.70756986529507
+RandomAutoTest,nextFloat_test_3798,value_mismatch,float2 == 0.7284595f
+RandomAutoTest,nextGaussian_test_3799,other,terminate called after throwing an instance of 'std::runtime_error' |   what():  nextGaussian test failed | 
+RandomAutoTest,nextInt_test_3780,value_mismatch,result == 25
+StreamReaderDelegateAutoTest,getNamespaceCount_test_10936,expected_exception_not_thrown,"false && ""Expected exception of type java.lang.NullPointerException; message: Cannot invoke \""javax."
+StringBufferAutoTest,appendCodePoint_test_2255,value_mismatch,"instance.toString() == ""\000"""
+StringBufferAutoTest,capacity_test_2252,value_mismatch,int4 == 19
+StringBufferAutoTest,insert_test_2225,value_mismatch,"stringBuffer1.toString() == ""100.0"""
+StringBufferAutoTest,insert_test_2226,value_mismatch,"stringBuffer1.toString() == ""100.0"""
+UIManagerAutoTest,getSystemLookAndFeelClassName_test_8420,value_mismatch,"str0 == ""javax.swing.plaf.metal.MetalLookAndFeel"""
+UndeclaredThrowableExceptionAutoTest,getUndeclaredThrowable_test_2425,other,signal -6
+XMLDecoderAutoTest,createHandler_test_1619,null_check_failed,defaultHandler3 != nullptr
+XMLFormatterAutoTest,getHead_test_5107,other,signal -6
+StringBufferAutoTest,insert_test_2228,value_mismatch,"stringBuffer1.toString() == ""100.0"""
+StringBufferAutoTest,insert_test_2229,value_mismatch,"stringBuffer1.toString() == ""100.0"""
+StringBufferAutoTest,insert_test_2230,value_mismatch,"stringBuffer1.toString() == ""100.0"""
+StringBufferAutoTest,insert_test_2231,value_mismatch,"stringBuffer1.toString() == ""100.0"""
+StringBufferAutoTest,insert_test_2232,value_mismatch,"stringBuffer1.toString() == ""100.0"""
+SynthViewportUIAutoTest,update_test_9978,expected_exception_not_thrown,false
+TIFFDirectoryAutoTest,getAsMetadata_test_5428,null_check_failed,result != nullptr
+TimerAutoTest,getLogTimers_test_8343,value_mismatch,boolean0 == true
+TimestampAutoTest,toString_test_2979,value_mismatch,str3 == expected
+TreeModelEventAutoTest,getChildIndices_test_8563,value_mismatch,!intArray4.empty()
+StringBuilderAutoTest,insert_test_2281,value_mismatch,"instance.toString() == ""100.0"""
+StringBuilderAutoTest,insert_test_2282,value_mismatch,"stringBuilder1.toString() == ""100.0"""
+StringBuilderAutoTest,insert_test_2283,value_mismatch,"stringBuilder1.toString() == ""100.0"""
+StringBuilderAutoTest,insert_test_2284,value_mismatch,"stringBuilder1.toString() == ""100.0"""
+StringBuilderAutoTest,insert_test_2285,value_mismatch,"stringBuilder1.toString() == ""100.0"""
+StringBuilderAutoTest,insert_test_2276,value_mismatch,"stringBuilder1.toString() == ""100.0"""
+StringBuilderAutoTest,insert_test_2277,value_mismatch,"instance.toString() == ""100.0"""
+StringBuilderAutoTest,insert_test_2278,value_mismatch,"stringBuilder1.toString() == ""100.0"""
+StringBuilderAutoTest,insert_test_2279,other,terminate called after throwing an instance of 'std::runtime_error' |   what():  Assertion failed: stringBuilder1.toString
+StringBuilderAutoTest,insert_test_2280,value_mismatch,stringBuilder1.toString() == expected
+StringBuilderAutoTest,insert_test_2286,value_mismatch,"stringBuilder1.toString() == ""100.0"""
+StringBuilderAutoTest,insert_test_2287,value_mismatch,"instance.toString() == ""100.0"""
+StyleContextAutoTest,getStaticAttribute_test_10390,value_mismatch,"obj1.value != """""
+StyleContextAutoTest,toString_test_10399,value_mismatch,expected == str1
+StyleSheetAutoTest,getRule_test_10564,null_check_failed,style2 != nullptr
+StringBufferAutoTest,insert_test_2233,value_mismatch,"instance.toString() == ""100.0"""
+StringBufferAutoTest,insert_test_2234,value_mismatch,stringBuffer1.toString() == expected
+StringBufferAutoTest,insert_test_2235,value_mismatch,"instance.toString() == ""100.0"""
+StringBufferAutoTest,insert_test_2236,value_mismatch,"stringBuffer1.toString() == ""100.0"""
+StringBuilderAutoTest,indexOf_test_2274,value_mismatch,int4 == 0
+TreeSetAutoTest,descendingIterator_test_3990,null_check_failed,iter != nullptr
+TreeSetAutoTest,headSet_test_3996,null_check_failed,strSet4 != nullptr
+TreeSetAutoTest,iterator_test_3978,null_check_failed,it != nullptr
+TreeSetAutoTest,subSet_test_3994,other,terminate called after throwing an instance of 'std::runtime_error' |   what():  assertNotNull failed | 
+TreeSetAutoTest,subSet_test_3995,null_check_failed,strSet3 != nullptr

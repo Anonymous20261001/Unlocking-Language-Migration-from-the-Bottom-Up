@@ -1,0 +1,48 @@
+=================================================================
+  Java → C# Translation Summary
+  Generated: 2026-07-21
+=================================================================
+
+  Source:        JavaAPI_by_class (1053 classes → filtered to 811 inventory classes)
+  Inventory:     java_benchmark_inventory.csv (7141 methods)
+
+  Output:
+    CsAPI_by_class/<ClassName>.cs                         811 files (per class)
+    CsAPI_splitted_method/<ClassName>/<method>_test_<id>.cs  7141 files (per method)
+
+=================================================================
+  Method-Level Mapping
+=================================================================
+  Total inventory entries:         7141
+  Java @Test methods:              7141
+  C# test methods matched:         7141 (100%)
+  All methods mapped:              YES
+
+=================================================================
+  Compilation Report
+=================================================================
+  With test framework (NUnit 2.6):
+    Passed:    4260 / 7141 (59%)
+    Failed:    2881 / 7141 (40%)
+
+  Without test framework (pure C#):
+    Passed:    4641 / 7141 (65%)
+    Failed:    2500 / 7141 (35%)
+
+  Main error categories (no framework):
+    CS1501    Method overload mismatch
+    CS0246    Type/namespace not found
+    CS0122    Access level too low
+    CS0111    Duplicate member definition
+    CS0525    Interface not implemented
+    CS0117    No such member
+
+=================================================================
+  Files
+=================================================================
+  method_mapping.csv              7141 rows: class, java_method, number,
+                                  java_test_name, match, cs_test_name,
+                                  cs_by_class path, cs_splitted_method path
+  compile_all.py                  Mass compilation script
+  split_methods.py                Method splitting script
+  translate_resilient.py          Translation with auto-retry

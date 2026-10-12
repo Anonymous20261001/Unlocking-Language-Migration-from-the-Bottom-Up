@@ -1,0 +1,6 @@
+row_key,class,method,number,status,new_outcome,failure_content
+BasicComboBoxUIAutoTest|getminimumsize|8683,BasicComboBoxUIAutoTest,getminimumsize,8683,still_fails,,"COMPILE_ERR: /tmp/tmp14el_y4b/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+ChoiceFormatAutoTest|format|3024,ChoiceFormatAutoTest,format,3024,still_fails,,"COMPILE_ERR: /tmp/tmp6g5uma7j/runner.cs(2,6): error CS1525: Unexpected symbol `public', expecting `identifier' or `static' | /tmp/tmp6g5uma7j/runner.cs(2,12): error CS1525: Unexpected symbol `;', expecting `identifi"
+FixedHeightLayoutCacheAutoTest|getpathclosestto|10766,FixedHeightLayoutCacheAutoTest,getpathclosestto,10766,still_fails,,no_test_method
+MultiSpinnerUIAutoTest|contains|9572,MultiSpinnerUIAutoTest,contains,9572,still_fails,,"COMPILE_ERR: /tmp/tmpv_b8ew29/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+UndeclaredThrowableExceptionAutoTest|getundeclaredthrowable|2425,UndeclaredThrowableExceptionAutoTest,getundeclaredthrowable,2425,fixed,TEST FAILED: throwable3.Message == null | ,

@@ -1,0 +1,7 @@
+row_key,class,method,number,status,new_outcome,failure_content
+AsyncBoxViewAutoTest|getpreferredspan|10122,AsyncBoxViewAutoTest,getpreferredspan,10122,still_fails,,"COMPILE_ERR: /tmp/tmpn5nqz36_/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+BasicToolBarUIAutoTest|setfloating|9021,BasicToolBarUIAutoTest,setfloating,9021,fixed,TEST FAILED: Nullable object must have a value. | ,
+ConcurrentSkipListSetAutoTest|higher|4374,ConcurrentSkipListSetAutoTest,higher,4374,still_fails,,"COMPILE_ERR: /tmp/tmpcaywhnx7/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+MetalFileChooserUIAutoTest|installcomponents|9132,MetalFileChooserUIAutoTest,installcomponents,9132,still_fails,,"COMPILE_ERR: /tmp/tmp_o74cy2e/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+StyledEditorKitAutoTest|deinstall|10402,StyledEditorKitAutoTest,deinstall,10402,still_fails,,"/root/autodl-tmp/Java2C#/CsAPI_benchmark_translated/StyledEditorKitAutoTest/deinstall_test_10402.cs(5,9): error CS0246: The type or namespace name `StyledEditorKit' could not be found. Are you missing an assembly reference?
+/root/autodl-tmp/Java2C#/CsAPI_benchmark_translated/StyledEditorKitAutoTest/"

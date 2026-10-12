@@ -1,0 +1,7 @@
+row_key,class,method,number,status,new_outcome,failure_content
+BasicTableUIAutoTest|getminimumsize|8999,BasicTableUIAutoTest,getminimumsize,8999,fixed,TEST FAILED: Expected exception of type System.NullReferenceException | ,
+ConcurrentLinkedDequeAutoTest|add|4250,ConcurrentLinkedDequeAutoTest,add,4250,still_fails,,"/root/autodl-tmp/Java2C#/CsAPI_benchmark_translated/ConcurrentLinkedDequeAutoTest/add_test_4250.cs(433,35): error CS0029: Cannot implicitly convert type `void' to `bool'
+"
+LongSummaryStatisticsAutoTest|accept|3697,LongSummaryStatisticsAutoTest,accept,3697,still_fails,,"COMPILE_ERR: /tmp/tmp472oszki/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+RandomAutoTest|nextgaussian|3799,RandomAutoTest,nextgaussian,3799,still_fails,,timeout
+jdk_jfr_RecordingAutoTest|start|10365,jdk_jfr_RecordingAutoTest,start,10365,fixed,PASS,

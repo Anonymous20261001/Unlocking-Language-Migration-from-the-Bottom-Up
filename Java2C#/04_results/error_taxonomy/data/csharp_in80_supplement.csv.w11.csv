@@ -1,0 +1,6 @@
+row_key,class,method,number,status,new_outcome,failure_content
+BasicScrollBarUIAutoTest|minimumlayoutsize|8891,BasicScrollBarUIAutoTest,minimumlayoutsize,8891,still_fails,,"COMPILE_ERR: /tmp/tmptztkqf83/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+ChoiceFormatAutoTest|parse|3026,ChoiceFormatAutoTest,parse,3026,still_fails,,"COMPILE_ERR: /tmp/tmpwk4svvme/runner.cs(2,6): error CS1525: Unexpected symbol `public', expecting `identifier' or `static' | /tmp/tmpwk4svvme/runner.cs(2,12): error CS1525: Unexpected symbol `;', expecting `identifi"
+JOptionPaneAutoTest|setui|7400,JOptionPaneAutoTest,setui,7400,fixed,TEST FAILED: '0' != '-1' | ,
+MultiTreeUIAutoTest|getaccessiblechild|9691,MultiTreeUIAutoTest,getaccessiblechild,9691,fixed,TEST FAILED: Expected exception of type System.IndexOutOfRangeException; message: 0 >= 0 | ,
+XMLEncoderAutoTest|flush|1626,XMLEncoderAutoTest,flush,1626,still_fails,,"COMPILE_ERR: /tmp/tmpwr_igto_/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "

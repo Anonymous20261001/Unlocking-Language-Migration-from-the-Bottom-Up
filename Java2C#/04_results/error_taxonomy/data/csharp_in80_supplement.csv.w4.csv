@@ -1,0 +1,7 @@
+row_key,class,method,number,status,new_outcome,failure_content
+BadAttributeValueExpExceptionAutoTest|tostring|5545,BadAttributeValueExpExceptionAutoTest,tostring,5545,still_fails,,"COMPILE_ERR: /tmp/tmpp_8q7lgc/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+BoxLayoutAutoTest|removelayoutcomponent|6550,BoxLayoutAutoTest,removelayoutcomponent,6550,fixed,TEST FAILED: Expected exception of type System.NullReferenceException | ,
+DateTimeFormatterBuilderAutoTest|padnext|3260,DateTimeFormatterBuilderAutoTest,padnext,3260,fixed,PASS,
+MultiProgressBarUIAutoTest|getmaximumsize|9493,MultiProgressBarUIAutoTest,getmaximumsize,9493,still_fails,,"COMPILE_ERR: /tmp/tmpnrg1p862/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+SynthSeparatorUIAutoTest|getminimumsize|9903,SynthSeparatorUIAutoTest,getminimumsize,9903,still_fails,,"/root/autodl-tmp/Java2C#/CsAPI_benchmark_translated/SynthSeparatorUIAutoTest/getMinimumSize_test_9903.cs(5,9): error CS0246: The type or namespace name `SynthSeparatorUI' could not be found. Are you missing an assembly reference?
+/root/autodl-tmp/Java2C#/CsAPI_benchmark_translated/SynthSeparatorUIAu"

@@ -1,0 +1,6 @@
+row_key,class,method,number,status,new_outcome,failure_content
+BasicComboBoxEditorAutoTest|getitem|8663,BasicComboBoxEditorAutoTest,getitem,8663,still_fails,,"COMPILE_ERR: /tmp/tmp6q5jnkrk/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+BoxLayoutAutoTest|minimumlayoutsize|6556,BoxLayoutAutoTest,minimumlayoutsize,6556,fixed,"TEST FAILED: Expected exception of type NullReferenceException; message: Cannot invoke ""java.awt.Container.getComponentCount()"" because ""this.target"" is null | ",
+DefaultColorSelectionModelAutoTest|addchangelistener|8515,DefaultColorSelectionModelAutoTest,addchangelistener,8515,fixed,TEST FAILED: Value cannot be null. | Parameter name: listener | ,
+MultiProgressBarUIAutoTest|getaccessiblechildrencount|9495,MultiProgressBarUIAutoTest,getaccessiblechildrencount,9495,still_fails,,no_test_method
+SynthSeparatorUIAutoTest|update|9904,SynthSeparatorUIAutoTest,update,9904,still_fails,,"COMPILE_ERR: /tmp/tmpaadzhron/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "

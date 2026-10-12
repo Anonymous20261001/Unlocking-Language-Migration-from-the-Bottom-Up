@@ -1,0 +1,151 @@
+﻿class,method,number,dataset,审计结果,说明
+Adler32AutoTest,getValue,5123,benchmark,一致,1 value asserts matched
+AsyncBoxViewAutoTest,getViewCount,10107,benchmark,基本一致,1/1 conditions not exactly matched: ['int3 == 0']
+AtomicBooleanAutoTest,getPlain,4750,benchmark,一致,1 value asserts matched
+AtomicIntegerArrayAutoTest,setOpaque,4791,benchmark,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+AtomicIntegerAutoTest,getAndDecrement,4777,benchmark,一致,1 value asserts matched
+AtomicReferenceAutoTest,getAndUpdate,4907,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+AttributeChangeNotificationFilterAutoTest,getEnabledAttributes,5530,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+BasicFileChooserUIAutoTest,uninstallUI,8749,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+BasicIconFactoryAutoTest,getMenuItemArrowIcon,8781,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+BasicPanelUIAutoTest,getBaselineResizeBehavior,8852,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+BasicPopupMenuSeparatorUIAutoTest,paint,8856,benchmark,一致,both sides no asserts
+BasicSliderUIAutoTest,getPreferredVerticalSize,8912,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+BasicStrokeAutoTest,getLineWidth,2,benchmark,一致,1 value asserts matched
+BasicTabbedPaneUIAutoTest,getTabRunCount,8974,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+BasicTextAreaUIAutoTest,getBaseline,9005,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+BasicTreeUIAutoTest,cancelEditing,9049,benchmark,一致,both sides no asserts
+BasicTreeUIAutoTest,getPreferredMinSize,9059,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+BasicTreeUIAutoTest,getPreferredSize,9066,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+BigDecimalAutoTest,longValueExact,2471,benchmark,不一致,"java 1 value asserts, cpp 0 (asserts lost)"
+BitSetAutoTest,stream,3369,benchmark,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+ButtonGroupAutoTest,setSelected,6561,benchmark,一致,both sides no asserts
+CharacterAutoTest,isSpaceChar,1950,benchmark,一致,1 value asserts matched
+ChoiceFormatAutoTest,previousDouble,3017,benchmark,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+ColorAutoTest,getBlue,73,benchmark,基本一致,null checks dropped without comment
+ColorAutoTest,getColor,76,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+ConcurrentHashMapAutoTest,keySet,4207,benchmark,一致,both sides no asserts
+ContainerAutoTest,layout,94,benchmark,不一致,"java 1 value asserts, cpp 0 (asserts lost)"
+CopyOnWriteArrayListAutoTest,get,4384,benchmark,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+DataBufferDoubleAutoTest,getData,1204,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+DataFlavorAutoTest,equals,671,benchmark,基本一致,cpp 2 vs java 1 (extra asserts)
+DataFlavorAutoTest,toString,674,benchmark,基本一致,cpp 2 vs java 0 (extra asserts)
+DatagramPacketAutoTest,setAddress,2545,benchmark,一致,both sides no asserts
+DateAutoTest,toString,3389,benchmark,基本一致,"1/1 conditions not exactly matched: ['date1.toString() == ""Thu Jan 01 08:00:00 CST 1970""']"
+DateAutoTest,clone,3391,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+DateTimeFormatterBuilderAutoTest,appendOffsetId,3247,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+DebugGraphicsAutoTest,flashTime,6585,benchmark,不一致,"java 1 value asserts, cpp 0 (asserts lost)"
+DebugGraphicsAutoTest,getClip,6617,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+DecimalFormatSymbolsAutoTest,setPerMill,3154,benchmark,一致,both sides no asserts
+DecimalFormatSymbolsAutoTest,setPercent,3155,benchmark,一致,both sides no asserts
+DefaultListCellRendererAutoTest,revalidate,6732,benchmark,一致,both sides no asserts
+DefaultListModelAutoTest,removeElementAt,6741,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+DefaultListSelectionModelAutoTest,moveLeadSelectionIndex,6790,benchmark,一致,both sides no asserts
+DefaultMutableTreeNodeAutoTest,getPreviousSibling,10627,benchmark,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+DefaultSingleSelectionModelAutoTest,removeChangeListener,6798,benchmark,一致,both sides no asserts
+DefaultSingleSelectionModelAutoTest,getSelectedIndex,6802,benchmark,一致,1 value asserts matched
+DefaultSingleSelectionModelAutoTest,isSelected,6803,benchmark,基本一致,1/1 conditions not exactly matched: ['boolean1 == false']
+DefaultTreeModelAutoTest,nodeChanged,10702,benchmark,一致,both sides no asserts
+DefaultTreeSelectionModelAutoTest,removeSelectionPaths,10742,benchmark,基本一致,null checks dropped without comment
+FilteredImageSourceAutoTest,startProduction,1266,benchmark,一致,both sides no asserts
+ForkJoinPoolAutoTest,getRunningThreadCount,4498,benchmark,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+GaugeMonitorAutoTest,getDerivedGaugeTimeStamp,5719,benchmark,一致,1 value asserts matched
+GregorianCalendarAutoTest,isLeapYear,3465,benchmark,一致,1 value asserts matched
+HashMapAutoTest,containsKey,3500,benchmark,基本一致,1/1 conditions not exactly matched: ['boolean2 == false']
+HashtableAutoTest,clone,3524,benchmark,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+HttpCookieAutoTest,clone,2578,benchmark,基本一致,cpp 2 vs java 1 (extra asserts)
+HttpCookieAutoTest,setVersion,2583,benchmark,一致,both sides no asserts
+IIOMetadataNodeAutoTest,removeAttributeNode,5354,benchmark,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+ImageTypeSpecifierAutoTest,getNumComponents,5312,benchmark,基本一致,null checks dropped without comment
+ImageViewAutoTest,getLoadingImageIcon,10504,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+ImageViewAutoTest,setLoadsSynchronously,10507,benchmark,一致,both sides no asserts
+ImageWriteParamAutoTest,canOffsetTiles,5322,benchmark,基本一致,cpp 3 vs java 1 (extra asserts)
+JListAutoTest,getSelectionForeground,7250,benchmark,基本一致,null checks dropped without comment
+JMenuAutoTest,getMenuListeners,7317,benchmark,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+JMenuAutoTest,add,7344,benchmark,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+JSliderAutoTest,setInverted,7649,benchmark,一致,both sides no asserts
+JSplitPaneAutoTest,setOrientation,7728,benchmark,基本一致,cpp 2 vs java 0 (extra asserts)
+JTableAutoTest,getShowVerticalLines,7878,benchmark,基本一致,cpp 2 vs java 1 (extra asserts)
+JTableAutoTest,getCellSelectionEnabled,7887,benchmark,基本一致,cpp 3 vs java 2 (extra asserts)
+LocaleAutoTest,getDisplayScript,3678,benchmark,基本一致,null checks dropped without comment
+MetalIconFactoryAutoTest,getCheckBoxMenuItemIcon,9145,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+MetalIconFactoryAutoTest,getTreeComputerIcon,9157,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+MetalMenuBarUIAutoTest,update,9232,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+MetalPopupMenuSeparatorUIAutoTest,paint,9234,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+MidiEventAutoTest,setTick,6478,benchmark,一致,both sides no asserts
+MultiComboBoxUIAutoTest,getAccessibleChildrenCount,9330,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+MultiFileChooserUIAutoTest,ensureFileIsVisible,9362,benchmark,一致,both sides no asserts
+MultiProgressBarUIAutoTest,uninstallUI,9490,benchmark,一致,both sides no asserts
+MultiTabbedPaneUIAutoTest,getPreferredSize,9602,benchmark,一致,both sides no asserts
+MultiTableHeaderUIAutoTest,createUI,9609,benchmark,一致,both sides no asserts
+MultiViewportUIAutoTest,getMinimumSize,9705,benchmark,一致,both sides no asserts
+NameClassPairAutoTest,getName,5916,benchmark,一致,1 value asserts matched
+NotificationResultAutoTest,getEarliestSequenceNumber,5840,benchmark,基本一致,1/1 conditions not exactly matched: ['long4 == 100L']
+PageAttributesAutoTest,getOrientationRequested,429,benchmark,基本一致,null checks dropped without comment
+ParameterBlockAutoTest,shallowClone,1428,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+PolygonAutoTest,translate,451,benchmark,一致,both sides no asserts
+PolygonAutoTest,getPathIterator,455,benchmark,一致,both sides no asserts
+PrinterStateReasonsAutoTest,printerStateReasonSet,6235,benchmark,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+PriorityQueueAutoTest,add,3721,benchmark,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+PropertyChangeSupportAutoTest,addPropertyChangeListener,1572,benchmark,一致,both sides no asserts
+PropertyEditorSupportAutoTest,getCustomEditor,1586,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+RandomAutoTest,nextBytes,3782,benchmark,一致,both sides no asserts
+ReferenceAutoTest,getFactoryClassName,5936,benchmark,一致,1 value asserts matched
+RepaintManagerAutoTest,getOffscreenBuffer,8251,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+SAXResultAutoTest,setHandler,10985,benchmark,一致,both sides no asserts
+SAXSourceAutoTest,setXMLReader,10992,benchmark,一致,both sides no asserts
+SSLParametersAutoTest,setCipherSuites,6070,benchmark,基本一致,cpp 2 vs java 0 (extra asserts)
+ScriptEngineManagerAutoTest,getEngineByExtension,6264,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+ScrollPaneLayoutAutoTest,removeLayoutComponent,8269,benchmark,一致,both sides no asserts
+SearchControlsAutoTest,getCountLimit,5988,benchmark,一致,2 value asserts matched
+SecureRandomAutoTest,nextBytes,2738,benchmark,一致,both sides no asserts
+SimpleBindingsAutoTest,containsKey,6287,benchmark,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+SplittableRandomAutoTest,longs,3889,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+SplittableRandomAutoTest,nextLong,3899,benchmark,基本一致,1/1 conditions not exactly matched: ['long2 == 375680647576599932L']
+StreamReaderDelegateAutoTest,getNamespacePrefix,10958,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+StreamSourceAutoTest,getSystemId,11008,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+StreamTokenizerAutoTest,commentChar,1805,benchmark,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+StringMonitorAutoTest,getNotifyMatch,5737,benchmark,一致,1 value asserts matched
+StyleContextAutoTest,getEmptySet,10389,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+SynthButtonUIAutoTest,propertyChange,9719,benchmark,一致,both sides no asserts
+TableColumnAutoTest,setMaxWidth,10089,benchmark,一致,both sides no asserts
+TextInputCallbackAutoTest,getText,6354,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+ThreadGroupAutoTest,setDaemon,2339,benchmark,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+TreeSetAutoTest,isEmpty,3976,benchmark,基本一致,1/1 conditions not exactly matched: ['boolean1 == true']
+UIDefaultsAutoTest,removeResourceBundle,8386,benchmark,一致,both sides no asserts
+UndoManagerAutoTest,getRedoPresentationName,10833,benchmark,基本一致,"1/1 conditions not exactly matched: ['str1 == ""Redo""']"
+VariableHeightLayoutCacheAutoTest,getPathForRow,10790,benchmark,基本一致,cpp 2 vs java 0 (extra asserts)
+VetoableChangeSupportAutoTest,getVetoableChangeListeners,1615,benchmark,基本一致,cpp 1 vs java 0 (extra asserts)
+X509CertSelectorAutoTest,getIssuerAsString,2812,benchmark,基本一致,cpp 3 vs java 0 (extra asserts)
+XMLEncoderAutoTest,writeExpression,1624,benchmark,基本一致,cpp 2 vs java 0 (extra asserts)
+ZipEntryAutoTest,getTime,5191,benchmark,不一致,cpp uses assert(true) placeholder (condition not translated)
+java_awt_color_ICC_ProfileAutoTest,getInstance,5508,javadoc,基本一致,cpp 1 vs java 0 (extra asserts)
+java_awt_print_BookAutoTest,setPage,1766,javadoc,基本一致,cpp 1 vs java 0 (extra asserts)
+java_lang_ClassLoaderAutoTest,getSystemResource,2317,javadoc,基本一致,cpp 1 vs java 0 (extra asserts)
+java_lang_StackWalkerAutoTest,getInstance,11454,javadoc,基本一致,cpp 2 vs java 1 (extra asserts)
+java_lang_StrictMathAutoTest,abs,11593,javadoc,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+java_lang_module_ModuleDescriptorAutoTest,newOpenModule,8993,javadoc,一致,both sides no asserts
+java_lang_ref_CleanerAutoTest,create,2319,javadoc,一致,both sides no asserts
+java_lang_reflect_ModifierAutoTest,isStatic,8975,javadoc,一致,1 value asserts matched
+java_net_URLConnectionAutoTest,setDefaultUseCaches,13260,javadoc,一致,both sides no asserts
+java_nio_LongBufferAutoTest,allocate,8209,javadoc,一致,both sides no asserts
+java_nio_ShortBufferAutoTest,wrap,11098,javadoc,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+java_nio_channels_ChannelsAutoTest,newOutputStream,2115,javadoc,不一致,cpp uses assert(true) placeholder (condition not translated)
+java_text_CollatorAutoTest,getInstance,2350,javadoc,一致,both sides no asserts
+java_text_DateFormatAutoTest,getDateInstance,3323,javadoc,基本一致,"1/1 conditions not exactly matched: ['locale1.toString() == ""ja_JP""']"
+java_time_chrono_HijrahDateAutoTest,from,5351,javadoc,一致,1 value asserts matched
+java_time_chrono_JapaneseEraAutoTest,of,5976,javadoc,一致,1 value asserts matched
+java_util_ArraysAutoTest,copyOf,356,javadoc,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+java_util_ArraysAutoTest,sort,366,javadoc,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+java_util_CollectionsAutoTest,synchronizedList,2397,javadoc,基本一致,cpp 3 vs java 1 (extra asserts)
+java_util_OptionalLongAutoTest,of,9696,javadoc,基本一致,cpp 2 vs java 1 (extra asserts)
+java_util_SpliteratorsAutoTest,emptyIntSpliterator,11336,javadoc,基本一致,cpp 5 vs java 4 (extra asserts)
+javax_management_MBeanServerFactoryAutoTest,getClassLoaderRepository,8448,javadoc,基本一致,cpp 3 vs java 2 (extra asserts)
+javax_management_relation_RoleInfoAutoTest,getDescription,10645,javadoc,基本一致,cpp 1 vs java 0 (extra asserts)
+javax_swing_KeyStrokeAutoTest,getKeyStrokeForEvent,7655,javadoc,一致,both sides no asserts
+javax_swing_SwingUtilitiesAutoTest,getWindowAncestor,12079,javadoc,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+javax_swing_SwingUtilitiesAutoTest,isLeftMouseButton,12098,javadoc,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+javax_swing_text_StyleConstantsAutoTest,setStrikeThrough,11938,javadoc,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+javax_swing_text_StyleConstantsAutoTest,setAlignment,11948,javadoc,未翻译(记录一致),skeleton compile failed; no translation expected (record consistent)
+javax_xml_stream_util_EventReaderDelegateAutoTest,getProperty,4599,javadoc,基本一致,cpp 1 vs java 0 (extra asserts)
+jdk_dynalink_linker_support_GuardsAutoTest,asType,5251,javadoc,一致,both sides no asserts

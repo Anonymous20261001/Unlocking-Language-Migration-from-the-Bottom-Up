@@ -1,0 +1,15 @@
+domain,n,cs_csr,cpp_csr,py_csr
+Core Language,1118,31.6,73.3,65.3
+Data Containers,1176,42.6,57.4,56.0
+Concurrency,499,70.7,72.7,76.8
+IO,199,65.8,65.8,41.7
+Date & Time,248,77.4,96.8,50.8
+Security,347,79.5,91.1,68.0
+AWT (Graphics 2D),858,53.0,87.1,53.5
+Swing (GUI),3193,67.4,85.6,68.0
+Networking,258,80.2,98.1,72.1
+Database,202,83.7,97.5,42.6
+Monitoring & Managing,295,73.2,93.9,58.0
+Media,407,57.0,85.5,58.5
+Dynamic Languages,77,94.8,75.3,70.1
+Dev Tools,18,50.0,100.0,61.1

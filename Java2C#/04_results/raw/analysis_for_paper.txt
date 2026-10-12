@@ -1,0 +1,94 @@
+==========================================================================================
+  Java → C# Translation: Comprehensive Error Analysis for Paper
+==========================================================================================
+
+──────────────────────────────────────────────────────────────────────────────────────────
+Table 1. Skeleton Compilation Error Distribution (CsAPI_splitted_nofw, N=7141)
+Overall: 4408 passed (61%), 2733 failed (38%)
+──────────────────────────────────────────────────────────────────────────────────────────
+  CS Error Occurrences Files Affected % of Total  Description
+  --------------------------------------------------------------------------------
+  CS0246         1028             904         14%  The type or namespace name could not be found — missing assembly reference or undefined internal type in wrapper class
+  CS1525          578             375          8%  Invalid expression term — syntax error, often caused by LLM generating malformed C# code
+  CS0103          502             301          7%  The name does not exist in the current context — undefined variable, method, or type in wrapper implementation
+  CS0111          316             270          4%  Duplicate member definition — wrapper class defines a member that already exists in base class or interface
+  CS0525          305              61          4%  Interface member not implemented — wrapper class fails to fully implement the declared interface
+  CS1501          277             104          3%  No overload for method takes N arguments — test method calls wrapper API with wrong parameter count
+  CS0841          267             258          3%  Use of unassigned local variable — variable declared but not initialized before use
+  CS1056          253              95          3%  Unexpected character — illegal character in C# source, often from markdown artifacts or encoding issues
+  CS0117          246              62          3%  Type does not contain a definition for member — test calls a method/property not defined in wrapper class
+  CS1519          233             120          3%  Invalid token in class, struct, or interface member declaration — structural syntax error in wrapper code
+  CS1061          233             176          3%  Type does not contain a definition for method — invocation target method missing from wrapper
+  CS0234          209             194          2%  The type or namespace name does not exist in the namespace — incorrect namespace or assembly reference
+  CS0122          187              78          2%  Inaccessible due to protection level — member declared private/protected but accessed as public
+  CS1644          184              66          2%  Cannot use ref/out parameter — feature not available in this context
+  CS1040          127              95          1%  Preprocessor directive error — malformed #if/#else/#endif block
+  CS0037          120              30          1%  Cannot convert null to non-nullable type — type safety violation
+  CS0102          109              39          1%  Type already contains a definition — duplicate field/method/property
+  CS0453          109              79          1%  Type parameter constraint not satisfied — generic constraint mismatch between wrapper and test
+  CS0616           92              76          1%  ?
+  CS0176           92              23          1%  Cannot access static member with instance reference — wrong access pattern
+
+──────────────────────────────────────────────────────────────────────────────────────────
+Table 2. Translated Compilation Error Distribution (CsAPI_benchmark, N=4408)
+Overall: 4303 passed (97%), 105 failed (2%)
+──────────────────────────────────────────────────────────────────────────────────────────
+  CS Error Occurrences % of Total  Description
+  ----------------------------------------------------------------------
+  CS1525           70          1%  Invalid expression term — syntax error, often caused by LLM generating malformed C# code
+  CS0016           27          0%  Could not write to output file — disk I/O error during compilation
+  CS1001            2          0%  Syntax error, identifier expected — malformed code structure
+  CS0037            2          0%  Cannot convert null to non-nullable type — type safety violation
+  CS0221            2          0%  Constant value cannot be converted — numeric literal out of range for target type
+  CS1061            1          0%  Type does not contain a definition for method — invocation target method missing from wrapper
+
+──────────────────────────────────────────────────────────────────────────────────────────
+Table 3. Runtime Behavior Consistency (N=4303)
+Overall: 3914 consistent (90%), 389 inconsistent (9%)
+──────────────────────────────────────────────────────────────────────────────────────────
+  Failure Category                                Count      %
+  ------------------------------------------------------------
+  Runtime exception (assertion mismatch)            351     8%
+  Test method pattern not found                      36     0%
+  Execution timeout                                   2     0%
+
+──────────────────────────────────────────────────────────────────────────────────────────
+Table 4. Error Root Cause Classification
+──────────────────────────────────────────────────────────────────────────────────────────
+  Root Cause Category              Skeleton      %  Translated      %
+  ----------------------------------------------------------------------
+  Syntax/Structural Error              1191   16%          72    1%
+  Incomplete Implementation            1247   17%           0    0%
+  Missing Type/Reference               1237   17%           0    0%
+  Other                                1146   16%           0    0%
+  API Mismatch                          936   13%           1    0%
+  Type Safety Violation                 455    6%           4    0%
+  Build Environment                      15    0%          27    0%
+
+──────────────────────────────────────────────────────────────────────────────────────────
+Table 5. Per-Class Pass Rate Distribution (811 classes)
+──────────────────────────────────────────────────────────────────────────────────────────
+  Pass Rate    Skeleton     %  Translated     %  Behavior     %
+  ------------------------------------------------------------
+  100               521   64%         547   94%       382   66%
+  80                 35    4%          25    4%       101   17%
+  60                  9    1%           2    0%        65   11%
+  40                  5    0%           2    0%        20    3%
+  20                  3    0%           0    0%         3    0%
+  0                 238   29%           2    0%         5    0%
+  100% only         521   64%         547   67%       382   47%
+
+──────────────────────────────────────────────────────────────────────────────────────────
+Table 6. End-to-End Translation Pipeline Flow
+──────────────────────────────────────────────────────────────────────────────────────────
+  Stage                                      Files       Pass Rate
+  ------------------------------------------------------------
+  Java inventory entries (total)            7141        100%
+  → Skeleton compilation (nofw)             4408        61%
+  → LLM test body translation               4303        60%
+  → Runtime behavior consistent             3914        54%
+
+  Attrition rates:
+    Skeleton → Translation: 4303/4408 = 97%
+    Translation → Behavior: 3914/4303 = 90%
+    End-to-end: 3914/7141 = 54%

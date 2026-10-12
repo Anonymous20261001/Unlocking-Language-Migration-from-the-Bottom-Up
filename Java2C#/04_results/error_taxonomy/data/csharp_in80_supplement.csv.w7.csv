@@ -1,0 +1,6 @@
+row_key,class,method,number,status,new_outcome,failure_content
+BasicComboBoxUIAutoTest|paint|8679,BasicComboBoxUIAutoTest,paint,8679,still_fails,,"COMPILE_ERR: /tmp/tmpbn4gxvwh/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+ChoiceFormatAutoTest|equals|3020,ChoiceFormatAutoTest,equals,3020,still_fails,,"COMPILE_ERR: /tmp/tmpfoyeca5_/runner.cs(2,6): error CS1525: Unexpected symbol `public', expecting `identifier' or `static' | /tmp/tmpfoyeca5_/runner.cs(2,12): error CS1525: Unexpected symbol `;', expecting `identifi"
+DigestOutputStreamAutoTest|on|2703,DigestOutputStreamAutoTest,on,2703,still_fails,,"COMPILE_ERR: /tmp/tmp3t9vkyle/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
+MultiProgressBarUIAutoTest|contains|9500,MultiProgressBarUIAutoTest,contains,9500,still_fails,,no_test_method
+TimeAutoTest|setyear|2974,TimeAutoTest,setyear,2974,fixed,TEST FAILED: Expected exception of type System.ArgumentException; message: null | ,

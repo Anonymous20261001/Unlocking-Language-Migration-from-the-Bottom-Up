@@ -1,0 +1,7 @@
+=== 全 API 覆盖摘要（实验期库存，13,664 方法 / 1,521 类，附录） ===
+Java API 方法总数（排除 Object 方法）: 13,664
+  benchmark source: 10,297
+  javadoc source:   3,367
+Randoop generated (非 Object): 8,530
+Uncovered: 5,134
+注: 8,895 个翻译样本中含 365 个 Object 方法测试（Randoop 在序列中调用），详见语言包 README。
