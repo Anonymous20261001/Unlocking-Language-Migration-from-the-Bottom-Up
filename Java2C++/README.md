@@ -24,8 +24,6 @@ Migration from the Bottom Up: A Large-Scale Study on the Java Standard Library*.
    test bodies
 5. **Compile + run**: compare behavioral consistency against the Java oracle
 
-Scripts are in `03_translation/scripts/`; run logs are in `logs/`.
-
 ## Key Metrics (aligned with paper Table 2 / Table 4)
 
 | Metric | This package | Paper |
@@ -53,17 +51,17 @@ occur only in C++, 21.5%), and C++ is the only target with null mismatches
 
 ## Directory Structure
 
-- `01_source/`: source data (method-list CSVs + Java source zips, byte-identical
-  across the three languages)
+- `01_source/`: Java source data — method-list CSVs and source archives
+  (JavaAPI_by_class.zip, JavaAPI_splitted_method.zip, Java_benchmark.zip, the
+  two javadoc-batch test archives)
 - `02_randoop/`: Randoop generation records and coverage
-  (method_master_list.csv is the master list, 10,508 rows)
-- `03_translation/`: C++ translation artifacts (all stages, complete) + all
-  pipeline scripts + pipeline workspace
+  (method_master_list.csv is the master list, 10,508 rows; coverage_summary.txt
+  is the coverage overview)
+- `03_translation/`: C++ translation artifacts of the pipeline stages
 - `04_results/`: experiment results (all_samples_results.csv is the master
-  table, 8,895 rows) + error-classification evidence + raw results (raw/)
-- `logs/`: pipeline run logs
+  table, 8,895 rows) + per-batch and audit reports
 
-### 03_translation artifacts (covering every pipeline stage)
+### 03_translation artifacts
 
 | File | Contents |
 |---|---|
@@ -73,8 +71,6 @@ occur only in C++, 21.5%), and C++ is the only target with null mismatches
 | `javadoc_class_translated.zip` | javadoc batch: class-level translations (306 classes) |
 | `javadoc_skeletons.zip` | javadoc batch: method-level skeletons (1,756 .cpp files) |
 | `javadoc_test_cases.zip` | javadoc batch: final tests (1,309 .cpp files) |
-| `pipeline_workspace.zip` | full javadoc-batch pipeline workspace (step CSVs, logs, intermediate artifacts) |
-| `scripts/` | all pipeline scripts (18) |
 
 ## Data-File Reference
 
@@ -85,19 +81,9 @@ occur only in C++, 21.5%), and C++ is the only target with null mismatches
 | 04_results/benchmark_result.csv | 7,141 | first-batch raw results |
 | 04_results/javadoc_result.csv | 1,754 | second-batch pipeline summary |
 | 04_results/audit_150_samples.csv | 150 | translation-consistency audit (agent-based audit calibration) |
-| 04_results/repro_behavior_rerun.csv | 5,851 | behavioral re-run results |
-| 04_results/error_taxonomy/ | — | AS131 assertion-failure supplement + handover documents |
+| 04_results/behavior_inconsistent_detail.csv | 284 | per-method failing-assert details for behaviorally inconsistent samples |
 
-## Reproduction
-
-1. Requirements: g++ (≥11, C++17), Python 3, DeepSeek API key
-   (`DEEPSEEK_API_KEY`)
-2. Scripts are in `03_translation/scripts/`; the five pipeline steps are in the
-   step*.py scripts and `logs/`
-3. The output of every step and its logs are in the corresponding location in
-   this directory
-
-## Coarse error_location Classification (see DIRECTORY_SPEC.md and TAXONOMY.md)
+## Coarse error_location Classification
 
 | Value | Meaning |
 |---|---|
@@ -111,5 +97,6 @@ behavioral-stage IN1 (linker failure) per the paper's convention; in the CSV
 they keep their original markers (`result=ERROR`, `error_type=not_processed`).
 The leaf-level distributions of paper Fig.2/Fig.3 (R1 27.5%, T2 22.2%, RV1 41%,
 CR 21.5%, etc.) were classified in the paper environment against g++
-diagnostic patterns; this CSV keeps the per-row error_type and full message for
-re-checking.
+diagnostic patterns; the CSV keeps the per-row error_type and full message for
+re-checking. The corresponding classification outputs are in the top-level
+`analysis/` folder.

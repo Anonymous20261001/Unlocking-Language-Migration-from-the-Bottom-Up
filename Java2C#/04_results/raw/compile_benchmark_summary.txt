@@ -1,4 +1,0 @@
-Compile check: CsAPI_benchmark_translated (with test bodies)
-Total translated: 4408
-Passed: 4303 (97%)
-Failed: 105

@@ -25,10 +25,6 @@ Migration from the Bottom Up: A Large-Scale Study on the Java Standard Library*.
 5. **Compile + run**: inject `Main()`, compile, run (10 s timeout), compare
    against the Java oracle
 
-Scripts are in `03_translation/scripts/`. The two batches have different input
-paths (benchmark: `Java_benchmark/`; javadoc: `new_Java_class_tests/` +
-`new_Java_test_cases/`); the scripts branch on the dataset label.
-
 ## Key Metrics (aligned with paper Table 2 / Table 4)
 
 | Metric | This package | Paper |
@@ -49,29 +45,26 @@ Failure distribution (out of 8,895):
 C# has the lowest CSR of the three targets: the "same-name trap" analysis of
 paper RQ2 shows that the surface similarity between Java and C# makes the LLM
 copy Java syntax/type names verbatim (S1 invalid tokens and T4 declaration
-errors) instead of truly mapping them (evidence collection in
-`04_results/error_taxonomy/HANDOVER_CS_RESIDUE.md`).
+errors) instead of truly mapping them.
 
 ## Directory Structure
 
-- `01_source/`: source data (method-list CSVs + Java source zips, byte-identical
-  across the three languages)
+- `01_source/`: Java source data — method-list CSVs and source archives
+  (JavaAPI_by_class.zip, JavaAPI_splitted_method.zip, the first-batch Randoop
+  tests `Java_benchmark 00.21.39.zip`, the two javadoc-batch test archives)
 - `02_randoop/`: Randoop generation records and coverage
   (method_master_list.csv is the master list, 10,508 rows)
-- `03_translation/`: translation artifacts (all stages, complete) + all pipeline
-  scripts + pipeline workspace
+- `03_translation/`: translation artifacts of the pipeline stages
 - `04_results/`: experiment results (all_samples_results.csv is the master
-  table, 8,895 rows) + raw results (raw/)
+  table, 8,895 rows) + per-stage and per-batch reports
 
-### 03_translation artifacts (covering every pipeline stage)
+### 03_translation artifacts
 
 | File | Contents |
 |---|---|
 | `benchmark_translated.zip` | benchmark batch: class-level wrappers (1,053) + framework-free splits (7,141) + test bodies (4,477) |
 | `benchmark_splitted_method.zip` | benchmark batch: framework-preserving splits (7,141 .cs files, the intermediate stage with NUnit references not stripped) |
-| `javadoc_translated.zip` | javadoc batch: all .cs files in the pipeline_cs workspace (3,077, including class-level / skeletons / test bodies) |
-| `pipeline_workspace.zip` | full javadoc-batch pipeline workspace (step CSVs, logs, intermediate artifacts) |
-| `scripts/` | all pipeline scripts (16, step1~step4 etc.) |
+| `javadoc_translated.zip` | javadoc batch: all .cs files in the pipeline workspace (3,077, including class-level / skeletons / test bodies) |
 
 ## Data-File Reference
 
@@ -79,24 +72,16 @@ errors) instead of truly mapping them (evidence collection in
 |---|---|---|
 | 02_randoop/method_master_list.csv | 10,508 | method master list (class, method, number, fqcn, domain, source, status) |
 | 04_results/all_samples_results.csv | 8,895 | per-sample result (result, error_type, error_msg, error_location) |
-| 04_results/behavior_report.csv | 1,117 | per-class aggregation |
+| 04_results/benchmark_skeleton_compile.csv | 7,141 | benchmark-batch skeleton compile check |
+| 04_results/benchmark_translated_compile.csv | 4,408 | benchmark-batch test-body compile check |
+| 04_results/benchmark_behavior.csv | 4,303 | benchmark-batch run/behavior records |
+| 04_results/javadoc_method_report.csv | 1,754 | javadoc-batch per-method pipeline report |
+| 04_results/javadoc_skeleton_compile.csv | 1,754 | javadoc-batch skeleton compile check |
+| 04_results/behavior_report.csv | 1,117 | per-class behavioral aggregation |
 | 04_results/translation_audit_150.csv | 150 | translation-consistency audit (agent-based audit calibration) |
 | 02_randoop/javadoc_uncovered_1613.csv | 1,613 | javadoc-uncovered appendix |
-| 04_results/error_taxonomy/csharp_in80_supplement.csv | 80 | IN-80 rerun supplement (basis of the paper's final classification: +10 PASS, +21 behavioral failures, 49 IN) |
 
-## Reproduction
-
-```bash
-# Requirements: Python 3, mono-mcs, DeepSeek API key (.env)
-cd Java2C#
-python3 03_translation/scripts/step1_translate_class.py    # class-level translation
-python3 03_translation/scripts/step2_split_methods.py      # method splitting
-python3 03_translation/scripts/step2.5_compile_check.py    # skeleton compile check
-python3 03_translation/scripts/step3_translate_bodies.py   # test-body translation
-python3 03_translation/scripts/step4_run_tests.py          # compile + run
-```
-
-## Coarse error_location Classification (see DIRECTORY_SPEC.md and TAXONOMY.md)
+## Coarse error_location Classification
 
 | Value | Meaning |
 |---|---|
@@ -108,5 +93,6 @@ python3 03_translation/scripts/step4_run_tests.py          # compile + run
 
 Note: the leaf-level distribution of paper Fig.2 (n=4,492 compilation errors;
 the C# compiler can report several errors for one method) was classified in the
-paper environment against the 50 C# error codes; this CSV keeps the primary
-error code and message per row for re-checking.
+paper environment against the 50 C# error codes; the CSV keeps the primary
+error code and message per row for re-checking. The corresponding classification
+outputs are in the top-level `analysis/` folder.

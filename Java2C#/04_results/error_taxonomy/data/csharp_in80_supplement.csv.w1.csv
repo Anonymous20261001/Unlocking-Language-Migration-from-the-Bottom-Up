@@ -1,7 +1,0 @@
-row_key,class,method,number,status,new_outcome,failure_content
-AsyncBoxViewAutoTest|getminimumspan|10123,AsyncBoxViewAutoTest,getminimumspan,10123,still_fails,,"COMPILE_ERR: /tmp/tmpvmvbze6z/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
-BasicToolBarUIAutoTest|setrolloverborders|9023,BasicToolBarUIAutoTest,setrolloverborders,9023,fixed,"TEST FAILED: Expected exception of type System.NullReferenceException; message: Cannot invoke ""javax.swing.JComponent.getComponents()"" because ""c"" is null | ",
-DateAutoTest|tostring|3389,DateAutoTest,tostring,3389,fixed,TEST FAILED: Assertion failed: date1.ToString() != expected | ,
-MetalSeparatorUIAutoTest|paint|9260,MetalSeparatorUIAutoTest,paint,9260,still_fails,,"COMPILE_ERR: /tmp/tmpbeyf3oad/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
-StyledEditorKitAutoTest|getinputattributes|10404,StyledEditorKitAutoTest,getinputattributes,10404,still_fails,,"/root/autodl-tmp/Java2C#/CsAPI_benchmark_translated/StyledEditorKitAutoTest/getInputAttributes_test_10404.cs(5,9): error CS0246: The type or namespace name `StyledEditorKit' could not be found. Are you missing an assembly reference?
-/root/autodl-tmp/Java2C#/CsAPI_benchmark_translated/StyledEditorKit"

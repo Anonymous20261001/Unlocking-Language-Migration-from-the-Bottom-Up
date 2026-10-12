@@ -1,6 +1,0 @@
-row_key,class,method,number,status,new_outcome,failure_content
-BasicComboBoxUIAutoTest|paintcurrentvalue|8671,BasicComboBoxUIAutoTest,paintcurrentvalue,8671,still_fails,,"COMPILE_ERR: /tmp/tmpnfp8myul/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
-ChoiceFormatAutoTest|getlimits|3019,ChoiceFormatAutoTest,getlimits,3019,still_fails,,"COMPILE_ERR: /tmp/tmpqg53w92l/runner.cs(2,6): error CS1525: Unexpected symbol `public', expecting `identifier' or `static' | /tmp/tmpqg53w92l/runner.cs(2,12): error CS1525: Unexpected symbol `;', expecting `identifi"
-DefaultTreeModelAutoTest|gettreemodellisteners|10710,DefaultTreeModelAutoTest,gettreemodellisteners,10710,fixed,PASS,
-MultiProgressBarUIAutoTest|getpreferredsize|9497,MultiProgressBarUIAutoTest,getpreferredsize,9497,still_fails,,no_test_method
-SynthToolTipUIAutoTest|update|9962,SynthToolTipUIAutoTest,update,9962,fixed,"TEST FAILED: Expected exception of type NullReferenceException; message: Cannot invoke ""javax.swing.JToolTip.getComponent()"" because ""c"" is null | ",

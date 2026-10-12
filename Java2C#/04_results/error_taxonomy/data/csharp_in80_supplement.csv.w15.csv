@@ -1,6 +1,0 @@
-row_key,class,method,number,status,new_outcome,failure_content
-BasicTableUIAutoTest|getbaselineresizebehavior|9001,BasicTableUIAutoTest,getbaselineresizebehavior,9001,fixed,TEST FAILED: Expected exception of type NullReferenceException; message: Component must be non-null | ,
-ConcurrentSkipListSetAutoTest|ceiling|4373,ConcurrentSkipListSetAutoTest,ceiling,4373,still_fails,,"COMPILE_ERR: /tmp/tmpuxu58l95/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
-LongSummaryStatisticsAutoTest|getcount|3699,LongSummaryStatisticsAutoTest,getcount,3699,still_fails,,"COMPILE_ERR: /tmp/tmplzac_n5q/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
-ReentrantLockAutoTest|lock|4984,ReentrantLockAutoTest,lock,4984,still_fails,,timeout
-java_util_stream_CollectorsAutoTest|toUnmodifiableList|2452,java_util_stream_CollectorsAutoTest,toUnmodifiableList,2452,fixed,PASS,

@@ -1,7 +1,0 @@
-row_key,class,method,number,status,new_outcome,failure_content
-AtomicReferenceArrayAutoTest|getacquire|4919,AtomicReferenceArrayAutoTest,getacquire,4919,fixed,PASS,
-BeanContextChildSupportAutoTest|getbeancontextchildpeer|1635,BeanContextChildSupportAutoTest,getbeancontextchildpeer,1635,still_fails,,"COMPILE_ERR: /tmp/tmpzfimswjq/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
-DateAutoTest|gettime|3400,DateAutoTest,gettime,3400,fixed,TEST FAILED: Assertion failed: date1.ToString() != expected | ,
-MetalSeparatorUIAutoTest|getpreferredsize|9261,MetalSeparatorUIAutoTest,getpreferredsize,9261,still_fails,,"COMPILE_ERR: /tmp/tmpbbkrkyfz/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
-StyledEditorKitAutoTest|getviewfactory|10405,StyledEditorKitAutoTest,getviewfactory,10405,still_fails,,"/root/autodl-tmp/Java2C#/CsAPI_benchmark_translated/StyledEditorKitAutoTest/getViewFactory_test_10405.cs(5,9): error CS0246: The type or namespace name `StyledEditorKit' could not be found. Are you missing an assembly reference?
-/root/autodl-tmp/Java2C#/CsAPI_benchmark_translated/StyledEditorKitAuto"

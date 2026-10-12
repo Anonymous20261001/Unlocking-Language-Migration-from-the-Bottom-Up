@@ -69,28 +69,22 @@ notify, notifyAll, wait (3 overloads)
 ```
 Java2Python/
 ├── README.md                  # this file
-├── DIRECTORY_SPEC.md          # directory specification (common across languages)
-├── 01_source/                 # source data (zip + csv, byte-identical across the three languages; javadoc_method_by_method.zip is this direction's appendix)
+├── 01_source/                 # Java source data (zip + csv; javadoc_method_by_method.zip is this direction's appendix)
 ├── 02_randoop/                # Randoop coverage analysis
 │   ├── method_master_list.csv # candidate-method master list (10,508 rows, identical across the three languages)
 │   ├── method_master_list_full_api_13664.csv  # full API inventory appendix (13,664 rows)
-│   ├── coverage_summary.txt   # coverage overview (identical across the three languages)
-│   ├── coverage_summary_full_api.txt          # full-API coverage appendix
 │   └── *_randoop_success.csv  # per-batch success lists
-├── 03_translation/            # Python translation artifacts (all stages, complete)
+├── 03_translation/            # Python translation artifacts
 │   ├── benchmark_python_7141.zip   # benchmark batch: method-level translations, 7,141 .py files (with compilation caches)
 │   ├── javadoc_class_translated.zip # javadoc batch: class-level translations (306 .py files + mapping table)
 │   ├── javadoc_skeletons.zip       # javadoc batch: method-level skeletons (1,754 .py files)
-│   ├── javadoc_python_1750.zip     # javadoc batch: test-body translations, 1,750 .py files (4 samples lack Java sources, see above)
-│   └── scripts/               # pipeline scripts
+│   └── javadoc_python_1750.zip     # javadoc batch: test-body translations, 1,750 .py files (4 samples lack Java sources, see above)
 └── 04_results/                # experiment results
     ├── all_samples_results.csv # complete results for 8,895 samples (core)
-    ├── result_summary.txt
     ├── benchmark_result_7141.csv
     ├── javadoc_result_1754.csv # 1,754 rows (including ERROR records for the 4 missing-source samples)
     ├── behavior_report.csv
-    ├── translation_audit_150.csv
-    └── raw/                   # raw results and documents (Java2PythonResult.csv and 6 others)
+    └── translation_audit_150.csv
 ```
 
 ## CSV Column Reference
@@ -111,5 +105,4 @@ Java2Python/
 
 Conclusion: assertion/expected-exception translation fidelity is 99%; the main
 failure modes are wrapper behavior (behavior_diff) and call signatures
-(call_error). Audit records: `04_results/translation_audit_150.csv`; audit
-script: `03_translation/scripts/audit_translation.py`.
+(call_error). Audit records: `04_results/translation_audit_150.csv`.

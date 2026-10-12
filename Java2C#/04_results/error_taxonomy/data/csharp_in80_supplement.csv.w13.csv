@@ -1,6 +1,0 @@
-row_key,class,method,number,status,new_outcome,failure_content
-BasicSliderUIAutoTest|uninstallui|8920,BasicSliderUIAutoTest,uninstallui,8920,fixed,TEST FAILED: Expected exception of type NullReferenceException | ,
-ChoiceFormatAutoTest|applypattern|3030,ChoiceFormatAutoTest,applypattern,3030,still_fails,,"COMPILE_ERR: /tmp/tmptuj54ukc/runner.cs(2,6): error CS1525: Unexpected symbol `public', expecting `identifier' or `static' | /tmp/tmptuj54ukc/runner.cs(2,12): error CS1525: Unexpected symbol `;', expecting `identifi"
-JobKOctetsProcessedAutoTest|equals|6138,JobKOctetsProcessedAutoTest,equals,6138,fixed,PASS,
-NotificationBroadcasterSupportAutoTest|addnotificationlistener|5625,NotificationBroadcasterSupportAutoTest,addnotificationlistener,5625,still_fails,,"COMPILE_ERR: /tmp/tmp4ronjqww/runner.cs(2,7): error CS0246: The type or namespace name `Generated' could not be found. Are you missing an assembly reference? | "
-javax_smartcardio_TerminalFactoryAutoTest|getDefaultType|12541,javax_smartcardio_TerminalFactoryAutoTest,getDefaultType,12541,fixed,TEST FAILED: 'PC/SC' != 'None' | ,

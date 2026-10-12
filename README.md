@@ -1,14 +1,10 @@
 # Unlocking Language Migration from the Bottom Up — Supporting Materials
 
-This folder contains the complete experimental supporting materials for the
-paper **"Unlocking Language Migration from the Bottom Up: A Large-Scale Study
-on the Java Standard Library"**, covering all three translation directions
-(Java→C#, Java→C++, Java→Python): source data, Randoop test-generation records,
-LLM translation artifacts, and compilation and behavioral evaluation results.
-All core numbers in the paper can be fully reproduced.
-
-The paper PDF is in `paper.pdf`; the data-consistency statement is in
-`DATA_CONSISTENCY.md`; the two error taxonomies are defined in `TAXONOMY.md`.
+This repository contains the experimental supporting materials for the paper
+**"Unlocking Language Migration from the Bottom Up: A Large-Scale Study on the
+Java Standard Library"**, covering all three translation directions (Java→C#,
+Java→C++, Java→Python): source data, Randoop test-generation records, LLM
+translation artifacts, and compilation and behavioral evaluation results.
 
 ## Research Overview
 
@@ -51,15 +47,12 @@ application migration becomes feasible. To this end, the paper:
 
 > The paper is the authoritative source for the dataset (final Java SE 25
 > inventory, excluding com.sun.\* / netscape.\* / bridge and synthetic methods).
-> The master list `02_randoop/method_master_list.csv` in this repository is the
-> experiment-period inventory (10,508 candidates = 7,141 benchmark + 3,367
-> javadoc); the (class, method, number) triplets of the 8,895 generated samples
-> are **row-for-row identical** across the three language packages (see
-> DATA_CONSISTENCY.md). The master list has a `domain` column, so the Randoop
-> column of paper Table 1 can be re-checked per functional domain (Concurrency
-> 499, Date & Time 248, Media 407, Dynamic Languages 77, etc. match exactly;
-> per-domain deviations of ±1–2% stem from final inventory adjustments in the
-> paper environment).
+> The master list `02_randoop/method_master_list.csv` is the experiment-period
+> inventory (10,508 candidates = 7,141 benchmark + 3,367 javadoc) and has a
+> `domain` column, so the Randoop column of paper Table 1 can be re-checked per
+> functional domain (Concurrency 499, Date & Time 248, Media 407, Dynamic
+> Languages 77, etc. match exactly; per-domain deviations of ±1–2% stem from
+> final inventory adjustments in the paper environment).
 
 ## Core Results (paper Table 2 / Table 4)
 
@@ -99,51 +92,49 @@ samples; BSR = PASS / CSR denominator).
 ```
 Unlocking_Language_Migration_Supporting_Materials/
 ├── README.md                  # this file
-├── paper.pdf                  # full paper
-├── DATA_CONSISTENCY.md        # data-consistency statement (8,895-triplet check, hashes, fix log)
-├── TAXONOMY.md                # compile-error taxonomy (5 families, 15 leaves) and behavioral-failure taxonomy (4 families, 11 leaves)
-├── ANALYSIS_DATA.md           # mapping from 05_analysis/ to paper tables/figures, derivation chains
-├── 05_analysis/               # leaf-level classification and per-domain summaries (evidence behind Fig.2/3 and Table 3/4)
-├── tools/                     # reproduction tools (randoop-all-4.3.4.jar)
-├── Java2C#/                   # complete Java→C# data package (README + DIRECTORY_SPEC + 01~04)
-├── Java2C++/                  # complete Java→C++ data package
-└── Java2Python/               # complete Java→Python data package
+├── analysis/                  # leaf-level error classifications and per-domain summaries (evidence behind Fig.2/3 and Table 3/4)
+├── Java2C#/                   # Java→C# data package (README + 01_source ~ 04_results)
+├── Java2C++/                  # Java→C++ data package
+└── Java2Python/               # Java→Python data package
 ```
 
-Each language package's internal structure (defined by `DIRECTORY_SPEC.md`,
-identical across the three languages):
+Each language package:
 
 ```
 {lang}/
 ├── README.md              # dataset description and metrics for this direction
-├── DIRECTORY_SPEC.md      # directory specification
-├── 01_source/             # Java source data (byte-identical zip/csv across the three languages + per-direction appendices)
-├── 02_randoop/            # Randoop generation and coverage (method_master_list.csv master list, 10,508 rows)
-├── 03_translation/        # target-language artifacts of every pipeline stage + all pipeline scripts + workspaces
-├── 04_results/            # all_samples_results.csv (8,895 rows) + raw results (raw/) + audits + classification evidence
-└── logs/                  # pipeline logs (Java2C++ only)
+├── 01_source/             # Java source data (method-list CSVs + Java source archives)
+├── 02_randoop/            # Randoop generation and coverage records (method_master_list.csv master list, 10,508 rows)
+├── 03_translation/        # target-language translation artifacts of the pipeline stages
+└── 04_results/            # experiment results (all_samples_results.csv, 8,895 rows) + supporting reports
 ```
 
-**Completeness note**: the three language packages together cover every
-experiment stage — Java source methods/tests (01_source), Randoop generation
-and coverage (02_randoop), translation artifacts of every pipeline step
-(03_translation: class-level wrapper → method-level skeleton/split → test
-bodies, including intermediate variants and workspace logs), and two-phase
-evaluation results with raw records (04_results, including raw/). Only the
-following were removed from the original experiment directories: the corrupted
-C# `JavaAPI_splitted_method.zip` (replaced with an intact copy),
-`tmp_benchmark/` (a duplicate copy of Java_benchmark), system junk such as
-`__MACOSX` / `__pycache__` / `.ipynb_checkpoints`, and the obsolete old
-supporting package `For_Paper_supporting_materials.zip`.
+### `analysis/`
 
-## Reproduction
+Leaf-level classification outputs computed in the paper environment for
+Fig.2/Fig.3 and Tables 3/4: per-method error classifications
+(`csharp_classified.csv`, `cpp_classified.csv`, `python_classified.csv`,
+`rq4_classified.csv`), per-domain summaries (`domain_csr.csv`,
+`domain_leaf_stacks.csv`, `domain_leaf_top.csv`), behavior statistics
+(`behavior_stats.csv`), the CS error-code→leaf mapping
+(`csharp_code_mapping.csv`), the class→domain override table
+(`class_package_override.csv`), and the three merged raw result tables
+(`C#_merged_8895.csv`, `C++_merged_results_8895.csv`, `Python_mergerd_8895.csv`).
 
-All three directions reproduce with Python 3 + the DeepSeek API
-(`DEEPSEEK_API_KEY`); each language package's `README.md` gives the toolchain
-and the step-by-step commands (scripts in `03_translation/scripts/`).
-Translation was done in a zero-shot single-pass setting; re-running will yield
-similar but not byte-identical results (LLM sampling variance). The result CSVs
-in this folder are the experimental records used by the paper.
+### Release Scope
+
+This release contains the source data, translation artifacts, and result files
+needed to verify every number in the paper. It does not include the pipeline
+scripts, run logs, raw pipeline archives, or the taxonomy/consistency documents
+of the original experiment directories.
+
+## Verifying the Numbers
+
+Each language package's `04_results/all_samples_results.csv` has 8,895 rows,
+and the `(class, method, number)` triplets are row-for-row identical across the
+three languages (the three directions evaluated the same set of Java API
+methods). CSR, BSR, and the Fig.2/Fig.3 counts recompute from this file as
+described in each language package's README.
 
 ## Data Availability
 
