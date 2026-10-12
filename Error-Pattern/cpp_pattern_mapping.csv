@@ -1,0 +1,31 @@
+source,leaf,pattern
+diagnostic_text,E1,"(gmpxx|gtest)[^|]{0,60}no such file"
+diagnostic_text,S1,stray '|\bexpected identifier before\b|\bexpected primary-expression\b|\bexpected unqualified-id\b|\bexpected expression\b
+diagnostic_text,S2,expected ';'|expected '}'|expected '\)' before|expected '\(' before|expected class-name|expected declaration|function-definition is not allowed here|unbalanced|expected 'namespace'|before 'namespace'|expected initializer
+diagnostic_text,R3,no such file or directory
+diagnostic_text,R1,does not name a type|does not name a template|has not been declared|is not a member of 'std'
+diagnostic_text,R2,no member named|does not have any field named
+diagnostic_text,T1,"no matching function for call|call of overloaded .{0,80} is ambiguous"
+diagnostic_text,T2,invalid conversion from|\bcannot convert\b|no match for 'operator|conflicting return type|return-statement with a value|comparison between distinct pointer types|invalid operands of types|invalid initialization of reference|cannot 'dynamic_cast'
+diagnostic_text,T3,couldn't deduce template|wrong number of template arguments|type/value mismatch at argument
+diagnostic_text,T4,"was not declared in this scope|is incomplete|referred to as enum|invalid use of incomplete type|has incomplete type|variable or field .{0,40} declared void"
+diagnostic_text,C1,cannot be overloaded|cannot be overloa|conflicts with|\bredefinition of\b|redeclared with 2 template|multiple definition|error: '[^']*' c\b|error: '[^']*' confli
+diagnostic_text,C2,marked 'override'|\bdoes not override\b|abstract type
+diagnostic_text,C3,is private within this context|is protected within this context|assignment of read-only|without object|discards qualifiers|use of deleted function
+diagnostic_text,C4,static assertion failed
+final_reason_summary,R1,type_not_found|has not been declared|does not name a template type|is not a member of 'std'
+final_reason_summary,C1,redeclared with 2 template
+final_reason_summary,S2,expected ';'|unbalanced
+final_reason_summary,S1,expected identifier
+final_reason_summary,T4,incomplete type
+pipeline_prefix_fallback,T1,no_matching_function
+pipeline_prefix_fallback,R2,member_not_found
+pipeline_prefix_fallback,T2,return_type_mismatch
+pipeline_prefix_fallback,T2,type_conversion
+pipeline_prefix_fallback,T4,undeclared_var
+pipeline_prefix_fallback,S2,code_structure
+pipeline_prefix_fallback,T4,incomplete_type
+pipeline_prefix_fallback,R1,type_not_found
+pipeline_prefix_fallback,C1,redefinition
+pipeline_prefix_fallback,E1,other_missing_gmp
+pipeline_prefix_fallback,E3,other

@@ -1,0 +1,11 @@
+condition,leaf,meaning,note
+error_location = syntax_error,S2 / S1,message matches unterminated|EOF|bracket|parenthes -> S2; otherwise -> S1,
+error_location = import_error,R1,hallucinated module name (e.g. 'java'),"NOTE: per the paper's taxonomy definition, an import that cannot be found is R3 (Missing dependency); the classifier script assigned these 540 ModuleNotFoundError/ImportError rows to R1. See README note."
+error_type = NameError,T4,name used without declaration,
+error_type = TypeError,T1,wrong number/kind of arguments,
+error_type = AttributeError,R2,member does not exist,
+error_type = ValueError / IndexError / RecursionError,T2,value/conversion misuse,
+error_type = FileNotFoundError,R3,referenced resource not found,
+error_type = TclError / OSError,E1,environment (e.g. no display),
+message = 'No test function found',E2,measurement artifact,
+otherwise,E2,"unknown: gate failure, no diagnostic",
