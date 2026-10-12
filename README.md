@@ -19,10 +19,7 @@ application migration becomes feasible. To this end, the paper:
    translation difficulty strictly to API mapping itself;
 2. uses Randoop to generate tests for 8,895 API methods (covering 14 functional
    domains) as behavioral oracles;
-3. translates every wrapper and test to C#, C++, and Python with
-   **DeepSeek-V4** (zero-shot, temperature=0, no RAG / few-shot / compile
-   feedback);
-4. judges correctness with a two-level oracle: **compilation** (Phase 1,
+3. judges correctness with a two-level oracle: **compilation** (Phase 1,
    RQ1–RQ2) and **differential testing** (Phase 2, RQ3–RQ4).
 
 ## Dataset Overview (paper Table 1)
@@ -66,26 +63,6 @@ All numbers can be recomputed exactly from each language package's
 `04_results/all_samples_results.csv` (CSR denominator = non-compile-failure
 samples; BSR = PASS / CSR denominator).
 
-### Main Findings (paper Findings 1–7)
-
-1. Under naive settings, a low-cost model compiles most standard-library methods
-   (59.8% / 80.7% / 62.9%), and residual failures exhibit target-language
-   characteristics (C#: core domains; C++: dynamic-language glue; Python: I/O
-   domain).
-2. The class-level distribution is bimodal: either all methods of a class
-   compile (49.1%–89.9%) or the whole class fails (9.3%–28.0%).
-3. The lower the language similarity, the fewer syntax errors (19.4%→8.8%→7.0%)
-   and the more type errors (28.3%→34.7%→58.4%); parse errors are roughly
-   constant across the three targets.
-4. In 8 of the 14 domains, compile failures are dominated by declaration errors
-   (T4); the type family accounts for 39.9% of all failures.
-5. Whenever code compiles, most translations pass the generated tests
-   (BSR: 89.7% / 92.9% / 68.1%).
-6. Within-domain CSR and BSR are almost uncorrelated (Spearman |ρ| ≤ 0.23); the
-   two phases are decoupled.
-7. Most behavioral failures are silent (only C++ crashes, 21.5% of its
-   behavioral failures): C# loses exception contracts, C++ hard-crashes, Python
-   drifts in representation.
 
 ## Folder Structure
 
@@ -121,12 +98,6 @@ Fig.2/Fig.3 and Tables 3/4: per-method error classifications
 (`class_package_override.csv`), and the three merged raw result tables
 (`C#_merged_8895.csv`, `C++_merged_results_8895.csv`, `Python_mergerd_8895.csv`).
 
-### Release Scope
-
-This release contains the source data, translation artifacts, and result files
-needed to verify every number in the paper. It does not include the pipeline
-scripts, run logs, raw pipeline archives, or the taxonomy/consistency documents
-of the original experiment directories.
 
 ## Verifying the Numbers
 
