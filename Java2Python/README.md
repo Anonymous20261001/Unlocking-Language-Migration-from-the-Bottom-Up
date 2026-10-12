@@ -44,8 +44,8 @@ Java2Python/
 ├── README.md                  # this file
 ├── 01_source/                 # Java source data (zip + csv; javadoc_method_by_method.zip is this direction's appendix)
 ├── 02_randoop/                # Randoop coverage analysis
-│   ├── method_master_list.csv # candidate-method master list (10,508 rows, identical across the three languages)
-│   ├── method_master_list_full_api_13664.csv  # full API inventory appendix (13,664 rows)
+│   ├── method_master_list.csv # candidate-method master list (identical across the three languages)
+│   ├── method_master_list_full_api_13664.csv  # full API inventory appendix
 │   └── *_randoop_success.csv  # per-batch success lists
 ├── 03_translation/            # Python translation artifacts
 │   ├── benchmark_python_7141.zip   # benchmark batch: method-level translations, 7,141 .py files (with compilation caches)
