@@ -47,14 +47,3 @@ Fig.3 n=508):
 
 
 
-## Data-File Reference
-
-| File | Rows | Contents |
-|---|---|---|
-| 02_randoop/method_master_list.csv | 10,508 | method master list (class, method, number, fqcn, domain, source, status) |
-| 04_results/all_samples_results.csv | 8,895 | per-sample result (result, error_type, error_msg, error_location) |
-| 04_results/benchmark_result.csv | 7,141 | first-batch raw results |
-| 04_results/javadoc_result.csv | 1,754 | second-batch pipeline summary |
-| 04_results/audit_150_samples.csv | 150 | translation-consistency audit (agent-based audit calibration) |
-
-
