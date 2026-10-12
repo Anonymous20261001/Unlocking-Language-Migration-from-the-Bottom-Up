@@ -44,19 +44,13 @@ Fig.3 n=508):
 | ├ runtime crashes (call_error, CR family) | 77 | 0.9% |
 | └ linker failures (IN1, the 16 not_processed rows) | 16 | 0.2% |
 
-C++ has the highest CSR and BSR of the three targets (80.7% / 92.9%). The paper
-attributes its behavioral failures to hard crashes and value mismatches (crashes
-occur only in C++, 21.5%), and C++ is the only target with null mismatches
-(76: translated pointers return nullptr while the Java oracle returns non-null).
-
 ## Directory Structure
 
 - `01_source/`: Java source data — method-list CSVs and source archives
   (JavaAPI_by_class.zip, JavaAPI_splitted_method.zip, Java_benchmark.zip, the
   two javadoc-batch test archives)
 - `02_randoop/`: Randoop generation records and coverage
-  (method_master_list.csv is the master list, 10,508 rows; coverage_summary.txt
-  is the coverage overview)
+  (method_master_list.csv is the master list)
 - `03_translation/`: C++ translation artifacts of the pipeline stages
 - `04_results/`: experiment results (all_samples_results.csv is the master
   table, 8,895 rows) + per-batch and audit reports
@@ -81,22 +75,5 @@ occur only in C++, 21.5%), and C++ is the only target with null mismatches
 | 04_results/benchmark_result.csv | 7,141 | first-batch raw results |
 | 04_results/javadoc_result.csv | 1,754 | second-batch pipeline summary |
 | 04_results/audit_150_samples.csv | 150 | translation-consistency audit (agent-based audit calibration) |
-| 04_results/behavior_inconsistent_detail.csv | 284 | per-method failing-assert details for behaviorally inconsistent samples |
 
-## Coarse error_location Classification
 
-| Value | Meaning |
-|---|---|
-| none | passes (behaviorally consistent, PASS) |
-| syntax_error | skeleton or test body fails to compile/link (paper S/R/T/C/E compile families) |
-| call_error | runtime crash / uncaught exception (paper CR family) |
-| behavior_diff | compiles and runs successfully but behavior differs (paper RV/EX/IN families) |
-
-Note: the 16 not_processed rows (never reached the run stage) are counted as
-behavioral-stage IN1 (linker failure) per the paper's convention; in the CSV
-they keep their original markers (`result=ERROR`, `error_type=not_processed`).
-The leaf-level distributions of paper Fig.2/Fig.3 (R1 27.5%, T2 22.2%, RV1 41%,
-CR 21.5%, etc.) were classified in the paper environment against g++
-diagnostic patterns; the CSV keeps the per-row error_type and full message for
-re-checking. The corresponding classification outputs are in the top-level
-`analysis/` folder.
