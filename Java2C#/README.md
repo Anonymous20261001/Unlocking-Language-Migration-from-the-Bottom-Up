@@ -37,7 +37,7 @@ Failure distribution (out of 8,895):
   (JavaAPI_by_class.zip, JavaAPI_splitted_method.zip, the first-batch Randoop
   tests `Java_benchmark.zip`, the two javadoc-batch test archives)
 - `02_randoop/`: Randoop generation records and coverage
-  (method_master_list.csv is the master list, 10,508 rows)
+  (method_master_list.csv is the master list)
 - `03_translation/`: translation artifacts of the pipeline stages
 - `04_results/`: experiment results (all_samples_results.csv is the master
   table, 8,895 rows) + per-stage and per-batch reports
