@@ -99,14 +99,6 @@ Fig.2/Fig.3 and Tables 3/4: per-method error classifications
 (`C#_merged_8895.csv`, `C++_merged_results_8895.csv`, `Python_mergerd_8895.csv`).
 
 
-## Verifying the Numbers
-
-Each language package's `04_results/all_samples_results.csv` has 8,895 rows,
-and the `(class, method, number)` triplets are row-for-row identical across the
-three languages (the three directions evaluated the same set of Java API
-methods). CSR, BSR, and the Fig.2/Fig.3 counts recompute from this file as
-described in each language package's README.
-
 ## Data Availability
 
 The paper's data-availability statement:
