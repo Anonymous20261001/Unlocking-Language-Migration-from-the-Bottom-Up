@@ -13,16 +13,6 @@ Migration from the Bottom Up: A Large-Scale Study on the Java Standard Library*.
 | Translation model | DeepSeek-V4 (deepseek-chat / deepseek-v4-flash), zero-shot, single-pass translation |
 | Two-phase evaluation | Phase 1 compilation correctness (RQ1–RQ2) → Phase 2 behavioral correctness (RQ3–RQ4) |
 
-## Pipeline (five steps for the second batch; the first batch used an early one-shot + retry)
-
-1. **Class-level translation**: Java class-level test skeleton → LLM-generated
-   C++ wrapper class + test skeleton
-2. **Method splitting**: split into per-method .cpp compilation units
-3. **Skeleton compilation gate**: g++ compile check (one error per method,
-   1,719 in total)
-4. **Test-body translation**: Java Randoop test bodies → LLM-translated C++
-   test bodies
-5. **Compile + run**: compare behavioral consistency against the Java oracle
 
 ## Key Metrics (aligned with paper Table 2 / Table 4)
 
@@ -55,16 +45,7 @@ Fig.3 n=508):
 - `04_results/`: experiment results (all_samples_results.csv is the master
   table, 8,895 rows) + per-batch and audit reports
 
-### 03_translation artifacts
 
-| File | Contents |
-|---|---|
-| `benchmark_translated.zip` | benchmark batch: test-body translations (5,872 .cpp files, = Cpp_benchmark_translated) |
-| `benchmark_class_translated.zip` | benchmark batch: class-level wrappers (1,053 .cpp files, = CppAPI_by_class) |
-| `benchmark_skeletons.zip` | benchmark batch: method-level skeletons (7,146 .cpp files, = CppAPI_splitted_method) |
-| `javadoc_class_translated.zip` | javadoc batch: class-level translations (306 classes) |
-| `javadoc_skeletons.zip` | javadoc batch: method-level skeletons (1,756 .cpp files) |
-| `javadoc_test_cases.zip` | javadoc batch: final tests (1,309 .cpp files) |
 
 ## Data-File Reference
 
